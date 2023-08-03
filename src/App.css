@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  --cell-size: 50px;
+  width: var(--cell-size);
+  height: var(--cell-size);
+
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell--active {
+  background-color: darkslategrey;
+}
+
+.cell--correct {
+  background-color: darkred;
+}
