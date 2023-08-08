@@ -13,6 +13,8 @@ export default function Board(props: any) {
   const [currentColumn, setCurrentColumn] = useState(1);
 
   useEffect(() => {
+    console.log(wordToGuess);
+
     let newBoard: any = new Array(maxNumberOfTries);
 
     const firstLetter = wordToGuess.split("")[0];

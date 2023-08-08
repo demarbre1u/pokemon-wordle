@@ -1,8 +1,9 @@
 const GAME_STATES = {
   LOADING: 0,
-  PLAYING: 1,
-  GAME_WON: 2,
-  GAME_OVER: 3,
+  LOADING_ERROR: 1,
+  PLAYING: 2,
+  GAME_WON: 3,
+  GAME_OVER: 4,
 };
 
 export default GAME_STATES;

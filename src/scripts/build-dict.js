@@ -27,7 +27,7 @@ async function buildDictionnary() {
   console.log("Data parsed");
 
   console.log("Writing data...");
-  const outputPath = join("src", "assets", "pokemon-names.json");
+  const outputPath = join("public", "pokemon-names.json");
   fs.writeFileSync(outputPath, JSON.stringify(pokemonNameList, null, 2));
   console.log("Data written to :", outputPath);
 }
