@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import CELL_STATES from "./../constants/cellStates";
 
 export default function Cell(props: any) {
   const { state, value, isActive } = props;
@@ -11,11 +12,11 @@ export default function Cell(props: any) {
       newClassList.push("cell--active");
     }
 
-    if (state === "correct") {
+    if (state === CELL_STATES.CORRECT) {
       newClassList.push("cell--correct");
     }
 
-    if (state === "misplaced") {
+    if (state === CELL_STATES.MISPLACED) {
       newClassList.push("cell--misplaced");
     }
 

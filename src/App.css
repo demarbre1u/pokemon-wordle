@@ -1,3 +1,8 @@
+body {
+  background: #333333;
+  color: white
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -14,6 +19,7 @@
   width: var(--cell-size);
   height: var(--cell-size);
 
+  font-weight: bolder;
   border: 1px solid white;
   display: flex;
   justify-content: center;
@@ -23,17 +29,18 @@
   border-radius: 15px;
 
   background-color: transparent;
-  transition: background-color 200ms;
+  transition: background-color 200ms, scale 200ms;
 }
 
 .cell--active {
-  background-color: darkslategrey;
+  background-color: #4e4e4e;
+  scale: 1.2;
 }
 
 .cell--correct {
-  background-color: darkred;
+  background-color: #83a300;
 }
 
 .cell--misplaced {
-  background-color: darkgoldenrod;
+  background-color: #e21b5a;
 }
