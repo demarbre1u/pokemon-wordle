@@ -26,7 +26,7 @@ function App() {
   }, [gameData, gameState]);
 
   const loadGameData = async () => {
-    const result = await fetch("/public/pokemon-names.json");
+    const result = await fetch("/pokemon-names.json");
 
     if (!result.ok) {
       return setGameState(GAME_STATES.LOADING_ERROR);
