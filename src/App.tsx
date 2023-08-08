@@ -9,20 +9,20 @@ function App() {
   const [wordToGuess, setWordToguess] = useState("");
 
   useEffect(() => {
-    (async () => {
-      let result = gameData;
-      if (gameData.length === 0) {
-        result = await loadGameData();
-      }
-
-      // Picking a random index
-      const randomIndex = Math.round(Math.random() * result.length);
-
-      setGameData(result);
-      setWordToguess(result[randomIndex]);
-      setGameState(GAME_STATES.PLAYING);
-    })();
+    loadGameData();
   }, []);
+
+  useEffect(() => {
+    if (gameData.length === 0 || gameState !== GAME_STATES.LOADING) {
+      return;
+    }
+
+    // Picking a random index
+
+    const randomIndex = Math.round(Math.random() * gameData.length);
+    setWordToguess(gameData[randomIndex]);
+    setGameState(GAME_STATES.PLAYING);
+  }, [gameData, gameState]);
 
   const loadGameData = async () => {
     const result = await fetch("/public/pokemon-names.json");
@@ -31,7 +31,8 @@ function App() {
       return setGameState(GAME_STATES.LOADING_ERROR);
     }
 
-    return await result.json();
+    const data = await result.json();
+    setGameData(data);
   };
 
   const updateGameState = (newState: number) => {
@@ -41,22 +42,25 @@ function App() {
   switch (gameState) {
     default:
     case GAME_STATES.LOADING:
-      return <>Loading...</>;
+      return <>Chargement...</>;
     case GAME_STATES.PLAYING:
       return (
-        <Board
-          wordToGuess={wordToGuess}
-          onVictory={() => updateGameState(GAME_STATES.GAME_WON)}
-          onDefeat={() => updateGameState(GAME_STATES.GAME_OVER)}
-        />
+        <div className="board-screen">
+          <h1>Quel est ce Pokémon ?</h1>
+          <Board
+            wordToGuess={wordToGuess}
+            onVictory={() => updateGameState(GAME_STATES.GAME_WON)}
+            onDefeat={() => updateGameState(GAME_STATES.GAME_OVER)}
+          />
+        </div>
       );
     case GAME_STATES.GAME_WON:
-      return <h1>Game won!</h1>;
+      return <h1>Gagné !</h1>;
     case GAME_STATES.GAME_OVER:
       return (
         <>
-          <h1>Game lost...</h1>
-          <h2>The word was "{wordToGuess.toUpperCase()}"</h2>
+          <h1>Perdu...</h1>
+          <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
         </>
       );
   }

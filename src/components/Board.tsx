@@ -32,7 +32,7 @@ export default function Board(props: any) {
     }
 
     setBoard(newBoard);
-  }, []);
+  }, [wordToGuess]);
 
   useEffect(() => {
     const handleKeyPress = (event: KeyboardEvent) => {
@@ -77,7 +77,7 @@ export default function Board(props: any) {
     return () => {
       window.removeEventListener("keydown", handleKeyPress);
     };
-  }, [board, currentTry, currentColumn]);
+  }, [wordToGuess, board, currentTry, currentColumn]);
 
   const isGameWon = () => {
     const currentGuess = board[currentTry].map((cell) => cell.value).join("");
