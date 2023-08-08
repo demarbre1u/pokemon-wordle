@@ -44,9 +44,11 @@ export default function Board(props: any) {
         setBoard(board);
         setCurrentColumn((col) => Math.min(col + 1, wordToGuess.length));
       } else if (event.key === "Backspace") {
-        // TODO: add a check so that the first character can't be removed
-        board[currentTry][currentColumn - 1].value = "";
+        if (currentColumn <= 1) {
+          return;
+        }
 
+        board[currentTry][currentColumn - 1].value = "";
         setBoard(board);
         setCurrentColumn((col) => Math.max(col - 1, 0));
       } else if (event.key === "Enter") {
