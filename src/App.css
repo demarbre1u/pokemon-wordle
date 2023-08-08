@@ -18,6 +18,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin: 5px;
+  border-radius: 15px;
+
+  background-color: transparent;
+  transition: background-color 200ms;
 }
 
 .cell--active {
@@ -26,4 +32,8 @@
 
 .cell--correct {
   background-color: darkred;
+}
+
+.cell--misplaced {
+  background-color: darkgoldenrod;
 }

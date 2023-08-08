@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import Cell from "./Cell";
 
 function App() {
   const wordToGuess = "pikachu";
@@ -8,7 +9,6 @@ function App() {
   const [board, setBoard] = useState([[{ value: "", state: "" }]]);
   const [currentTry, setCurrentTry] = useState(0);
   const [currentColumn, setCurrentColumn] = useState(0);
-  const [changed, setChanged] = useState(0);
 
   useEffect(() => {
     let newBoard: any = new Array(maxNumberOfTries);
@@ -25,7 +25,6 @@ function App() {
     }
 
     setBoard(newBoard);
-    setChanged(Math.random());
   }, []);
 
   useEffect(() => {
@@ -39,14 +38,12 @@ function App() {
 
         setBoard(board);
         setCurrentColumn((col) => Math.min(col + 1, wordToGuess.length));
-        setChanged(Math.random());
       } else if (event.key === "Backspace") {
         // TODO: add a check to see if the game is won
         board[currentTry][currentColumn - 1].value = "";
 
         setBoard(board);
         setCurrentColumn((col) => Math.max(col - 1, 0));
-        setChanged(Math.random());
       } else if (event.key === "Enter") {
         if (currentColumn !== wordToGuess.length) {
           return;
@@ -55,7 +52,6 @@ function App() {
         checkGameWon();
         setCurrentColumn(0);
         setCurrentTry((current) => Math.min(current + 1, maxNumberOfTries));
-        setChanged(Math.random());
       }
     };
 
@@ -70,13 +66,33 @@ function App() {
     const currentGuess = board[currentTry].map((cell) => cell.value);
     const arrayToGuess = wordToGuess.split("");
 
+    let lettersToFind: any = {};
+    for (let letter of arrayToGuess) {
+      if (!lettersToFind[letter]) {
+        lettersToFind[letter] = 0;
+      }
+      lettersToFind[letter]++;
+    }
+
+    // Checking for correct letters
     currentGuess.forEach((value, index) => {
       if (value === arrayToGuess[index]) {
         board[currentTry][index].state = "correct";
+        lettersToFind[value]--;
       }
     });
 
-    // TODO: add check for misplaced letters
+    // Checking for misplaced letters
+    currentGuess.forEach((value, index) => {
+      if (board[currentTry][index].state === "correct") {
+        return;
+      }
+
+      if (lettersToFind[value]) {
+        board[currentTry][index].state = "misplaced";
+        lettersToFind[value]--;
+      }
+    });
 
     setBoard(board);
 
@@ -87,25 +103,24 @@ function App() {
   };
 
   return (
-    <div key={changed}>
-      {board.map((row: any[], rowIndex: number) => {
-        return (
-          <div className="row" key={rowIndex}>
-            {row.map(({ value, state }, colIndex: number) => (
-              <div
-                key={colIndex}
-                className={`cell ${
-                  rowIndex === currentTry && colIndex === currentColumn
-                    ? "cell--active"
-                    : ""
-                } ${state === "correct" ? "cell--correct" : ""}`}
-              >
-                {value.toUpperCase()}
-              </div>
-            ))}
-          </div>
-        );
-      })}
+    <div>
+      {board.map((row: any[], rowIndex: number) => (
+        <div className="row" key={rowIndex}>
+          {row.map(({ value, state }, colIndex: number) => {
+            const isActive =
+              rowIndex === currentTry && colIndex === currentColumn;
+
+            return (
+              <Cell
+                key={`${rowIndex} ${colIndex}`}
+                value={value}
+                state={state}
+                isActive={isActive}
+              />
+            );
+          })}
+        </div>
+      ))}
     </div>
   );
 }
