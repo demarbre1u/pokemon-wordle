@@ -59,6 +59,7 @@ function App() {
       return (
         <div className="flex">
           <h1>Gagné !</h1>
+          <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
           <Button
             label="Rejouer"
             onClick={() => updateGameState(GAME_STATES.LOADING)}
