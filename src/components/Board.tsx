@@ -3,7 +3,7 @@ import Cell from "./Cell";
 import CELL_STATES from "./../constants/cellStates";
 
 export default function Board(props: any) {
-  const { wordToGuess, onVictory, onDefeat } = props;
+  const { wordToGuess, onVictory, onDefeat, gameData } = props;
 
   const maxNumberOfTries = 6;
   const [board, setBoard] = useState([
@@ -58,6 +58,17 @@ export default function Board(props: any) {
           return;
         }
 
+        // Check if the guess is a valid guess
+        const isValid = gameData.some(
+          (name: string) =>
+            board[currentTry].map((cell) => cell.value).join("") === name
+        );
+
+        if (!isValid) {
+          // TODO: create an alert / notification to indicate that the guess is invalid to the player
+          return;
+        }
+
         if (isGameWon()) {
           return onVictory();
         }
@@ -77,7 +88,7 @@ export default function Board(props: any) {
     return () => {
       window.removeEventListener("keydown", handleKeyPress);
     };
-  }, [wordToGuess, board, currentTry, currentColumn]);
+  }, [wordToGuess, board, currentTry, currentColumn, gameData]);
 
   const isGameWon = () => {
     const currentGuess = board[currentTry].map((cell) => cell.value).join("");

@@ -19,7 +19,6 @@ function App() {
     }
 
     // Picking a random index
-
     const randomIndex = Math.round(Math.random() * gameData.length);
     setWordToguess(gameData[randomIndex]);
     setGameState(GAME_STATES.PLAYING);
@@ -50,6 +49,7 @@ function App() {
           <h1>Quel est ce Pokémon ?</h1>
           <Board
             wordToGuess={wordToGuess}
+            gameData={gameData}
             onVictory={() => updateGameState(GAME_STATES.GAME_WON)}
             onDefeat={() => updateGameState(GAME_STATES.GAME_OVER)}
           />
