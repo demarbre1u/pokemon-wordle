@@ -49,7 +49,7 @@ export default function Board(props: BoardProps) {
 
             return (
               <Cell
-                key={`${rowIndex} ${colIndex}`}
+                key={`${rowIndex}-${colIndex}`}
                 value={value || placeholder}
                 state={state}
                 isActive={isActive}

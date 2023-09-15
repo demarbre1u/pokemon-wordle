@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dict": "node src/scripts/build-dict.js",
+    "dict": "node scripts/build-dict.js",
     "build": "tsc && vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
