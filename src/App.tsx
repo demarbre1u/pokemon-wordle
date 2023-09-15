@@ -1,39 +1,11 @@
-import { useEffect, useState } from "react";
 import "./App.css";
 import Board from "./components/Board";
 import GAME_STATES from "./constants/gameStates";
 import Button from "./components/Button";
+import { useGameData } from "./hooks/useGameData";
 
 function App() {
-  const [gameState, setGameState] = useState(GAME_STATES.LOADING);
-  const [gameData, setGameData] = useState([]);
-  const [wordToGuess, setWordToguess] = useState("");
-
-  useEffect(() => {
-    loadGameData();
-  }, []);
-
-  useEffect(() => {
-    if (gameData.length === 0 || gameState !== GAME_STATES.LOADING) {
-      return;
-    }
-
-    // Picking a random index
-    const randomIndex = Math.round(Math.random() * gameData.length);
-    setWordToguess(gameData[randomIndex]);
-    setGameState(GAME_STATES.PLAYING);
-  }, [gameData, gameState]);
-
-  const loadGameData = async () => {
-    const result = await fetch("/pokemon-wordle/pokemon-names.json");
-
-    if (!result.ok) {
-      return setGameState(GAME_STATES.LOADING_ERROR);
-    }
-
-    const data = await result.json();
-    setGameData(data);
-  };
+  const { gameState, setGameState, gameData, wordToGuess } = useGameData();
 
   const updateGameState = (newState: number) => {
     setGameState(newState);

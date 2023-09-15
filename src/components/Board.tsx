@@ -1,8 +1,8 @@
-import { useCallback, useEffect, useState } from "react";
 import Cell from "./Cell";
-import CELL_STATES from "./../constants/cellStates";
-import { BoardType } from "../types/BoardType";
 import { CellType } from "../types/CellType";
+import { useBoard } from "../hooks/useBoard";
+import { useKeyPress } from "../hooks/useKeyPress";
+import { useState } from "react";
 
 type BoardProps = {
   wordToGuess: string;
@@ -15,164 +15,29 @@ export default function Board(props: BoardProps) {
   const { wordToGuess, onVictory, onDefeat, gameData } = props;
 
   const maxNumberOfTries = 6;
-  const [board, setBoard] = useState<BoardType>([
-    [{ placeholder: "", value: "", state: CELL_STATES.EMPTY }],
-  ]);
   const [currentTry, setCurrentTry] = useState(0);
   const [currentColumn, setCurrentColumn] = useState(1);
 
-  useEffect(() => {
-    console.log(wordToGuess);
+  const { board, setBoard, updateBoard } = useBoard({
+    wordToGuess,
+    maxNumberOfTries,
+    currentTry,
+  });
 
-    const newBoard: BoardType = new Array(maxNumberOfTries);
-
-    const firstLetter = wordToGuess.split("")[0];
-
-    for (let i = 0; i < newBoard.length; i++) {
-      newBoard[i] = new Array(wordToGuess.length);
-
-      for (let j = 0; j < newBoard[i].length; j++) {
-        newBoard[i][j] = {
-          placeholder: "",
-          value: j === 0 && i === 0 ? firstLetter : "",
-          state: CELL_STATES.EMPTY,
-        };
-      }
-    }
-
-    setBoard(newBoard);
-  }, [wordToGuess]);
-
-  const isGameWon = useCallback(() => {
-    const currentGuess = board[currentTry].map((cell) => cell.value).join("");
-    return currentGuess === wordToGuess;
-  }, [board, currentTry, wordToGuess]);
-
-  const isGameLost = useCallback(() => {
-    return currentTry + 1 === maxNumberOfTries;
-  }, [currentTry]);
-
-  const updateBoard = useCallback(() => {
-    const currentGuess = board[currentTry].map((cell) => cell.value);
-    const arrayToGuess = wordToGuess.split("");
-
-    const lettersToFind: Record<string, number> = {};
-    for (const letter of arrayToGuess) {
-      if (!lettersToFind[letter]) {
-        lettersToFind[letter] = 0;
-      }
-      lettersToFind[letter]++;
-    }
-
-    // Checking for correct letters
-    currentGuess.forEach((value, index) => {
-      if (value === arrayToGuess[index]) {
-        board[currentTry][index].state = CELL_STATES.CORRECT;
-        lettersToFind[value]--;
-      }
-    });
-
-    // Checking for misplaced letters
-    currentGuess.forEach((value, index) => {
-      if (board[currentTry][index].state === CELL_STATES.CORRECT) {
-        return;
-      }
-
-      if (lettersToFind[value]) {
-        board[currentTry][index].state = CELL_STATES.MISPLACED;
-        lettersToFind[value]--;
-      }
-    });
-
-    // Setting placeholder letters from precedent guessed letters
-    for (let i = 0; i < board.length - 1; i++) {
-      const row = board[i];
-
-      for (let j = 0; j < row.length; j++) {
-        const cell = row[j];
-
-        if (cell.state === CELL_STATES.CORRECT) {
-          if (j) {
-            board[currentTry + 1][j].placeholder = cell.value;
-          } else {
-            board[currentTry + 1][j].value = cell.value;
-          }
-        }
-      }
-    }
-
-    setBoard(board);
-  }, [board, currentTry, wordToGuess]);
-
-  const handleKeyPress = useCallback(
-    (event: KeyboardEvent) => {
-      if (event.key >= "a" && event.key <= "z") {
-        if (currentColumn >= wordToGuess.length) {
-          return;
-        }
-
-        board[currentTry][currentColumn].value = event.key;
-
-        setBoard(board);
-        setCurrentColumn((col) => Math.min(col + 1, wordToGuess.length));
-      } else if (event.key === "Backspace") {
-        if (currentColumn <= 1) {
-          return;
-        }
-
-        board[currentTry][currentColumn - 1].value = "";
-        setBoard(board);
-        setCurrentColumn((col) => Math.max(col - 1, 0));
-      } else if (event.key === "Enter") {
-        if (currentColumn !== wordToGuess.length) {
-          return;
-        }
-
-        // Check if the guess is a valid guess
-        const isValid = gameData.some(
-          (name: string) =>
-            board[currentTry].map((cell) => cell.value).join("") === name
-        );
-
-        if (!isValid) {
-          // TODO: create an alert / notification to indicate that the guess is invalid to the player
-          return;
-        }
-
-        if (isGameWon()) {
-          return onVictory();
-        }
-
-        if (isGameLost()) {
-          return onDefeat();
-        }
-
-        updateBoard();
-        setCurrentColumn(1);
-        setCurrentTry((current) => Math.min(current + 1, maxNumberOfTries));
-      }
-    },
-    [
-      wordToGuess,
-      board,
-      currentTry,
-      currentColumn,
-      gameData,
-      isGameLost,
-      isGameWon,
-      onDefeat,
-      onVictory,
-      updateBoard,
-    ]
-  );
-
-  useEffect(() => {
-    window.addEventListener("keydown", handleKeyPress);
-
-    return () => {
-      window.removeEventListener("keydown", handleKeyPress);
-    };
-  }, [handleKeyPress]);
+  useKeyPress({
+    gameData,
+    maxNumberOfTries,
+    currentTry,
+    setCurrentTry,
+    currentColumn,
+    setCurrentColumn,
+    wordToGuess,
+    board,
+    setBoard,
+    updateBoard,
+    onVictory,
+    onDefeat,
+  });
 
   return (
     <div>
