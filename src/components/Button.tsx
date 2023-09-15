@@ -1,5 +1,12 @@
-export default function Button(props: any) {
-  const { label, onClick } = props;
+import { ReactNode } from "react";
 
-  return <button onClick={onClick}>{label}</button>;
+type ButtonProps = {
+  children: ReactNode;
+  onClick: () => void;
+};
+
+export default function Button(props: ButtonProps) {
+  const { children, onClick } = props;
+
+  return <button onClick={onClick}>{children}</button>;
 }

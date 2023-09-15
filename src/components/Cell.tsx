@@ -1,13 +1,19 @@
 import { useEffect, useState } from "react";
 import CELL_STATES from "./../constants/cellStates";
 
-export default function Cell(props: any) {
+type CellProps = {
+  state: number;
+  value: string;
+  isActive: boolean;
+};
+
+export default function Cell(props: CellProps) {
   const { state, value, isActive } = props;
 
   const [classList, setClassList] = useState(["cell"]);
 
   useEffect(() => {
-    let newClassList = ["cell"];
+    const newClassList = ["cell"];
     if (isActive) {
       newClassList.push("cell--active");
     }

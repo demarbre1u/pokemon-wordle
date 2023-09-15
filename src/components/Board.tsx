@@ -1,12 +1,21 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import Cell from "./Cell";
 import CELL_STATES from "./../constants/cellStates";
+import { BoardType } from "../types/BoardType";
+import { CellType } from "../types/CellType";
 
-export default function Board(props: any) {
+type BoardProps = {
+  wordToGuess: string;
+  gameData: string[];
+  onVictory: () => void;
+  onDefeat: () => void;
+};
+
+export default function Board(props: BoardProps) {
   const { wordToGuess, onVictory, onDefeat, gameData } = props;
 
   const maxNumberOfTries = 6;
-  const [board, setBoard] = useState([
+  const [board, setBoard] = useState<BoardType>([
     [{ placeholder: "", value: "", state: CELL_STATES.EMPTY }],
   ]);
   const [currentTry, setCurrentTry] = useState(0);
@@ -15,7 +24,7 @@ export default function Board(props: any) {
   useEffect(() => {
     console.log(wordToGuess);
 
-    let newBoard: any = new Array(maxNumberOfTries);
+    const newBoard: BoardType = new Array(maxNumberOfTries);
 
     const firstLetter = wordToGuess.split("")[0];
 
@@ -34,8 +43,69 @@ export default function Board(props: any) {
     setBoard(newBoard);
   }, [wordToGuess]);
 
-  useEffect(() => {
-    const handleKeyPress = (event: KeyboardEvent) => {
+  const isGameWon = useCallback(() => {
+    const currentGuess = board[currentTry].map((cell) => cell.value).join("");
+    return currentGuess === wordToGuess;
+  }, [board, currentTry, wordToGuess]);
+
+  const isGameLost = useCallback(() => {
+    return currentTry + 1 === maxNumberOfTries;
+  }, [currentTry]);
+
+  const updateBoard = useCallback(() => {
+    const currentGuess = board[currentTry].map((cell) => cell.value);
+    const arrayToGuess = wordToGuess.split("");
+
+    const lettersToFind: Record<string, number> = {};
+    for (const letter of arrayToGuess) {
+      if (!lettersToFind[letter]) {
+        lettersToFind[letter] = 0;
+      }
+      lettersToFind[letter]++;
+    }
+
+    // Checking for correct letters
+    currentGuess.forEach((value, index) => {
+      if (value === arrayToGuess[index]) {
+        board[currentTry][index].state = CELL_STATES.CORRECT;
+        lettersToFind[value]--;
+      }
+    });
+
+    // Checking for misplaced letters
+    currentGuess.forEach((value, index) => {
+      if (board[currentTry][index].state === CELL_STATES.CORRECT) {
+        return;
+      }
+
+      if (lettersToFind[value]) {
+        board[currentTry][index].state = CELL_STATES.MISPLACED;
+        lettersToFind[value]--;
+      }
+    });
+
+    // Setting placeholder letters from precedent guessed letters
+    for (let i = 0; i < board.length - 1; i++) {
+      const row = board[i];
+
+      for (let j = 0; j < row.length; j++) {
+        const cell = row[j];
+
+        if (cell.state === CELL_STATES.CORRECT) {
+          if (j) {
+            board[currentTry + 1][j].placeholder = cell.value;
+          } else {
+            board[currentTry + 1][j].value = cell.value;
+          }
+        }
+      }
+    }
+
+    setBoard(board);
+  }, [board, currentTry, wordToGuess]);
+
+  const handleKeyPress = useCallback(
+    (event: KeyboardEvent) => {
       if (event.key >= "a" && event.key <= "z") {
         if (currentColumn >= wordToGuess.length) {
           return;
@@ -81,79 +151,32 @@ export default function Board(props: any) {
         setCurrentColumn(1);
         setCurrentTry((current) => Math.min(current + 1, maxNumberOfTries));
       }
-    };
+    },
+    [
+      wordToGuess,
+      board,
+      currentTry,
+      currentColumn,
+      gameData,
+      isGameLost,
+      isGameWon,
+      onDefeat,
+      onVictory,
+      updateBoard,
+    ]
+  );
 
+  useEffect(() => {
     window.addEventListener("keydown", handleKeyPress);
 
     return () => {
       window.removeEventListener("keydown", handleKeyPress);
     };
-  }, [wordToGuess, board, currentTry, currentColumn, gameData]);
-
-  const isGameWon = () => {
-    const currentGuess = board[currentTry].map((cell) => cell.value).join("");
-    return currentGuess === wordToGuess;
-  };
-
-  const isGameLost = () => {
-    return currentTry + 1 === maxNumberOfTries;
-  };
-
-  const updateBoard = () => {
-    const currentGuess = board[currentTry].map((cell) => cell.value);
-    const arrayToGuess = wordToGuess.split("");
-
-    let lettersToFind: any = {};
-    for (let letter of arrayToGuess) {
-      if (!lettersToFind[letter]) {
-        lettersToFind[letter] = 0;
-      }
-      lettersToFind[letter]++;
-    }
-
-    // Checking for correct letters
-    currentGuess.forEach((value, index) => {
-      if (value === arrayToGuess[index]) {
-        board[currentTry][index].state = CELL_STATES.CORRECT;
-        lettersToFind[value]--;
-      }
-    });
-
-    // Checking for misplaced letters
-    currentGuess.forEach((value, index) => {
-      if (board[currentTry][index].state === CELL_STATES.CORRECT) {
-        return;
-      }
-
-      if (lettersToFind[value]) {
-        board[currentTry][index].state = CELL_STATES.MISPLACED;
-        lettersToFind[value]--;
-      }
-    });
-
-    // Setting placeholder letters from precedent guessed letters
-    for (let i = 0; i < board.length - 1; i++) {
-      const row = board[i];
-
-      for (let j = 0; j < row.length; j++) {
-        const cell = row[j];
-
-        if (cell.state === CELL_STATES.CORRECT) {
-          if (j) {
-            board[currentTry + 1][j].placeholder = cell.value;
-          } else {
-            board[currentTry + 1][j].value = cell.value;
-          }
-        }
-      }
-    }
-
-    setBoard(board);
-  };
+  }, [handleKeyPress]);
 
   return (
     <div>
-      {board.map((row: any[], rowIndex: number) => (
+      {board.map((row: CellType[], rowIndex: number) => (
         <div className="row" key={rowIndex}>
           {row.map(({ placeholder, value, state }, colIndex: number) => {
             const isActive =

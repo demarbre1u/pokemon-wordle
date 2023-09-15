@@ -60,10 +60,9 @@ function App() {
         <div className="flex">
           <h1>Gagné !</h1>
           <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
-          <Button
-            label="Rejouer"
-            onClick={() => updateGameState(GAME_STATES.LOADING)}
-          />
+          <Button onClick={() => updateGameState(GAME_STATES.LOADING)}>
+            Rejouer
+          </Button>
         </div>
       );
     case GAME_STATES.GAME_OVER:
@@ -71,10 +70,9 @@ function App() {
         <div className="flex">
           <h1>Perdu...</h1>
           <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
-          <Button
-            label="Rejouer"
-            onClick={() => updateGameState(GAME_STATES.LOADING)}
-          />
+          <Button onClick={() => updateGameState(GAME_STATES.LOADING)}>
+            Rejouer
+          </Button>
         </div>
       );
   }
