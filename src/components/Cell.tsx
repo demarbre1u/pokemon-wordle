@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback } from "react";
 import CELL_STATES from "./../constants/cellStates";
 
 type CellProps = {
@@ -10,9 +10,7 @@ type CellProps = {
 export default function Cell(props: CellProps) {
   const { state, value, isActive } = props;
 
-  const [classList, setClassList] = useState(["cell"]);
-
-  useEffect(() => {
+  const getClasses = useCallback(() => {
     const newClassList = ["cell"];
     if (isActive) {
       newClassList.push("cell--active");
@@ -26,8 +24,10 @@ export default function Cell(props: CellProps) {
       newClassList.push("cell--misplaced");
     }
 
-    setClassList(newClassList);
-  }, [state, value, isActive]);
+    return newClassList.join(" ");
+  }, [isActive, state]);
 
-  return <div className={classList.join(" ")}>{value.toUpperCase()}</div>;
+  const classList = getClasses();
+
+  return <div className={classList}>{value.toUpperCase()}</div>;
 }
