@@ -16,3 +16,20 @@ cd pokemon-wordle/
 npm i
 npm run dev
 ```
+
+## How to update the game data
+
+Use the script `./tools/pokemon-helper.js` as follow :
+
+```bash
+pokemon-helper.js [command]
+
+Commands:
+  pokemon-helper.js fetch  fetch Pokémon data
+  pokemon-helper.js build  build game data
+
+Options:
+  --help     Show help                                                 [boolean]
+  --version  Show version number                                       [boolean]
+
+```
