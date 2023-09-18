@@ -1,6 +1,8 @@
 import { Key } from "./Key";
 import { Icon } from "@iconify/react";
 import { SpecialKey } from "./SpecialKey";
+import { LettersGuessedType } from "../types/LettersGuessedType";
+
 const KEYBOARD_LAYOUT = [
   ["a", "z", "e", "r", "t", "y", "u", "i", "o", "p"],
   ["q", "s", "d", "f", "g", "h", "j", "k", "l", "m"],
@@ -8,13 +10,15 @@ const KEYBOARD_LAYOUT = [
 ];
 
 type KeyboardProps = {
+  lettersGuessed: LettersGuessedType;
   onLetterClick: (letter: string) => void;
   onBackspaceClick: () => void;
   onEnterClick: () => void;
 };
 
 export const Keyboard = (props: KeyboardProps) => {
-  const { onLetterClick, onBackspaceClick, onEnterClick } = props;
+  const { lettersGuessed, onLetterClick, onBackspaceClick, onEnterClick } =
+    props;
 
   return (
     <div className="keyboard-wrapper">
@@ -28,6 +32,7 @@ export const Keyboard = (props: KeyboardProps) => {
                     <Key
                       key={symbol}
                       symbol={symbol}
+                      state={lettersGuessed[symbol]}
                       onClick={() => onLetterClick(symbol)}
                     />
                   );

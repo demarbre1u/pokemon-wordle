@@ -22,19 +22,22 @@ function App() {
     setCurrentColumn,
   } = useGameData();
 
-  const { board, setBoard, updateBoard } = useBoard({
-    wordToGuess,
-    maxNumberOfTries: MAX_NUMBER_OF_TRIES,
-    currentTry,
-  });
+  const { board, setBoard, updateBoard, lettersGuessed, setLettersGuessed } =
+    useBoard({
+      wordToGuess,
+      maxNumberOfTries: MAX_NUMBER_OF_TRIES,
+      currentTry,
+    });
 
   const onVictory = useCallback(() => {
     setGameState(GAME_STATES.GAME_WON);
-  }, [setGameState]);
+    setLettersGuessed({});
+  }, [setGameState, setLettersGuessed]);
 
   const onDefeat = useCallback(() => {
     setGameState(GAME_STATES.GAME_OVER);
-  }, [setGameState]);
+    setLettersGuessed({});
+  }, [setGameState, setLettersGuessed]);
 
   const isGameWon = useCallback(() => {
     const currentGuess = board[currentTry].map((cell) => cell.value).join("");
@@ -131,6 +134,7 @@ function App() {
             currentColumn={currentColumn}
           />
           <Keyboard
+            lettersGuessed={lettersGuessed}
             onLetterClick={handleLetterKeys}
             onBackspaceClick={handleBackspaceKey}
             onEnterClick={handleEnterKey}

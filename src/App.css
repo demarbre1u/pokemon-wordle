@@ -113,3 +113,15 @@ button:focus-visible {
   justify-content: center;
   align-items: center;
 }
+
+.key--correct {
+  background-color: #83a300;
+}
+
+.key--misplaced {
+  background-color: #e21b5a;
+}
+
+.key--incorrect {
+  background-color: grey;
+}
