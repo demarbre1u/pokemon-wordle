@@ -1,0 +1,16 @@
+.keyboard-wrapper {
+    --key-gap: 12px;
+    --key-size: 32px;
+  
+    display: flex;
+    flex-direction: column;
+    gap: var(--key-gap);
+    padding-top: 40px;
+}
+  
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    gap: var(--key-gap);
+}
+  

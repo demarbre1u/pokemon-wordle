@@ -1,0 +1,25 @@
+.keys {
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 5px;
+  width: var(--key-size);
+  height: var(--key-size);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.key--correct {
+  background-color: #83a300;
+}
+
+.key--misplaced {
+  background-color: #e21b5a;
+}
+
+.key--incorrect {
+  background-color: grey;
+}

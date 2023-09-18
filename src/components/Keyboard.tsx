@@ -1,3 +1,4 @@
+import "../styles/Keyboard.css";
 import { Key } from "./Key";
 import { Icon } from "@iconify/react";
 import { SpecialKey } from "./SpecialKey";

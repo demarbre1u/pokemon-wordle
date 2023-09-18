@@ -1,3 +1,4 @@
+import "../styles/Key.css";
 import CELL_STATES from "../constants/cellStates";
 
 type KeyProps = {

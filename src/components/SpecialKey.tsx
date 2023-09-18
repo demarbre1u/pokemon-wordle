@@ -1,3 +1,5 @@
+import "../styles/SpecialKey.css";
+
 type SpecialKeyProps = {
   children: React.ReactNode;
   onClick: () => void;

@@ -1,3 +1,5 @@
+import "../styles/ReplayButton.css";
+
 type ReplayButtonProps = {
   onClick: () => void;
 };

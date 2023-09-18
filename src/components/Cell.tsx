@@ -1,3 +1,4 @@
+import "../styles/Cell.css";
 import { useCallback } from "react";
 import CELL_STATES from "./../constants/cellStates";
 

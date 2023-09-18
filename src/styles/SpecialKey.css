@@ -1,0 +1,13 @@
+.special-keys {
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 5px;
+    width: calc(var(--key-size) * 2);
+    height: var(--key-size);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

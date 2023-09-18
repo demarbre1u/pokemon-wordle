@@ -1,0 +1,30 @@
+.cell {
+    --cell-size: 50px;
+    width: var(--cell-size);
+    height: var(--cell-size);
+  
+    font-weight: bolder;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin: 5px;
+    border-radius: 15px;
+  
+    background-color: transparent;
+    transition: background-color 200ms, scale 200ms;
+}
+  
+.cell--active {
+    background-color: #4e4e4e;
+    scale: 1.2;
+}
+  
+.cell--correct {
+    background-color: #83a300;
+}
+  
+.cell--misplaced {
+    background-color: #e21b5a;
+}
