@@ -1,11 +1,12 @@
 import "./App.css";
 import Board from "./components/Board";
 import GAME_STATES from "./constants/gameStates";
-import Button from "./components/Button";
 import { useGameData } from "./hooks/useGameData";
 import { useCallback } from "react";
 import { useBoard } from "./hooks/useBoard";
 import { useKeyPress } from "./hooks/useKeyPress";
+import ReplayButton from "./components/ReplayButton";
+import { Keyboard } from "./components/Keyboard";
 
 const MAX_NUMBER_OF_TRIES = 6;
 
@@ -129,6 +130,11 @@ function App() {
             currentTry={currentTry}
             currentColumn={currentColumn}
           />
+          <Keyboard
+            onLetterClick={handleLetterKeys}
+            onBackspaceClick={handleBackspaceKey}
+            onEnterClick={handleEnterKey}
+          />
         </div>
       );
     case GAME_STATES.GAME_WON:
@@ -136,9 +142,7 @@ function App() {
         <div className="flex">
           <h1>Gagné !</h1>
           <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
-          <Button onClick={() => setGameState(GAME_STATES.LOADING)}>
-            Rejouer
-          </Button>
+          <ReplayButton onClick={() => setGameState(GAME_STATES.LOADING)} />
         </div>
       );
     case GAME_STATES.GAME_OVER:
@@ -146,9 +150,7 @@ function App() {
         <div className="flex">
           <h1>Perdu...</h1>
           <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
-          <Button onClick={() => setGameState(GAME_STATES.LOADING)}>
-            Rejouer
-          </Button>
+          <ReplayButton onClick={() => setGameState(GAME_STATES.LOADING)} />
         </div>
       );
   }

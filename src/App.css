@@ -69,3 +69,47 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+.keyboard-wrapper {
+  --key-gap: 12px;
+  --key-size: 32px;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--key-gap);
+  padding-top: 40px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  gap: var(--key-gap);
+}
+
+.keys {
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 5px;
+  width: var(--key-size);
+  height: var(--key-size);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.special-keys {
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 5px;
+  width: calc(var(--key-size) * 2);
+  height: var(--key-size);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
