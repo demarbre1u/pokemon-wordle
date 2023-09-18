@@ -1,43 +1,15 @@
 import Cell from "./Cell";
 import { CellType } from "../types/CellType";
-import { useBoard } from "../hooks/useBoard";
-import { useKeyPress } from "../hooks/useKeyPress";
-import { useState } from "react";
+import { BoardType } from "../types/BoardType";
 
 type BoardProps = {
-  wordToGuess: string;
-  gameData: string[];
-  onVictory: () => void;
-  onDefeat: () => void;
+  board: BoardType;
+  currentTry: number;
+  currentColumn: number;
 };
 
 export default function Board(props: BoardProps) {
-  const { wordToGuess, onVictory, onDefeat, gameData } = props;
-
-  const maxNumberOfTries = 6;
-  const [currentTry, setCurrentTry] = useState(0);
-  const [currentColumn, setCurrentColumn] = useState(1);
-
-  const { board, setBoard, updateBoard } = useBoard({
-    wordToGuess,
-    maxNumberOfTries,
-    currentTry,
-  });
-
-  useKeyPress({
-    gameData,
-    maxNumberOfTries,
-    currentTry,
-    setCurrentTry,
-    currentColumn,
-    setCurrentColumn,
-    wordToGuess,
-    board,
-    setBoard,
-    updateBoard,
-    onVictory,
-    onDefeat,
-  });
+  const { board, currentColumn, currentTry } = props;
 
   return (
     <div>

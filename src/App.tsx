@@ -3,13 +3,118 @@ import Board from "./components/Board";
 import GAME_STATES from "./constants/gameStates";
 import Button from "./components/Button";
 import { useGameData } from "./hooks/useGameData";
+import { useCallback } from "react";
+import { useBoard } from "./hooks/useBoard";
+import { useKeyPress } from "./hooks/useKeyPress";
+
+const MAX_NUMBER_OF_TRIES = 6;
 
 function App() {
-  const { gameState, setGameState, gameData, wordToGuess } = useGameData();
+  const {
+    gameState,
+    setGameState,
+    gameData,
+    wordToGuess,
+    currentTry,
+    setCurrentTry,
+    currentColumn,
+    setCurrentColumn,
+  } = useGameData();
 
-  const updateGameState = (newState: number) => {
-    setGameState(newState);
-  };
+  const { board, setBoard, updateBoard } = useBoard({
+    wordToGuess,
+    maxNumberOfTries: MAX_NUMBER_OF_TRIES,
+    currentTry,
+  });
+
+  const onVictory = useCallback(() => {
+    setGameState(GAME_STATES.GAME_WON);
+  }, [setGameState]);
+
+  const onDefeat = useCallback(() => {
+    setGameState(GAME_STATES.GAME_OVER);
+  }, [setGameState]);
+
+  const isGameWon = useCallback(() => {
+    const currentGuess = board[currentTry].map((cell) => cell.value).join("");
+    return currentGuess === wordToGuess;
+  }, [board, currentTry, wordToGuess]);
+
+  const isGameLost = useCallback(() => {
+    return currentTry + 1 === MAX_NUMBER_OF_TRIES;
+  }, [currentTry]);
+
+  const handleLetterKeys = useCallback(
+    (letter: string) => {
+      if (currentColumn >= wordToGuess.length) {
+        return;
+      }
+
+      board[currentTry][currentColumn].value = letter;
+
+      setBoard(board);
+      setCurrentColumn(Math.min(currentColumn + 1, wordToGuess.length));
+    },
+    [board, currentColumn, currentTry, setBoard, setCurrentColumn, wordToGuess]
+  );
+
+  const handleBackspaceKey = useCallback(() => {
+    if (currentColumn <= 1) {
+      return;
+    }
+
+    board[currentTry][currentColumn - 1].value = "";
+    setBoard(board);
+    setCurrentColumn(Math.max(currentColumn - 1, 0));
+  }, [board, currentColumn, currentTry, setBoard, setCurrentColumn]);
+
+  const handleEnterKey = useCallback(() => {
+    if (currentColumn !== wordToGuess.length) {
+      return;
+    }
+
+    // Check if the guess is a valid guess
+    const isValid = gameData.some(
+      (name: string) =>
+        board[currentTry].map((cell) => cell.value).join("") === name
+    );
+
+    if (!isValid) {
+      // TODO: create an alert / notification to indicate that the guess is invalid to the player
+      return;
+    }
+
+    if (isGameWon()) {
+      return onVictory();
+    }
+
+    if (isGameLost()) {
+      return onDefeat();
+    }
+
+    updateBoard();
+    setCurrentColumn(1);
+    setCurrentTry(Math.min(currentTry + 1, MAX_NUMBER_OF_TRIES));
+  }, [
+    board,
+    currentColumn,
+    currentTry,
+    gameData,
+    isGameLost,
+    isGameWon,
+    onDefeat,
+    onVictory,
+    setCurrentColumn,
+    setCurrentTry,
+    updateBoard,
+    wordToGuess,
+  ]);
+
+  useKeyPress({
+    handleLetterKeys,
+    handleBackspaceKey,
+    handleEnterKey,
+  });
 
   switch (gameState) {
     default:
@@ -20,10 +125,9 @@ function App() {
         <div className="flex">
           <h1>Quel est ce Pokémon ?</h1>
           <Board
-            wordToGuess={wordToGuess}
-            gameData={gameData}
-            onVictory={() => updateGameState(GAME_STATES.GAME_WON)}
-            onDefeat={() => updateGameState(GAME_STATES.GAME_OVER)}
+            board={board}
+            currentTry={currentTry}
+            currentColumn={currentColumn}
           />
         </div>
       );
@@ -32,7 +136,7 @@ function App() {
         <div className="flex">
           <h1>Gagné !</h1>
           <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
-          <Button onClick={() => updateGameState(GAME_STATES.LOADING)}>
+          <Button onClick={() => setGameState(GAME_STATES.LOADING)}>
             Rejouer
           </Button>
         </div>
@@ -42,7 +146,7 @@ function App() {
         <div className="flex">
           <h1>Perdu...</h1>
           <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
-          <Button onClick={() => updateGameState(GAME_STATES.LOADING)}>
+          <Button onClick={() => setGameState(GAME_STATES.LOADING)}>
             Rejouer
           </Button>
         </div>
