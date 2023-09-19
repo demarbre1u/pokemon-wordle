@@ -8,6 +8,7 @@ import { useKeyPress } from "./hooks/useKeyPress";
 import ReplayButton from "./components/ReplayButton";
 import { Keyboard } from "./components/Keyboard";
 import { PokemonType } from "./types/PokemonType";
+import { Hints } from "./components/Hints";
 
 const MAX_NUMBER_OF_TRIES = 6;
 
@@ -74,19 +75,21 @@ function App() {
     setCurrentColumn(Math.max(currentColumn - 1, 0));
   }, [board, currentColumn, currentTry, setBoard, setCurrentColumn]);
 
-  const handleEnterKey = useCallback(() => {
-    if (currentColumn !== wordToGuess.length) {
-      return;
-    }
-
-    // Check if the guess is a valid guess
+  const isGuessValid = useCallback(() => {
     const isValid = gameData.some(
       (pokemon: PokemonType) =>
         board[currentTry].map((cell) => cell.value).join("") === pokemon.name
     );
 
-    if (!isValid) {
-      // TODO: create an alert / notification to indicate that the guess is invalid to the player
+    return isValid;
+  }, [board, currentTry, gameData]);
+
+  const handleEnterKey = useCallback(() => {
+    if (currentColumn !== wordToGuess.length) {
+      return;
+    }
+
+    if (!isGuessValid()) {
       return;
     }
 
@@ -102,10 +105,9 @@ function App() {
     setCurrentColumn(1);
     setCurrentTry(Math.min(currentTry + 1, MAX_NUMBER_OF_TRIES));
   }, [
-    board,
+    isGuessValid,
     currentColumn,
     currentTry,
-    gameData,
     isGameLost,
     isGameWon,
     onDefeat,
@@ -131,17 +133,7 @@ function App() {
         <div className="flex">
           <h1>Quel est ce Pokémon ?</h1>
 
-          <span className="type-list">
-            Types :{" "}
-            {pokemonToGuess.types.map(({ name, image }) => (
-              <img
-                key={name}
-                className="type-image"
-                src={image}
-                alt={`type ${name}`}
-              />
-            ))}
-          </span>
+          <Hints pokemonToGuess={pokemonToGuess} />
 
           <Board
             board={board}

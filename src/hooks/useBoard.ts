@@ -79,7 +79,11 @@ export const useBoard = (props: useBoardProps) => {
 
       if (lettersToFind[value]) {
         board[currentTry][index].state = CELL_STATES.MISPLACED;
-        newLettersGuessed[value] = CELL_STATES.MISPLACED;
+
+        if (CELL_STATES.CORRECT !== newLettersGuessed[value]) {
+          newLettersGuessed[value] = CELL_STATES.MISPLACED;
+        }
+
         lettersToFind[value]--;
       }
 
