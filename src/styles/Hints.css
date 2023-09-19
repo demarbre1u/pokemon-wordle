@@ -3,7 +3,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
   
+    height: 40px;
+    padding: 10px;
+}
+
+.type-hint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     gap: 8px;
     padding: 10px;
 }

@@ -133,7 +133,7 @@ function App() {
         <div className="flex">
           <h1>Quel est ce Pokémon ?</h1>
 
-          <Hints pokemonToGuess={pokemonToGuess} />
+          <Hints pokemonToGuess={pokemonToGuess} currentTry={currentTry} />
 
           <Board
             board={board}
