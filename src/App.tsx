@@ -131,10 +131,15 @@ function App() {
         <div className="flex">
           <h1>Quel est ce Pokémon ?</h1>
 
-          <span>
+          <span className="type-list">
             Types :{" "}
             {pokemonToGuess.types.map(({ name, image }) => (
-              <img key={name} src={image} alt={`type ${name}`} />
+              <img
+                key={name}
+                className="type-image"
+                src={image}
+                alt={`type ${name}`}
+              />
             ))}
           </span>
 
