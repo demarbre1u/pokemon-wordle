@@ -16,12 +16,13 @@ function App() {
     gameState,
     setGameState,
     gameData,
-    wordToGuess,
+    pokemonToGuess,
     currentTry,
     setCurrentTry,
     currentColumn,
     setCurrentColumn,
   } = useGameData();
+  const wordToGuess = pokemonToGuess.name;
 
   const { board, setBoard, updateBoard, lettersGuessed, setLettersGuessed } =
     useBoard({

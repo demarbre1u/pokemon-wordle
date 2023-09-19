@@ -7,7 +7,10 @@ const POKEMON_DICT_FILEPATH = "/pokemon-wordle/pokemon-names.json";
 export const useGameData = () => {
   const [gameState, setGameState] = useState(GAME_STATES.LOADING);
   const [gameData, setGameData] = useState<PokemonType[]>([]);
-  const [wordToGuess, setWordToguess] = useState("");
+  const [pokemonToGuess, setPokemonToGuess] = useState<PokemonType>({
+    name: "",
+    types: [],
+  });
   const [currentTry, setCurrentTry] = useState(0);
   const [currentColumn, setCurrentColumn] = useState(1);
 
@@ -22,7 +25,7 @@ export const useGameData = () => {
 
     // Picking a random index
     const randomIndex = Math.round(Math.random() * gameData.length);
-    setWordToguess(gameData[randomIndex].name);
+    setPokemonToGuess(gameData[randomIndex]);
     setCurrentTry(0);
     setCurrentColumn(1);
     setGameState(GAME_STATES.PLAYING);
@@ -44,7 +47,7 @@ export const useGameData = () => {
     setGameState,
     gameData,
     setGameData,
-    wordToGuess,
+    pokemonToGuess,
     currentTry,
     setCurrentTry,
     currentColumn,
