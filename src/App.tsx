@@ -130,11 +130,20 @@ function App() {
       return (
         <div className="flex">
           <h1>Quel est ce Pokémon ?</h1>
+
+          <span>
+            Types :{" "}
+            {pokemonToGuess.types.map(({ name, image }) => (
+              <img key={name} src={image} alt={`type ${name}`} />
+            ))}
+          </span>
+
           <Board
             board={board}
             currentTry={currentTry}
             currentColumn={currentColumn}
           />
+
           <Keyboard
             lettersGuessed={lettersGuessed}
             onLetterClick={handleLetterKeys}
