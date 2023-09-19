@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import GAME_STATES from "../constants/gameStates";
+import { PokemonType } from "../types/PokemonType";
 
 const POKEMON_DICT_FILEPATH = "/pokemon-wordle/pokemon-names.json";
 
 export const useGameData = () => {
   const [gameState, setGameState] = useState(GAME_STATES.LOADING);
-  const [gameData, setGameData] = useState([]);
+  const [gameData, setGameData] = useState<PokemonType[]>([]);
   const [wordToGuess, setWordToguess] = useState("");
   const [currentTry, setCurrentTry] = useState(0);
   const [currentColumn, setCurrentColumn] = useState(1);
@@ -21,7 +22,7 @@ export const useGameData = () => {
 
     // Picking a random index
     const randomIndex = Math.round(Math.random() * gameData.length);
-    setWordToguess(gameData[randomIndex]);
+    setWordToguess(gameData[randomIndex].name);
     setCurrentTry(0);
     setCurrentColumn(1);
     setGameState(GAME_STATES.PLAYING);

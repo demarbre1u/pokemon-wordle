@@ -7,6 +7,7 @@ import { useBoard } from "./hooks/useBoard";
 import { useKeyPress } from "./hooks/useKeyPress";
 import ReplayButton from "./components/ReplayButton";
 import { Keyboard } from "./components/Keyboard";
+import { PokemonType } from "./types/PokemonType";
 
 const MAX_NUMBER_OF_TRIES = 6;
 
@@ -79,8 +80,8 @@ function App() {
 
     // Check if the guess is a valid guess
     const isValid = gameData.some(
-      (name: string) =>
-        board[currentTry].map((cell) => cell.value).join("") === name
+      (pokemon: PokemonType) =>
+        board[currentTry].map((cell) => cell.value).join("") === pokemon.name
     );
 
     if (!isValid) {

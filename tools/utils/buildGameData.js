@@ -13,7 +13,8 @@ export async function buildGameData() {
 
   logger.log("Parsing data...");
   for (let row of data) {
-    let name = row.name.fr;
+    let name = row.name.fr || "";
+    const types = row.types || [];
 
     // Removing accents
     name = ASCIIFolder.foldReplacing(name);
@@ -24,7 +25,10 @@ export async function buildGameData() {
       continue;
     }
 
-    pokemonNameList.push(name);
+    pokemonNameList.push({
+      name,
+      types,
+    });
 
     if (!lengthList[name.length]) {
       lengthList[name.length] = 0;
