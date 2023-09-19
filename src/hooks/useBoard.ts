@@ -64,7 +64,7 @@ export const useBoard = (props: useBoardProps) => {
 
       if (
         ![CELL_STATES.CORRECT, CELL_STATES.MISPLACED].includes(
-          board[currentTry][index].state
+          newLettersGuessed[value]
         )
       ) {
         newLettersGuessed[value] = CELL_STATES.INCORRECT;
@@ -85,7 +85,7 @@ export const useBoard = (props: useBoardProps) => {
 
       if (
         ![CELL_STATES.CORRECT, CELL_STATES.MISPLACED].includes(
-          board[currentTry][index].state
+          newLettersGuessed[value]
         )
       ) {
         newLettersGuessed[value] = CELL_STATES.INCORRECT;
