@@ -10,7 +10,7 @@ import { Keyboard } from "./components/Keyboard";
 import { PokemonType } from "./types/PokemonType";
 import { Hints } from "./components/Hints";
 
-const MAX_NUMBER_OF_TRIES = 6;
+const MAX_NUMBER_OF_TRIES = 3;
 
 function App() {
   const {

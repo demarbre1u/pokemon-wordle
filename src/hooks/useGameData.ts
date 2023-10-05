@@ -10,6 +10,8 @@ export const useGameData = () => {
   const [pokemonToGuess, setPokemonToGuess] = useState<PokemonType>({
     name: "",
     types: [],
+    talents: [],
+    category: "",
   });
   const [currentTry, setCurrentTry] = useState(0);
   const [currentColumn, setCurrentColumn] = useState(1);

@@ -6,7 +6,8 @@ type HintsProps = {
   currentTry: number;
 };
 
-const TYPE_HINT_THRESHOLD = 1;
+const FIRST_HINT_THRESHOLD = 1;
+const SECOND_HINT_THRESHOLD = 2;
 
 export const Hints = (props: HintsProps) => {
   const { pokemonToGuess, currentTry } = props;
@@ -14,7 +15,7 @@ export const Hints = (props: HintsProps) => {
   return (
     <div className="hints">
       <span className="type-hint">
-        {currentTry >= TYPE_HINT_THRESHOLD ? (
+        {currentTry >= FIRST_HINT_THRESHOLD ? (
           <>
             Types :{" "}
             {pokemonToGuess.types.map(({ name, image }) => (
@@ -27,7 +28,18 @@ export const Hints = (props: HintsProps) => {
             ))}
           </>
         ) : (
-          <>Indice dans {TYPE_HINT_THRESHOLD - currentTry} essaie(s)</>
+          <>Indice dans {FIRST_HINT_THRESHOLD - currentTry} essai</>
+        )}
+      </span>
+
+      <span className="talents-hint">
+        {currentTry >= SECOND_HINT_THRESHOLD ? (
+          <>
+            Talents :{" "}
+            {pokemonToGuess.talents.map(({ name }) => name).join(" / ")}
+          </>
+        ) : (
+          <>Indice dans {SECOND_HINT_THRESHOLD - currentTry} essais</>
         )}
       </span>
     </div>

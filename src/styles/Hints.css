@@ -2,9 +2,10 @@
 .hints {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
   
+    width: 500px;
     height: 40px;
     padding: 10px;
 }
@@ -19,6 +20,10 @@
 }
   
 .type-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     --type-image-size: 32px;
     width: var(--type-image-size);
     height: var(--type-image-size);
