@@ -31,3 +31,7 @@
     border: 1px solid white;
     border-radius: 8px;
 }
+
+.hints abbr {
+    text-decoration-style: solid;
+}

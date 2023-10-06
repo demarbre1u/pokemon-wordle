@@ -36,7 +36,15 @@ export const Hints = (props: HintsProps) => {
         {currentTry >= SECOND_HINT_THRESHOLD ? (
           <>
             Talents :{" "}
-            {pokemonToGuess.talents.map(({ name }) => name).join(" / ")}
+            {pokemonToGuess.talents.map(({ name, tc }, index) => {
+              const nameEl = tc ? (
+                <abbr title="Talent caché">{name}</abbr>
+              ) : (
+                name
+              );
+
+              return index ? <> / {nameEl}</> : nameEl;
+            })}
           </>
         ) : (
           <>Indice dans {SECOND_HINT_THRESHOLD - currentTry} essais</>
