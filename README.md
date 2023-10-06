@@ -33,3 +33,7 @@ Options:
   --version  Show version number                                       [boolean]
 
 ```
+
+## Credits
+
+The data used are from the [PokéAPI](https://api-pokemon-fr.vercel.app/).

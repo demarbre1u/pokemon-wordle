@@ -43,7 +43,11 @@ export const Hints = (props: HintsProps) => {
                 name
               );
 
-              return index ? <> / {nameEl}</> : nameEl;
+              return (
+                <span key={index}>
+                  {index ? <> / {nameEl}</> : <>{nameEl}</>}
+                </span>
+              );
             })}
           </>
         ) : (
