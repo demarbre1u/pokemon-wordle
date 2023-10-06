@@ -147,6 +147,13 @@ function App() {
             onBackspaceClick={handleBackspaceKey}
             onEnterClick={handleEnterKey}
           />
+
+          <button
+            className="giveup-button"
+            onClick={() => setGameState(GAME_STATES.GAME_OVER)}
+          >
+            Abandonner
+          </button>
         </div>
       );
     case GAME_STATES.GAME_WON:
