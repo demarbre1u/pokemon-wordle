@@ -119949,7 +119949,7 @@
       "next": [
         {
           "pokedexId": 855,
-          "name": "Polthégheist",
+          "name": "Polthégeist",
           "condition": "Avec une Théière Fêlée ou une Théière Ébréchée"
         }
       ],
@@ -119971,7 +119971,7 @@
     "generation": 8,
     "category": "Pokémon Thé Noir",
     "name": {
-      "fr": "Polthégheist",
+      "fr": "Polthégeist",
       "en": "Polteageist",
       "jp": "ポットデス"
     },
