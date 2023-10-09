@@ -32,6 +32,8 @@ export const Hints = (props: HintsProps) => {
         )}
       </span>
 
+      <span className="separator">|</span>
+
       <span className="talents-hint">
         {currentTry >= SECOND_HINT_THRESHOLD ? (
           <>

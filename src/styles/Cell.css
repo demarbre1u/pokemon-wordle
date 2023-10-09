@@ -1,24 +1,35 @@
 .cell {
-    --cell-size: 50px;
+    --cell-size: 60px;
     width: var(--cell-size);
     height: var(--cell-size);
   
-    font-weight: bolder;
-    border: 1px solid white;
+    font-size: 26px;
+    border: 1.5px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
   
     margin: 5px;
-    border-radius: 15px;
+    border-radius: 8px;
   
     background-color: transparent;
-    transition: background-color 200ms, scale 200ms;
+    transition: background-color 400ms, scale 400ms;
 }
-  
+
+@keyframes wave {
+    0% {
+        scale: 1;
+    }
+    50% {
+        scale: 1.1;
+    }
+    100% {
+        scale: 1;
+    }
+}
+
 .cell--active {
-    background-color: #4e4e4e;
-    scale: 1.2;
+    animation: wave infinite 1s ease-in-out;
 }
   
 .cell--correct {

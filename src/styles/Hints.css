@@ -2,12 +2,20 @@
 .hints {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
   
-    width: 500px;
-    height: 40px;
+    background-color:#172A48;
+
+    width: 100%;
+    height: 30px;
     padding: 10px;
+}
+
+.separator {
+    margin: 0px 20px;
+    font-weight: light;
+    font-size: 30px;
 }
 
 .type-hint {
@@ -16,7 +24,6 @@
     justify-content: center;
 
     gap: 8px;
-    padding: 10px;
 }
   
 .type-image {

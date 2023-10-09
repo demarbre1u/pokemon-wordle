@@ -10,12 +10,72 @@ body {
   text-align: center;
 }
 
-.flex {
+.phone-content {
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  width: 80vw;
+  min-width: 1000px;
+  max-width: 1300px;
+  aspect-ratio: 16 / 9;
+
+  border: 1px solid transparent;
+  border-radius: 25px;
+  overflow: hidden;
+
+  background: linear-gradient(0deg, rgba(32,116,153,1) 0%, rgba(29,73,124,1) 100%);
 }
 
-.giveup-button {
-  margin-top: 40px;
+.phone-wrapper {
+  position: relative;
+  background: linear-gradient(90deg, rgba(226,226,226,1) 0%, rgba(255,255,255,1) 50%, rgba(226,226,226,1) 100%);;
+
+  width: 80vw;
+  min-width: 1000px;
+  max-width: 1300px;
+  aspect-ratio: 16 / 9;
+
+  padding: 7px;
+
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.status-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px 0px;
+
+  width: 100%;
+  color: #333;
+  font-weight: bolder;
+  background-color: rgba(255,255,255,1);
+}
+
+.status-bar__app-name {
+  font-size: 22px;
+  padding-left: 15px;
+}
+
+.status-bar__giveup-button {
+  background-color: #DA8045;
+  border: none;
+  border-radius: 100vmax;
+  outline: none;
+
+  margin-right: 10px;
+}
+
+.app-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+
+  flex: 1;
 }

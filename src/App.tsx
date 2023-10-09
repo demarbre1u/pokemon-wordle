@@ -130,46 +130,55 @@ function App() {
       return <>Chargement...</>;
     case GAME_STATES.PLAYING:
       return (
-        <div className="flex">
-          <h1>Quel est ce Pokémon ?</h1>
+        <div className="phone-wrapper">
+          <div className="phone-content">
+            <div className="status-bar">
+              <span className="status-bar__app-name">Pokémon Wordle</span>
+              <button
+                className="status-bar__giveup-button"
+                onClick={() => setGameState(GAME_STATES.GAME_OVER)}
+              >
+                Abandonner
+              </button>
+            </div>
 
-          <Hints pokemonToGuess={pokemonToGuess} currentTry={currentTry} />
+            <Hints pokemonToGuess={pokemonToGuess} currentTry={currentTry} />
 
-          <Board
-            board={board}
-            currentTry={currentTry}
-            currentColumn={currentColumn}
-          />
+            <div className="app-screen">
+              <Board
+                board={board}
+                currentTry={currentTry}
+                currentColumn={currentColumn}
+              />
 
-          <Keyboard
-            lettersGuessed={lettersGuessed}
-            onLetterClick={handleLetterKeys}
-            onBackspaceClick={handleBackspaceKey}
-            onEnterClick={handleEnterKey}
-          />
-
-          <button
-            className="giveup-button"
-            onClick={() => setGameState(GAME_STATES.GAME_OVER)}
-          >
-            Abandonner
-          </button>
+              <Keyboard
+                lettersGuessed={lettersGuessed}
+                onLetterClick={handleLetterKeys}
+                onBackspaceClick={handleBackspaceKey}
+                onEnterClick={handleEnterKey}
+              />
+            </div>
+          </div>
         </div>
       );
     case GAME_STATES.GAME_WON:
       return (
-        <div className="flex">
-          <h1>Gagné !</h1>
-          <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
-          <ReplayButton onClick={() => setGameState(GAME_STATES.LOADING)} />
+        <div className="phone-wrapper">
+          <div className="phone-content">
+            <h1>Gagné !</h1>
+            <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
+            <ReplayButton onClick={() => setGameState(GAME_STATES.LOADING)} />
+          </div>
         </div>
       );
     case GAME_STATES.GAME_OVER:
       return (
-        <div className="flex">
-          <h1>Perdu...</h1>
-          <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
-          <ReplayButton onClick={() => setGameState(GAME_STATES.LOADING)} />
+        <div className="phone-wrapper">
+          <div className="phone-content">
+            <h1>Perdu...</h1>
+            <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
+            <ReplayButton onClick={() => setGameState(GAME_STATES.LOADING)} />
+          </div>
         </div>
       );
   }
