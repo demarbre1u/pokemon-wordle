@@ -31,7 +31,7 @@ const StatusBar = ({ state, setState }: StatusBarProps) => {
   return (
     <div className="status-bar">
       <span className="status-bar__app-name">
-        <img src="/poke-ball.png" alt="Pokéball icon" />
+        <img src="poke-ball.png" alt="Pokéball icon" />
         {APP_NAME}
       </span>
       <span>{buttonEl}</span>
