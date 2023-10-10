@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "displayName": "Bulbizarre",
     "name": "bulbizarre",
     "types": [
       {
@@ -29,6 +30,7 @@
   },
   {
     "id": 2,
+    "displayName": "Herbizarre",
     "name": "herbizarre",
     "types": [
       {
@@ -57,6 +59,7 @@
   },
   {
     "id": 3,
+    "displayName": "Florizarre",
     "name": "florizarre",
     "types": [
       {
@@ -85,6 +88,7 @@
   },
   {
     "id": 4,
+    "displayName": "Salamèche",
     "name": "salameche",
     "types": [
       {
@@ -109,6 +113,7 @@
   },
   {
     "id": 5,
+    "displayName": "Reptincel",
     "name": "reptincel",
     "types": [
       {
@@ -133,6 +138,7 @@
   },
   {
     "id": 6,
+    "displayName": "Dracaufeu",
     "name": "dracaufeu",
     "types": [
       {
@@ -161,6 +167,7 @@
   },
   {
     "id": 7,
+    "displayName": "Carapuce",
     "name": "carapuce",
     "types": [
       {
@@ -185,6 +192,7 @@
   },
   {
     "id": 8,
+    "displayName": "Carabaffe",
     "name": "carabaffe",
     "types": [
       {
@@ -209,6 +217,7 @@
   },
   {
     "id": 9,
+    "displayName": "Tortank",
     "name": "tortank",
     "types": [
       {
@@ -233,6 +242,7 @@
   },
   {
     "id": 10,
+    "displayName": "Chenipan",
     "name": "chenipan",
     "types": [
       {
@@ -257,6 +267,7 @@
   },
   {
     "id": 11,
+    "displayName": "Chrysacier",
     "name": "chrysacier",
     "types": [
       {
@@ -277,6 +288,7 @@
   },
   {
     "id": 12,
+    "displayName": "Papilusion",
     "name": "papilusion",
     "types": [
       {
@@ -305,6 +317,7 @@
   },
   {
     "id": 13,
+    "displayName": "Aspicot",
     "name": "aspicot",
     "types": [
       {
@@ -333,6 +346,7 @@
   },
   {
     "id": 14,
+    "displayName": "Coconfort",
     "name": "coconfort",
     "types": [
       {
@@ -357,6 +371,7 @@
   },
   {
     "id": 15,
+    "displayName": "Dardargnan",
     "name": "dardargnan",
     "types": [
       {
@@ -385,6 +400,7 @@
   },
   {
     "id": 16,
+    "displayName": "Roucool",
     "name": "roucool",
     "types": [
       {
@@ -417,6 +433,7 @@
   },
   {
     "id": 17,
+    "displayName": "Roucoups",
     "name": "roucoups",
     "types": [
       {
@@ -449,6 +466,7 @@
   },
   {
     "id": 18,
+    "displayName": "Roucarnage",
     "name": "roucarnage",
     "types": [
       {
@@ -481,6 +499,7 @@
   },
   {
     "id": 19,
+    "displayName": "Rattata",
     "name": "rattata",
     "types": [
       {
@@ -509,6 +528,7 @@
   },
   {
     "id": 20,
+    "displayName": "Rattatac",
     "name": "rattatac",
     "types": [
       {
@@ -537,6 +557,7 @@
   },
   {
     "id": 21,
+    "displayName": "Piafabec",
     "name": "piafabec",
     "types": [
       {
@@ -565,6 +586,7 @@
   },
   {
     "id": 22,
+    "displayName": "Rapasdepic",
     "name": "rapasdepic",
     "types": [
       {
@@ -593,6 +615,7 @@
   },
   {
     "id": 23,
+    "displayName": "Abo",
     "name": "abo",
     "types": [
       {
@@ -621,6 +644,7 @@
   },
   {
     "id": 24,
+    "displayName": "Arbok",
     "name": "arbok",
     "types": [
       {
@@ -649,6 +673,7 @@
   },
   {
     "id": 25,
+    "displayName": "Pikachu",
     "name": "pikachu",
     "types": [
       {
@@ -673,6 +698,7 @@
   },
   {
     "id": 26,
+    "displayName": "Raichu",
     "name": "raichu",
     "types": [
       {
@@ -697,6 +723,7 @@
   },
   {
     "id": 27,
+    "displayName": "Sabelette",
     "name": "sabelette",
     "types": [
       {
@@ -721,6 +748,7 @@
   },
   {
     "id": 28,
+    "displayName": "Sablaireau",
     "name": "sablaireau",
     "types": [
       {
@@ -745,6 +773,7 @@
   },
   {
     "id": 29,
+    "displayName": "Nidoran♀",
     "name": "nidoran",
     "types": [
       {
@@ -773,6 +802,7 @@
   },
   {
     "id": 30,
+    "displayName": "Nidorina",
     "name": "nidorina",
     "types": [
       {
@@ -801,6 +831,7 @@
   },
   {
     "id": 31,
+    "displayName": "Nidoqueen",
     "name": "nidoqueen",
     "types": [
       {
@@ -833,6 +864,7 @@
   },
   {
     "id": 32,
+    "displayName": "Nidoran♂",
     "name": "nidoran",
     "types": [
       {
@@ -861,6 +893,7 @@
   },
   {
     "id": 33,
+    "displayName": "Nidorino",
     "name": "nidorino",
     "types": [
       {
@@ -889,6 +922,7 @@
   },
   {
     "id": 34,
+    "displayName": "Nidoking",
     "name": "nidoking",
     "types": [
       {
@@ -921,6 +955,7 @@
   },
   {
     "id": 35,
+    "displayName": "Mélofée",
     "name": "melofee",
     "types": [
       {
@@ -949,6 +984,7 @@
   },
   {
     "id": 36,
+    "displayName": "Mélodelfe",
     "name": "melodelfe",
     "types": [
       {
@@ -977,6 +1013,7 @@
   },
   {
     "id": 37,
+    "displayName": "Goupix",
     "name": "goupix",
     "types": [
       {
@@ -1001,6 +1038,7 @@
   },
   {
     "id": 38,
+    "displayName": "Feunard",
     "name": "feunard",
     "types": [
       {
@@ -1025,6 +1063,7 @@
   },
   {
     "id": 39,
+    "displayName": "Rondoudou",
     "name": "rondoudou",
     "types": [
       {
@@ -1057,6 +1096,7 @@
   },
   {
     "id": 40,
+    "displayName": "Grodoudou",
     "name": "grodoudou",
     "types": [
       {
@@ -1089,6 +1129,7 @@
   },
   {
     "id": 41,
+    "displayName": "Nosferapti",
     "name": "nosferapti",
     "types": [
       {
@@ -1117,6 +1158,7 @@
   },
   {
     "id": 42,
+    "displayName": "Nosferalto",
     "name": "nosferalto",
     "types": [
       {
@@ -1145,6 +1187,7 @@
   },
   {
     "id": 43,
+    "displayName": "Mystherbe",
     "name": "mystherbe",
     "types": [
       {
@@ -1173,6 +1216,7 @@
   },
   {
     "id": 44,
+    "displayName": "Ortide",
     "name": "ortide",
     "types": [
       {
@@ -1201,6 +1245,7 @@
   },
   {
     "id": 45,
+    "displayName": "Rafflesia",
     "name": "rafflesia",
     "types": [
       {
@@ -1229,6 +1274,7 @@
   },
   {
     "id": 46,
+    "displayName": "Paras",
     "name": "paras",
     "types": [
       {
@@ -1261,6 +1307,7 @@
   },
   {
     "id": 47,
+    "displayName": "Parasect",
     "name": "parasect",
     "types": [
       {
@@ -1293,6 +1340,7 @@
   },
   {
     "id": 48,
+    "displayName": "Mimitoss",
     "name": "mimitoss",
     "types": [
       {
@@ -1325,6 +1373,7 @@
   },
   {
     "id": 49,
+    "displayName": "Aéromite",
     "name": "aeromite",
     "types": [
       {
@@ -1357,6 +1406,7 @@
   },
   {
     "id": 50,
+    "displayName": "Taupiqueur",
     "name": "taupiqueur",
     "types": [
       {
@@ -1385,6 +1435,7 @@
   },
   {
     "id": 51,
+    "displayName": "Triopikeur",
     "name": "triopikeur",
     "types": [
       {
@@ -1413,6 +1464,7 @@
   },
   {
     "id": 52,
+    "displayName": "Miaouss",
     "name": "miaouss",
     "types": [
       {
@@ -1441,6 +1493,7 @@
   },
   {
     "id": 53,
+    "displayName": "Persian",
     "name": "persian",
     "types": [
       {
@@ -1469,6 +1522,7 @@
   },
   {
     "id": 54,
+    "displayName": "Psykokwak",
     "name": "psykokwak",
     "types": [
       {
@@ -1497,6 +1551,7 @@
   },
   {
     "id": 55,
+    "displayName": "Akwakwak",
     "name": "akwakwak",
     "types": [
       {
@@ -1525,6 +1580,7 @@
   },
   {
     "id": 56,
+    "displayName": "Férosinge",
     "name": "ferosinge",
     "types": [
       {
@@ -1553,6 +1609,7 @@
   },
   {
     "id": 57,
+    "displayName": "Colossinge",
     "name": "colossinge",
     "types": [
       {
@@ -1581,6 +1638,7 @@
   },
   {
     "id": 58,
+    "displayName": "Caninos",
     "name": "caninos",
     "types": [
       {
@@ -1609,6 +1667,7 @@
   },
   {
     "id": 59,
+    "displayName": "Arcanin",
     "name": "arcanin",
     "types": [
       {
@@ -1637,6 +1696,7 @@
   },
   {
     "id": 60,
+    "displayName": "Ptitard",
     "name": "ptitard",
     "types": [
       {
@@ -1665,6 +1725,7 @@
   },
   {
     "id": 61,
+    "displayName": "Têtarte",
     "name": "tetarte",
     "types": [
       {
@@ -1693,6 +1754,7 @@
   },
   {
     "id": 62,
+    "displayName": "Tartard",
     "name": "tartard",
     "types": [
       {
@@ -1725,6 +1787,7 @@
   },
   {
     "id": 63,
+    "displayName": "Abra",
     "name": "abra",
     "types": [
       {
@@ -1753,6 +1816,7 @@
   },
   {
     "id": 64,
+    "displayName": "Kadabra",
     "name": "kadabra",
     "types": [
       {
@@ -1781,6 +1845,7 @@
   },
   {
     "id": 65,
+    "displayName": "Alakazam",
     "name": "alakazam",
     "types": [
       {
@@ -1809,6 +1874,7 @@
   },
   {
     "id": 66,
+    "displayName": "Machoc",
     "name": "machoc",
     "types": [
       {
@@ -1837,6 +1903,7 @@
   },
   {
     "id": 67,
+    "displayName": "Machopeur",
     "name": "machopeur",
     "types": [
       {
@@ -1865,6 +1932,7 @@
   },
   {
     "id": 68,
+    "displayName": "Mackogneur",
     "name": "mackogneur",
     "types": [
       {
@@ -1893,6 +1961,7 @@
   },
   {
     "id": 69,
+    "displayName": "Chétiflor",
     "name": "chetiflor",
     "types": [
       {
@@ -1921,6 +1990,7 @@
   },
   {
     "id": 70,
+    "displayName": "Boustiflor",
     "name": "boustiflor",
     "types": [
       {
@@ -1949,6 +2019,7 @@
   },
   {
     "id": 71,
+    "displayName": "Empiflor",
     "name": "empiflor",
     "types": [
       {
@@ -1977,6 +2048,7 @@
   },
   {
     "id": 72,
+    "displayName": "Tentacool",
     "name": "tentacool",
     "types": [
       {
@@ -2009,6 +2081,7 @@
   },
   {
     "id": 73,
+    "displayName": "Tentacruel",
     "name": "tentacruel",
     "types": [
       {
@@ -2041,6 +2114,7 @@
   },
   {
     "id": 74,
+    "displayName": "Racaillou",
     "name": "racaillou",
     "types": [
       {
@@ -2073,6 +2147,7 @@
   },
   {
     "id": 75,
+    "displayName": "Gravalanch",
     "name": "gravalanch",
     "types": [
       {
@@ -2105,6 +2180,7 @@
   },
   {
     "id": 76,
+    "displayName": "Grolem",
     "name": "grolem",
     "types": [
       {
@@ -2137,6 +2213,7 @@
   },
   {
     "id": 77,
+    "displayName": "Ponyta",
     "name": "ponyta",
     "types": [
       {
@@ -2165,6 +2242,7 @@
   },
   {
     "id": 78,
+    "displayName": "Galopa",
     "name": "galopa",
     "types": [
       {
@@ -2193,6 +2271,7 @@
   },
   {
     "id": 79,
+    "displayName": "Ramoloss",
     "name": "ramoloss",
     "types": [
       {
@@ -2225,6 +2304,7 @@
   },
   {
     "id": 80,
+    "displayName": "Flagadoss",
     "name": "flagadoss",
     "types": [
       {
@@ -2257,6 +2337,7 @@
   },
   {
     "id": 81,
+    "displayName": "Magnéti",
     "name": "magneti",
     "types": [
       {
@@ -2289,6 +2370,7 @@
   },
   {
     "id": 82,
+    "displayName": "Magnéton",
     "name": "magneton",
     "types": [
       {
@@ -2321,6 +2403,7 @@
   },
   {
     "id": 83,
+    "displayName": "Canarticho",
     "name": "canarticho",
     "types": [
       {
@@ -2353,6 +2436,7 @@
   },
   {
     "id": 84,
+    "displayName": "Doduo",
     "name": "doduo",
     "types": [
       {
@@ -2385,6 +2469,7 @@
   },
   {
     "id": 85,
+    "displayName": "Dodrio",
     "name": "dodrio",
     "types": [
       {
@@ -2417,6 +2502,7 @@
   },
   {
     "id": 86,
+    "displayName": "Otaria",
     "name": "otaria",
     "types": [
       {
@@ -2445,6 +2531,7 @@
   },
   {
     "id": 87,
+    "displayName": "Lamantine",
     "name": "lamantine",
     "types": [
       {
@@ -2477,6 +2564,7 @@
   },
   {
     "id": 88,
+    "displayName": "Tadmorv",
     "name": "tadmorv",
     "types": [
       {
@@ -2505,6 +2593,7 @@
   },
   {
     "id": 89,
+    "displayName": "Grotadmorv",
     "name": "grotadmorv",
     "types": [
       {
@@ -2533,6 +2622,7 @@
   },
   {
     "id": 90,
+    "displayName": "Kokiyas",
     "name": "kokiyas",
     "types": [
       {
@@ -2561,6 +2651,7 @@
   },
   {
     "id": 91,
+    "displayName": "Crustabri",
     "name": "crustabri",
     "types": [
       {
@@ -2593,6 +2684,7 @@
   },
   {
     "id": 92,
+    "displayName": "Fantominus",
     "name": "fantominus",
     "types": [
       {
@@ -2617,6 +2709,7 @@
   },
   {
     "id": 93,
+    "displayName": "Spectrum",
     "name": "spectrum",
     "types": [
       {
@@ -2641,6 +2734,7 @@
   },
   {
     "id": 94,
+    "displayName": "Ectoplasma",
     "name": "ectoplasma",
     "types": [
       {
@@ -2669,6 +2763,7 @@
   },
   {
     "id": 95,
+    "displayName": "Onix",
     "name": "onix",
     "types": [
       {
@@ -2701,6 +2796,7 @@
   },
   {
     "id": 96,
+    "displayName": "Soporifik",
     "name": "soporifik",
     "types": [
       {
@@ -2729,6 +2825,7 @@
   },
   {
     "id": 97,
+    "displayName": "Hypnomade",
     "name": "hypnomade",
     "types": [
       {
@@ -2757,6 +2854,7 @@
   },
   {
     "id": 98,
+    "displayName": "Krabby",
     "name": "krabby",
     "types": [
       {
@@ -2785,6 +2883,7 @@
   },
   {
     "id": 99,
+    "displayName": "Krabboss",
     "name": "krabboss",
     "types": [
       {
@@ -2813,6 +2912,7 @@
   },
   {
     "id": 100,
+    "displayName": "Voltorbe",
     "name": "voltorbe",
     "types": [
       {
@@ -2841,6 +2941,7 @@
   },
   {
     "id": 101,
+    "displayName": "Électrode",
     "name": "electrode",
     "types": [
       {
@@ -2869,6 +2970,7 @@
   },
   {
     "id": 102,
+    "displayName": "Noeunoeuf",
     "name": "noeunoeuf",
     "types": [
       {
@@ -2897,6 +2999,7 @@
   },
   {
     "id": 103,
+    "displayName": "Noadkoko",
     "name": "noadkoko",
     "types": [
       {
@@ -2925,6 +3028,7 @@
   },
   {
     "id": 104,
+    "displayName": "Osselait",
     "name": "osselait",
     "types": [
       {
@@ -2953,6 +3057,7 @@
   },
   {
     "id": 105,
+    "displayName": "Ossatueur",
     "name": "ossatueur",
     "types": [
       {
@@ -2981,6 +3086,7 @@
   },
   {
     "id": 106,
+    "displayName": "Kicklee",
     "name": "kicklee",
     "types": [
       {
@@ -3009,6 +3115,7 @@
   },
   {
     "id": 107,
+    "displayName": "Tygnon",
     "name": "tygnon",
     "types": [
       {
@@ -3037,6 +3144,7 @@
   },
   {
     "id": 108,
+    "displayName": "Excelangue",
     "name": "excelangue",
     "types": [
       {
@@ -3065,6 +3173,7 @@
   },
   {
     "id": 109,
+    "displayName": "Smogo",
     "name": "smogo",
     "types": [
       {
@@ -3093,6 +3202,7 @@
   },
   {
     "id": 110,
+    "displayName": "Smogogo",
     "name": "smogogo",
     "types": [
       {
@@ -3121,6 +3231,7 @@
   },
   {
     "id": 111,
+    "displayName": "Rhinocorne",
     "name": "rhinocorne",
     "types": [
       {
@@ -3153,6 +3264,7 @@
   },
   {
     "id": 112,
+    "displayName": "Rhinoféros",
     "name": "rhinoferos",
     "types": [
       {
@@ -3185,6 +3297,7 @@
   },
   {
     "id": 113,
+    "displayName": "Leveinard",
     "name": "leveinard",
     "types": [
       {
@@ -3213,6 +3326,7 @@
   },
   {
     "id": 114,
+    "displayName": "Saquedeneu",
     "name": "saquedeneu",
     "types": [
       {
@@ -3241,6 +3355,7 @@
   },
   {
     "id": 115,
+    "displayName": "Kangourex",
     "name": "kangourex",
     "types": [
       {
@@ -3269,6 +3384,7 @@
   },
   {
     "id": 116,
+    "displayName": "Hypotrempe",
     "name": "hypotrempe",
     "types": [
       {
@@ -3297,6 +3413,7 @@
   },
   {
     "id": 117,
+    "displayName": "Hypocéan",
     "name": "hypocean",
     "types": [
       {
@@ -3325,6 +3442,7 @@
   },
   {
     "id": 118,
+    "displayName": "Poissirène",
     "name": "poissirene",
     "types": [
       {
@@ -3353,6 +3471,7 @@
   },
   {
     "id": 119,
+    "displayName": "Poissoroy",
     "name": "poissoroy",
     "types": [
       {
@@ -3381,6 +3500,7 @@
   },
   {
     "id": 120,
+    "displayName": "Stari",
     "name": "stari",
     "types": [
       {
@@ -3409,6 +3529,7 @@
   },
   {
     "id": 121,
+    "displayName": "Staross",
     "name": "staross",
     "types": [
       {
@@ -3441,6 +3562,7 @@
   },
   {
     "id": 123,
+    "displayName": "Insécateur",
     "name": "insecateur",
     "types": [
       {
@@ -3473,6 +3595,7 @@
   },
   {
     "id": 124,
+    "displayName": "Lippoutou",
     "name": "lippoutou",
     "types": [
       {
@@ -3505,6 +3628,7 @@
   },
   {
     "id": 125,
+    "displayName": "Élektek",
     "name": "elektek",
     "types": [
       {
@@ -3529,6 +3653,7 @@
   },
   {
     "id": 126,
+    "displayName": "Magmar",
     "name": "magmar",
     "types": [
       {
@@ -3553,6 +3678,7 @@
   },
   {
     "id": 127,
+    "displayName": "Scarabrute",
     "name": "scarabrute",
     "types": [
       {
@@ -3581,6 +3707,7 @@
   },
   {
     "id": 128,
+    "displayName": "Tauros",
     "name": "tauros",
     "types": [
       {
@@ -3609,6 +3736,7 @@
   },
   {
     "id": 129,
+    "displayName": "Magicarpe",
     "name": "magicarpe",
     "types": [
       {
@@ -3633,6 +3761,7 @@
   },
   {
     "id": 130,
+    "displayName": "Léviator",
     "name": "leviator",
     "types": [
       {
@@ -3661,6 +3790,7 @@
   },
   {
     "id": 131,
+    "displayName": "Lokhlass",
     "name": "lokhlass",
     "types": [
       {
@@ -3693,6 +3823,7 @@
   },
   {
     "id": 132,
+    "displayName": "Métamorph",
     "name": "metamorph",
     "types": [
       {
@@ -3717,6 +3848,7 @@
   },
   {
     "id": 133,
+    "displayName": "Évoli",
     "name": "evoli",
     "types": [
       {
@@ -3745,6 +3877,7 @@
   },
   {
     "id": 134,
+    "displayName": "Aquali",
     "name": "aquali",
     "types": [
       {
@@ -3769,6 +3902,7 @@
   },
   {
     "id": 135,
+    "displayName": "Voltali",
     "name": "voltali",
     "types": [
       {
@@ -3793,6 +3927,7 @@
   },
   {
     "id": 136,
+    "displayName": "Pyroli",
     "name": "pyroli",
     "types": [
       {
@@ -3817,6 +3952,7 @@
   },
   {
     "id": 137,
+    "displayName": "Porygon",
     "name": "porygon",
     "types": [
       {
@@ -3845,6 +3981,7 @@
   },
   {
     "id": 138,
+    "displayName": "Amonita",
     "name": "amonita",
     "types": [
       {
@@ -3877,6 +4014,7 @@
   },
   {
     "id": 139,
+    "displayName": "Amonistar",
     "name": "amonistar",
     "types": [
       {
@@ -3909,6 +4047,7 @@
   },
   {
     "id": 140,
+    "displayName": "Kabuto",
     "name": "kabuto",
     "types": [
       {
@@ -3941,6 +4080,7 @@
   },
   {
     "id": 141,
+    "displayName": "Kabutops",
     "name": "kabutops",
     "types": [
       {
@@ -3973,6 +4113,7 @@
   },
   {
     "id": 142,
+    "displayName": "Ptéra",
     "name": "ptera",
     "types": [
       {
@@ -4005,6 +4146,7 @@
   },
   {
     "id": 143,
+    "displayName": "Ronflex",
     "name": "ronflex",
     "types": [
       {
@@ -4033,6 +4175,7 @@
   },
   {
     "id": 144,
+    "displayName": "Artikodin",
     "name": "artikodin",
     "types": [
       {
@@ -4061,6 +4204,7 @@
   },
   {
     "id": 145,
+    "displayName": "Électhor",
     "name": "electhor",
     "types": [
       {
@@ -4089,6 +4233,7 @@
   },
   {
     "id": 146,
+    "displayName": "Sulfura",
     "name": "sulfura",
     "types": [
       {
@@ -4117,6 +4262,7 @@
   },
   {
     "id": 147,
+    "displayName": "Minidraco",
     "name": "minidraco",
     "types": [
       {
@@ -4141,6 +4287,7 @@
   },
   {
     "id": 148,
+    "displayName": "Draco",
     "name": "draco",
     "types": [
       {
@@ -4165,6 +4312,7 @@
   },
   {
     "id": 149,
+    "displayName": "Dracolosse",
     "name": "dracolosse",
     "types": [
       {
@@ -4193,6 +4341,7 @@
   },
   {
     "id": 150,
+    "displayName": "Mewtwo",
     "name": "mewtwo",
     "types": [
       {
@@ -4217,6 +4366,7 @@
   },
   {
     "id": 151,
+    "displayName": "Mew",
     "name": "mew",
     "types": [
       {
@@ -4237,6 +4387,7 @@
   },
   {
     "id": 152,
+    "displayName": "Germignon",
     "name": "germignon",
     "types": [
       {
@@ -4261,6 +4412,7 @@
   },
   {
     "id": 153,
+    "displayName": "Macronium",
     "name": "macronium",
     "types": [
       {
@@ -4285,6 +4437,7 @@
   },
   {
     "id": 154,
+    "displayName": "Méganium",
     "name": "meganium",
     "types": [
       {
@@ -4309,6 +4462,7 @@
   },
   {
     "id": 155,
+    "displayName": "Héricendre",
     "name": "hericendre",
     "types": [
       {
@@ -4333,6 +4487,7 @@
   },
   {
     "id": 156,
+    "displayName": "Feurisson",
     "name": "feurisson",
     "types": [
       {
@@ -4357,6 +4512,7 @@
   },
   {
     "id": 157,
+    "displayName": "Typhlosion",
     "name": "typhlosion",
     "types": [
       {
@@ -4381,6 +4537,7 @@
   },
   {
     "id": 158,
+    "displayName": "Kaiminus",
     "name": "kaiminus",
     "types": [
       {
@@ -4405,6 +4562,7 @@
   },
   {
     "id": 159,
+    "displayName": "Crocrodil",
     "name": "crocrodil",
     "types": [
       {
@@ -4429,6 +4587,7 @@
   },
   {
     "id": 160,
+    "displayName": "Aligatueur",
     "name": "aligatueur",
     "types": [
       {
@@ -4453,6 +4612,7 @@
   },
   {
     "id": 161,
+    "displayName": "Fouinette",
     "name": "fouinette",
     "types": [
       {
@@ -4481,6 +4641,7 @@
   },
   {
     "id": 162,
+    "displayName": "Fouinar",
     "name": "fouinar",
     "types": [
       {
@@ -4509,6 +4670,7 @@
   },
   {
     "id": 163,
+    "displayName": "Hoothoot",
     "name": "hoothoot",
     "types": [
       {
@@ -4541,6 +4703,7 @@
   },
   {
     "id": 164,
+    "displayName": "Noarfang",
     "name": "noarfang",
     "types": [
       {
@@ -4573,6 +4736,7 @@
   },
   {
     "id": 165,
+    "displayName": "Coxy",
     "name": "coxy",
     "types": [
       {
@@ -4605,6 +4769,7 @@
   },
   {
     "id": 166,
+    "displayName": "Coxyclaque",
     "name": "coxyclaque",
     "types": [
       {
@@ -4637,6 +4802,7 @@
   },
   {
     "id": 167,
+    "displayName": "Mimigal",
     "name": "mimigal",
     "types": [
       {
@@ -4669,6 +4835,7 @@
   },
   {
     "id": 168,
+    "displayName": "Migalos",
     "name": "migalos",
     "types": [
       {
@@ -4701,6 +4868,7 @@
   },
   {
     "id": 169,
+    "displayName": "Nostenfer",
     "name": "nostenfer",
     "types": [
       {
@@ -4729,6 +4897,7 @@
   },
   {
     "id": 170,
+    "displayName": "Loupio",
     "name": "loupio",
     "types": [
       {
@@ -4761,6 +4930,7 @@
   },
   {
     "id": 171,
+    "displayName": "Lanturn",
     "name": "lanturn",
     "types": [
       {
@@ -4793,6 +4963,7 @@
   },
   {
     "id": 172,
+    "displayName": "Pichu",
     "name": "pichu",
     "types": [
       {
@@ -4817,6 +4988,7 @@
   },
   {
     "id": 173,
+    "displayName": "Mélo",
     "name": "melo",
     "types": [
       {
@@ -4845,6 +5017,7 @@
   },
   {
     "id": 174,
+    "displayName": "Toudoudou",
     "name": "toudoudou",
     "types": [
       {
@@ -4877,6 +5050,7 @@
   },
   {
     "id": 175,
+    "displayName": "Togepi",
     "name": "togepi",
     "types": [
       {
@@ -4905,6 +5079,7 @@
   },
   {
     "id": 176,
+    "displayName": "Togetic",
     "name": "togetic",
     "types": [
       {
@@ -4937,6 +5112,7 @@
   },
   {
     "id": 177,
+    "displayName": "Natu",
     "name": "natu",
     "types": [
       {
@@ -4969,6 +5145,7 @@
   },
   {
     "id": 178,
+    "displayName": "Xatu",
     "name": "xatu",
     "types": [
       {
@@ -5001,6 +5178,7 @@
   },
   {
     "id": 179,
+    "displayName": "Wattouat",
     "name": "wattouat",
     "types": [
       {
@@ -5025,6 +5203,7 @@
   },
   {
     "id": 180,
+    "displayName": "Lainergie",
     "name": "lainergie",
     "types": [
       {
@@ -5049,6 +5228,7 @@
   },
   {
     "id": 181,
+    "displayName": "Pharamp",
     "name": "pharamp",
     "types": [
       {
@@ -5073,6 +5253,7 @@
   },
   {
     "id": 182,
+    "displayName": "Joliflor",
     "name": "joliflor",
     "types": [
       {
@@ -5097,6 +5278,7 @@
   },
   {
     "id": 183,
+    "displayName": "Marill",
     "name": "marill",
     "types": [
       {
@@ -5129,6 +5311,7 @@
   },
   {
     "id": 184,
+    "displayName": "Azumarill",
     "name": "azumarill",
     "types": [
       {
@@ -5161,6 +5344,7 @@
   },
   {
     "id": 185,
+    "displayName": "Simularbre",
     "name": "simularbre",
     "types": [
       {
@@ -5189,6 +5373,7 @@
   },
   {
     "id": 186,
+    "displayName": "Tarpaud",
     "name": "tarpaud",
     "types": [
       {
@@ -5217,6 +5402,7 @@
   },
   {
     "id": 187,
+    "displayName": "Granivol",
     "name": "granivol",
     "types": [
       {
@@ -5249,6 +5435,7 @@
   },
   {
     "id": 188,
+    "displayName": "Floravol",
     "name": "floravol",
     "types": [
       {
@@ -5281,6 +5468,7 @@
   },
   {
     "id": 189,
+    "displayName": "Cotovol",
     "name": "cotovol",
     "types": [
       {
@@ -5313,6 +5501,7 @@
   },
   {
     "id": 190,
+    "displayName": "Capumain",
     "name": "capumain",
     "types": [
       {
@@ -5341,6 +5530,7 @@
   },
   {
     "id": 191,
+    "displayName": "Tournegrin",
     "name": "tournegrin",
     "types": [
       {
@@ -5369,6 +5559,7 @@
   },
   {
     "id": 192,
+    "displayName": "Héliatronc",
     "name": "heliatronc",
     "types": [
       {
@@ -5397,6 +5588,7 @@
   },
   {
     "id": 193,
+    "displayName": "Yanma",
     "name": "yanma",
     "types": [
       {
@@ -5429,6 +5621,7 @@
   },
   {
     "id": 194,
+    "displayName": "Axoloto",
     "name": "axoloto",
     "types": [
       {
@@ -5461,6 +5654,7 @@
   },
   {
     "id": 195,
+    "displayName": "Maraiste",
     "name": "maraiste",
     "types": [
       {
@@ -5493,6 +5687,7 @@
   },
   {
     "id": 196,
+    "displayName": "Mentali",
     "name": "mentali",
     "types": [
       {
@@ -5517,6 +5712,7 @@
   },
   {
     "id": 197,
+    "displayName": "Noctali",
     "name": "noctali",
     "types": [
       {
@@ -5541,6 +5737,7 @@
   },
   {
     "id": 198,
+    "displayName": "Cornèbre",
     "name": "cornebre",
     "types": [
       {
@@ -5573,6 +5770,7 @@
   },
   {
     "id": 199,
+    "displayName": "Roigada",
     "name": "roigada",
     "types": [
       {
@@ -5605,6 +5803,7 @@
   },
   {
     "id": 200,
+    "displayName": "Feuforêve",
     "name": "feuforeve",
     "types": [
       {
@@ -5625,6 +5824,7 @@
   },
   {
     "id": 201,
+    "displayName": "Zarbi",
     "name": "zarbi",
     "types": [
       {
@@ -5645,6 +5845,7 @@
   },
   {
     "id": 202,
+    "displayName": "Qulbutoké",
     "name": "qulbutoke",
     "types": [
       {
@@ -5669,6 +5870,7 @@
   },
   {
     "id": 203,
+    "displayName": "Girafarig",
     "name": "girafarig",
     "types": [
       {
@@ -5701,6 +5903,7 @@
   },
   {
     "id": 204,
+    "displayName": "Pomdepik",
     "name": "pomdepik",
     "types": [
       {
@@ -5725,6 +5928,7 @@
   },
   {
     "id": 205,
+    "displayName": "Foretress",
     "name": "foretress",
     "types": [
       {
@@ -5753,6 +5957,7 @@
   },
   {
     "id": 206,
+    "displayName": "Insolourdo",
     "name": "insolourdo",
     "types": [
       {
@@ -5781,6 +5986,7 @@
   },
   {
     "id": 207,
+    "displayName": "Scorplane",
     "name": "scorplane",
     "types": [
       {
@@ -5813,6 +6019,7 @@
   },
   {
     "id": 208,
+    "displayName": "Steelix",
     "name": "steelix",
     "types": [
       {
@@ -5845,6 +6052,7 @@
   },
   {
     "id": 209,
+    "displayName": "Snubbull",
     "name": "snubbull",
     "types": [
       {
@@ -5873,6 +6081,7 @@
   },
   {
     "id": 210,
+    "displayName": "Granbull",
     "name": "granbull",
     "types": [
       {
@@ -5901,6 +6110,7 @@
   },
   {
     "id": 211,
+    "displayName": "Qwilfish",
     "name": "qwilfish",
     "types": [
       {
@@ -5933,6 +6143,7 @@
   },
   {
     "id": 212,
+    "displayName": "Cizayox",
     "name": "cizayox",
     "types": [
       {
@@ -5965,6 +6176,7 @@
   },
   {
     "id": 213,
+    "displayName": "Caratroc",
     "name": "caratroc",
     "types": [
       {
@@ -5997,6 +6209,7 @@
   },
   {
     "id": 214,
+    "displayName": "Scarhino",
     "name": "scarhino",
     "types": [
       {
@@ -6029,6 +6242,7 @@
   },
   {
     "id": 215,
+    "displayName": "Farfuret",
     "name": "farfuret",
     "types": [
       {
@@ -6061,6 +6275,7 @@
   },
   {
     "id": 216,
+    "displayName": "Teddiursa",
     "name": "teddiursa",
     "types": [
       {
@@ -6089,6 +6304,7 @@
   },
   {
     "id": 217,
+    "displayName": "Ursaring",
     "name": "ursaring",
     "types": [
       {
@@ -6117,6 +6333,7 @@
   },
   {
     "id": 218,
+    "displayName": "Limagma",
     "name": "limagma",
     "types": [
       {
@@ -6145,6 +6362,7 @@
   },
   {
     "id": 219,
+    "displayName": "Volcaropod",
     "name": "volcaropod",
     "types": [
       {
@@ -6177,6 +6395,7 @@
   },
   {
     "id": 220,
+    "displayName": "Marcacrin",
     "name": "marcacrin",
     "types": [
       {
@@ -6209,6 +6428,7 @@
   },
   {
     "id": 221,
+    "displayName": "Cochignon",
     "name": "cochignon",
     "types": [
       {
@@ -6241,6 +6461,7 @@
   },
   {
     "id": 222,
+    "displayName": "Corayon",
     "name": "corayon",
     "types": [
       {
@@ -6273,6 +6494,7 @@
   },
   {
     "id": 223,
+    "displayName": "Rémoraid",
     "name": "remoraid",
     "types": [
       {
@@ -6301,6 +6523,7 @@
   },
   {
     "id": 224,
+    "displayName": "Octillery",
     "name": "octillery",
     "types": [
       {
@@ -6329,6 +6552,7 @@
   },
   {
     "id": 225,
+    "displayName": "Cadoizo",
     "name": "cadoizo",
     "types": [
       {
@@ -6361,6 +6585,7 @@
   },
   {
     "id": 226,
+    "displayName": "Démanta",
     "name": "demanta",
     "types": [
       {
@@ -6393,6 +6618,7 @@
   },
   {
     "id": 227,
+    "displayName": "Airmure",
     "name": "airmure",
     "types": [
       {
@@ -6425,6 +6651,7 @@
   },
   {
     "id": 228,
+    "displayName": "Malosse",
     "name": "malosse",
     "types": [
       {
@@ -6457,6 +6684,7 @@
   },
   {
     "id": 229,
+    "displayName": "Démolosse",
     "name": "demolosse",
     "types": [
       {
@@ -6489,6 +6717,7 @@
   },
   {
     "id": 230,
+    "displayName": "Hyporoi",
     "name": "hyporoi",
     "types": [
       {
@@ -6521,6 +6750,7 @@
   },
   {
     "id": 231,
+    "displayName": "Phanpy",
     "name": "phanpy",
     "types": [
       {
@@ -6545,6 +6775,7 @@
   },
   {
     "id": 232,
+    "displayName": "Donphan",
     "name": "donphan",
     "types": [
       {
@@ -6569,6 +6800,7 @@
   },
   {
     "id": 234,
+    "displayName": "Cerfrousse",
     "name": "cerfrousse",
     "types": [
       {
@@ -6597,6 +6829,7 @@
   },
   {
     "id": 235,
+    "displayName": "Queulorior",
     "name": "queulorior",
     "types": [
       {
@@ -6625,6 +6858,7 @@
   },
   {
     "id": 236,
+    "displayName": "Debugant",
     "name": "debugant",
     "types": [
       {
@@ -6653,6 +6887,7 @@
   },
   {
     "id": 237,
+    "displayName": "Kapoera",
     "name": "kapoera",
     "types": [
       {
@@ -6681,6 +6916,7 @@
   },
   {
     "id": 238,
+    "displayName": "Lippouti",
     "name": "lippouti",
     "types": [
       {
@@ -6713,6 +6949,7 @@
   },
   {
     "id": 239,
+    "displayName": "Élekid",
     "name": "elekid",
     "types": [
       {
@@ -6737,6 +6974,7 @@
   },
   {
     "id": 240,
+    "displayName": "Magby",
     "name": "magby",
     "types": [
       {
@@ -6761,6 +6999,7 @@
   },
   {
     "id": 241,
+    "displayName": "Écrémeuh",
     "name": "ecremeuh",
     "types": [
       {
@@ -6789,6 +7028,7 @@
   },
   {
     "id": 242,
+    "displayName": "Leuphorie",
     "name": "leuphorie",
     "types": [
       {
@@ -6817,6 +7057,7 @@
   },
   {
     "id": 243,
+    "displayName": "Raikou",
     "name": "raikou",
     "types": [
       {
@@ -6841,6 +7082,7 @@
   },
   {
     "id": 244,
+    "displayName": "Entei",
     "name": "entei",
     "types": [
       {
@@ -6865,6 +7107,7 @@
   },
   {
     "id": 245,
+    "displayName": "Suicune",
     "name": "suicune",
     "types": [
       {
@@ -6889,6 +7132,7 @@
   },
   {
     "id": 246,
+    "displayName": "Embrylex",
     "name": "embrylex",
     "types": [
       {
@@ -6917,6 +7161,7 @@
   },
   {
     "id": 247,
+    "displayName": "Ymphect",
     "name": "ymphect",
     "types": [
       {
@@ -6941,6 +7186,7 @@
   },
   {
     "id": 248,
+    "displayName": "Tyranocif",
     "name": "tyranocif",
     "types": [
       {
@@ -6969,6 +7215,7 @@
   },
   {
     "id": 249,
+    "displayName": "Lugia",
     "name": "lugia",
     "types": [
       {
@@ -6997,6 +7244,7 @@
   },
   {
     "id": 251,
+    "displayName": "Celebi",
     "name": "celebi",
     "types": [
       {
@@ -7021,6 +7269,7 @@
   },
   {
     "id": 252,
+    "displayName": "Arcko",
     "name": "arcko",
     "types": [
       {
@@ -7045,6 +7294,7 @@
   },
   {
     "id": 253,
+    "displayName": "Massko",
     "name": "massko",
     "types": [
       {
@@ -7069,6 +7319,7 @@
   },
   {
     "id": 254,
+    "displayName": "Jungko",
     "name": "jungko",
     "types": [
       {
@@ -7093,6 +7344,7 @@
   },
   {
     "id": 255,
+    "displayName": "Poussifeu",
     "name": "poussifeu",
     "types": [
       {
@@ -7117,6 +7369,7 @@
   },
   {
     "id": 256,
+    "displayName": "Galifeu",
     "name": "galifeu",
     "types": [
       {
@@ -7145,6 +7398,7 @@
   },
   {
     "id": 257,
+    "displayName": "Braségali",
     "name": "brasegali",
     "types": [
       {
@@ -7173,6 +7427,7 @@
   },
   {
     "id": 258,
+    "displayName": "Gobou",
     "name": "gobou",
     "types": [
       {
@@ -7197,6 +7452,7 @@
   },
   {
     "id": 259,
+    "displayName": "Flobio",
     "name": "flobio",
     "types": [
       {
@@ -7225,6 +7481,7 @@
   },
   {
     "id": 260,
+    "displayName": "Laggron",
     "name": "laggron",
     "types": [
       {
@@ -7253,6 +7510,7 @@
   },
   {
     "id": 261,
+    "displayName": "Medhyèna",
     "name": "medhyena",
     "types": [
       {
@@ -7281,6 +7539,7 @@
   },
   {
     "id": 262,
+    "displayName": "Grahyèna",
     "name": "grahyena",
     "types": [
       {
@@ -7309,6 +7568,7 @@
   },
   {
     "id": 263,
+    "displayName": "Zigzaton",
     "name": "zigzaton",
     "types": [
       {
@@ -7337,6 +7597,7 @@
   },
   {
     "id": 264,
+    "displayName": "Linéon",
     "name": "lineon",
     "types": [
       {
@@ -7365,6 +7626,7 @@
   },
   {
     "id": 265,
+    "displayName": "Chenipotte",
     "name": "chenipotte",
     "types": [
       {
@@ -7389,6 +7651,7 @@
   },
   {
     "id": 266,
+    "displayName": "Armulys",
     "name": "armulys",
     "types": [
       {
@@ -7409,6 +7672,7 @@
   },
   {
     "id": 267,
+    "displayName": "Charmillon",
     "name": "charmillon",
     "types": [
       {
@@ -7437,6 +7701,7 @@
   },
   {
     "id": 268,
+    "displayName": "Blindalys",
     "name": "blindalys",
     "types": [
       {
@@ -7457,6 +7722,7 @@
   },
   {
     "id": 269,
+    "displayName": "Papinox",
     "name": "papinox",
     "types": [
       {
@@ -7485,6 +7751,7 @@
   },
   {
     "id": 270,
+    "displayName": "Nénupiot",
     "name": "nenupiot",
     "types": [
       {
@@ -7517,6 +7784,7 @@
   },
   {
     "id": 271,
+    "displayName": "Lombre",
     "name": "lombre",
     "types": [
       {
@@ -7549,6 +7817,7 @@
   },
   {
     "id": 272,
+    "displayName": "Ludicolo",
     "name": "ludicolo",
     "types": [
       {
@@ -7581,6 +7850,7 @@
   },
   {
     "id": 273,
+    "displayName": "Grainipiot",
     "name": "grainipiot",
     "types": [
       {
@@ -7609,6 +7879,7 @@
   },
   {
     "id": 274,
+    "displayName": "Pifeuil",
     "name": "pifeuil",
     "types": [
       {
@@ -7641,6 +7912,7 @@
   },
   {
     "id": 275,
+    "displayName": "Tengalice",
     "name": "tengalice",
     "types": [
       {
@@ -7673,6 +7945,7 @@
   },
   {
     "id": 276,
+    "displayName": "Nirondelle",
     "name": "nirondelle",
     "types": [
       {
@@ -7701,6 +7974,7 @@
   },
   {
     "id": 277,
+    "displayName": "Hélédelle",
     "name": "heledelle",
     "types": [
       {
@@ -7729,6 +8003,7 @@
   },
   {
     "id": 278,
+    "displayName": "Goélise",
     "name": "goelise",
     "types": [
       {
@@ -7761,6 +8036,7 @@
   },
   {
     "id": 279,
+    "displayName": "Bekipan",
     "name": "bekipan",
     "types": [
       {
@@ -7793,6 +8069,7 @@
   },
   {
     "id": 280,
+    "displayName": "Tarsal",
     "name": "tarsal",
     "types": [
       {
@@ -7825,6 +8102,7 @@
   },
   {
     "id": 281,
+    "displayName": "Kirlia",
     "name": "kirlia",
     "types": [
       {
@@ -7857,6 +8135,7 @@
   },
   {
     "id": 282,
+    "displayName": "Gardevoir",
     "name": "gardevoir",
     "types": [
       {
@@ -7889,6 +8168,7 @@
   },
   {
     "id": 283,
+    "displayName": "Arakdo",
     "name": "arakdo",
     "types": [
       {
@@ -7917,6 +8197,7 @@
   },
   {
     "id": 284,
+    "displayName": "Maskadra",
     "name": "maskadra",
     "types": [
       {
@@ -7945,6 +8226,7 @@
   },
   {
     "id": 285,
+    "displayName": "Balignon",
     "name": "balignon",
     "types": [
       {
@@ -7973,6 +8255,7 @@
   },
   {
     "id": 286,
+    "displayName": "Chapignon",
     "name": "chapignon",
     "types": [
       {
@@ -8005,6 +8288,7 @@
   },
   {
     "id": 287,
+    "displayName": "Parecool",
     "name": "parecool",
     "types": [
       {
@@ -8025,6 +8309,7 @@
   },
   {
     "id": 288,
+    "displayName": "Vigoroth",
     "name": "vigoroth",
     "types": [
       {
@@ -8045,6 +8330,7 @@
   },
   {
     "id": 289,
+    "displayName": "Monaflèmit",
     "name": "monaflemit",
     "types": [
       {
@@ -8065,6 +8351,7 @@
   },
   {
     "id": 290,
+    "displayName": "Ningale",
     "name": "ningale",
     "types": [
       {
@@ -8093,6 +8380,7 @@
   },
   {
     "id": 291,
+    "displayName": "Ninjask",
     "name": "ninjask",
     "types": [
       {
@@ -8121,6 +8409,7 @@
   },
   {
     "id": 292,
+    "displayName": "Munja",
     "name": "munja",
     "types": [
       {
@@ -8145,6 +8434,7 @@
   },
   {
     "id": 293,
+    "displayName": "Chuchmur",
     "name": "chuchmur",
     "types": [
       {
@@ -8169,6 +8459,7 @@
   },
   {
     "id": 294,
+    "displayName": "Ramboum",
     "name": "ramboum",
     "types": [
       {
@@ -8193,6 +8484,7 @@
   },
   {
     "id": 295,
+    "displayName": "Brouhabam",
     "name": "brouhabam",
     "types": [
       {
@@ -8217,6 +8509,7 @@
   },
   {
     "id": 296,
+    "displayName": "Makuhita",
     "name": "makuhita",
     "types": [
       {
@@ -8245,6 +8538,7 @@
   },
   {
     "id": 297,
+    "displayName": "Hariyama",
     "name": "hariyama",
     "types": [
       {
@@ -8273,6 +8567,7 @@
   },
   {
     "id": 298,
+    "displayName": "Azurill",
     "name": "azurill",
     "types": [
       {
@@ -8305,6 +8600,7 @@
   },
   {
     "id": 299,
+    "displayName": "Tarinor",
     "name": "tarinor",
     "types": [
       {
@@ -8333,6 +8629,7 @@
   },
   {
     "id": 300,
+    "displayName": "Skitty",
     "name": "skitty",
     "types": [
       {
@@ -8361,6 +8658,7 @@
   },
   {
     "id": 301,
+    "displayName": "Delcatty",
     "name": "delcatty",
     "types": [
       {
@@ -8389,6 +8687,7 @@
   },
   {
     "id": 302,
+    "displayName": "Ténéfix",
     "name": "tenefix",
     "types": [
       {
@@ -8421,6 +8720,7 @@
   },
   {
     "id": 303,
+    "displayName": "Mysdibule",
     "name": "mysdibule",
     "types": [
       {
@@ -8453,6 +8753,7 @@
   },
   {
     "id": 304,
+    "displayName": "Galekid",
     "name": "galekid",
     "types": [
       {
@@ -8485,6 +8786,7 @@
   },
   {
     "id": 305,
+    "displayName": "Galegon",
     "name": "galegon",
     "types": [
       {
@@ -8517,6 +8819,7 @@
   },
   {
     "id": 306,
+    "displayName": "Galeking",
     "name": "galeking",
     "types": [
       {
@@ -8549,6 +8852,7 @@
   },
   {
     "id": 307,
+    "displayName": "Méditikka",
     "name": "meditikka",
     "types": [
       {
@@ -8577,6 +8881,7 @@
   },
   {
     "id": 308,
+    "displayName": "Charmina",
     "name": "charmina",
     "types": [
       {
@@ -8605,6 +8910,7 @@
   },
   {
     "id": 309,
+    "displayName": "Dynavolt",
     "name": "dynavolt",
     "types": [
       {
@@ -8633,6 +8939,7 @@
   },
   {
     "id": 310,
+    "displayName": "Élecsprint",
     "name": "elecsprint",
     "types": [
       {
@@ -8661,6 +8968,7 @@
   },
   {
     "id": 311,
+    "displayName": "Posipi",
     "name": "posipi",
     "types": [
       {
@@ -8685,6 +8993,7 @@
   },
   {
     "id": 312,
+    "displayName": "Négapi",
     "name": "negapi",
     "types": [
       {
@@ -8709,6 +9018,7 @@
   },
   {
     "id": 313,
+    "displayName": "Muciole",
     "name": "muciole",
     "types": [
       {
@@ -8737,6 +9047,7 @@
   },
   {
     "id": 314,
+    "displayName": "Lumivole",
     "name": "lumivole",
     "types": [
       {
@@ -8765,6 +9076,7 @@
   },
   {
     "id": 315,
+    "displayName": "Rosélia",
     "name": "roselia",
     "types": [
       {
@@ -8797,6 +9109,7 @@
   },
   {
     "id": 316,
+    "displayName": "Gloupti",
     "name": "gloupti",
     "types": [
       {
@@ -8825,6 +9138,7 @@
   },
   {
     "id": 317,
+    "displayName": "Avaltout",
     "name": "avaltout",
     "types": [
       {
@@ -8853,6 +9167,7 @@
   },
   {
     "id": 318,
+    "displayName": "Carvanha",
     "name": "carvanha",
     "types": [
       {
@@ -8881,6 +9196,7 @@
   },
   {
     "id": 319,
+    "displayName": "Sharpedo",
     "name": "sharpedo",
     "types": [
       {
@@ -8909,6 +9225,7 @@
   },
   {
     "id": 320,
+    "displayName": "Wailmer",
     "name": "wailmer",
     "types": [
       {
@@ -8937,6 +9254,7 @@
   },
   {
     "id": 321,
+    "displayName": "Wailord",
     "name": "wailord",
     "types": [
       {
@@ -8965,6 +9283,7 @@
   },
   {
     "id": 322,
+    "displayName": "Chamallot",
     "name": "chamallot",
     "types": [
       {
@@ -8997,6 +9316,7 @@
   },
   {
     "id": 323,
+    "displayName": "Camérupt",
     "name": "camerupt",
     "types": [
       {
@@ -9029,6 +9349,7 @@
   },
   {
     "id": 324,
+    "displayName": "Chartor",
     "name": "chartor",
     "types": [
       {
@@ -9057,6 +9378,7 @@
   },
   {
     "id": 325,
+    "displayName": "Spoink",
     "name": "spoink",
     "types": [
       {
@@ -9085,6 +9407,7 @@
   },
   {
     "id": 326,
+    "displayName": "Groret",
     "name": "groret",
     "types": [
       {
@@ -9113,6 +9436,7 @@
   },
   {
     "id": 327,
+    "displayName": "Spinda",
     "name": "spinda",
     "types": [
       {
@@ -9141,6 +9465,7 @@
   },
   {
     "id": 328,
+    "displayName": "Kraknoix",
     "name": "kraknoix",
     "types": [
       {
@@ -9169,6 +9494,7 @@
   },
   {
     "id": 329,
+    "displayName": "Vibraninf",
     "name": "vibraninf",
     "types": [
       {
@@ -9193,6 +9519,7 @@
   },
   {
     "id": 330,
+    "displayName": "Libégon",
     "name": "libegon",
     "types": [
       {
@@ -9217,6 +9544,7 @@
   },
   {
     "id": 331,
+    "displayName": "Cacnea",
     "name": "cacnea",
     "types": [
       {
@@ -9241,6 +9569,7 @@
   },
   {
     "id": 332,
+    "displayName": "Cacturne",
     "name": "cacturne",
     "types": [
       {
@@ -9269,6 +9598,7 @@
   },
   {
     "id": 333,
+    "displayName": "Tylton",
     "name": "tylton",
     "types": [
       {
@@ -9297,6 +9627,7 @@
   },
   {
     "id": 334,
+    "displayName": "Altaria",
     "name": "altaria",
     "types": [
       {
@@ -9325,6 +9656,7 @@
   },
   {
     "id": 335,
+    "displayName": "Mangriff",
     "name": "mangriff",
     "types": [
       {
@@ -9349,6 +9681,7 @@
   },
   {
     "id": 336,
+    "displayName": "Séviper",
     "name": "seviper",
     "types": [
       {
@@ -9373,6 +9706,7 @@
   },
   {
     "id": 337,
+    "displayName": "Séléroc",
     "name": "seleroc",
     "types": [
       {
@@ -9397,6 +9731,7 @@
   },
   {
     "id": 338,
+    "displayName": "Solaroc",
     "name": "solaroc",
     "types": [
       {
@@ -9421,6 +9756,7 @@
   },
   {
     "id": 339,
+    "displayName": "Barloche",
     "name": "barloche",
     "types": [
       {
@@ -9453,6 +9789,7 @@
   },
   {
     "id": 340,
+    "displayName": "Barbicha",
     "name": "barbicha",
     "types": [
       {
@@ -9485,6 +9822,7 @@
   },
   {
     "id": 341,
+    "displayName": "Écrapince",
     "name": "ecrapince",
     "types": [
       {
@@ -9513,6 +9851,7 @@
   },
   {
     "id": 342,
+    "displayName": "Colhomard",
     "name": "colhomard",
     "types": [
       {
@@ -9545,6 +9884,7 @@
   },
   {
     "id": 343,
+    "displayName": "Balbuto",
     "name": "balbuto",
     "types": [
       {
@@ -9569,6 +9909,7 @@
   },
   {
     "id": 344,
+    "displayName": "Kaorine",
     "name": "kaorine",
     "types": [
       {
@@ -9593,6 +9934,7 @@
   },
   {
     "id": 345,
+    "displayName": "Lilia",
     "name": "lilia",
     "types": [
       {
@@ -9621,6 +9963,7 @@
   },
   {
     "id": 346,
+    "displayName": "Vacilys",
     "name": "vacilys",
     "types": [
       {
@@ -9649,6 +9992,7 @@
   },
   {
     "id": 347,
+    "displayName": "Anorith",
     "name": "anorith",
     "types": [
       {
@@ -9677,6 +10021,7 @@
   },
   {
     "id": 348,
+    "displayName": "Armaldo",
     "name": "armaldo",
     "types": [
       {
@@ -9705,6 +10050,7 @@
   },
   {
     "id": 349,
+    "displayName": "Barpau",
     "name": "barpau",
     "types": [
       {
@@ -9733,6 +10079,7 @@
   },
   {
     "id": 350,
+    "displayName": "Milobellus",
     "name": "milobellus",
     "types": [
       {
@@ -9761,6 +10108,7 @@
   },
   {
     "id": 351,
+    "displayName": "Morphéo",
     "name": "morpheo",
     "types": [
       {
@@ -9781,6 +10129,7 @@
   },
   {
     "id": 352,
+    "displayName": "Kecleon",
     "name": "kecleon",
     "types": [
       {
@@ -9805,6 +10154,7 @@
   },
   {
     "id": 353,
+    "displayName": "Polichombr",
     "name": "polichombr",
     "types": [
       {
@@ -9833,6 +10183,7 @@
   },
   {
     "id": 354,
+    "displayName": "Branette",
     "name": "branette",
     "types": [
       {
@@ -9861,6 +10212,7 @@
   },
   {
     "id": 355,
+    "displayName": "Skelénox",
     "name": "skelenox",
     "types": [
       {
@@ -9885,6 +10237,7 @@
   },
   {
     "id": 356,
+    "displayName": "Téraclope",
     "name": "teraclope",
     "types": [
       {
@@ -9909,6 +10262,7 @@
   },
   {
     "id": 357,
+    "displayName": "Tropius",
     "name": "tropius",
     "types": [
       {
@@ -9941,6 +10295,7 @@
   },
   {
     "id": 358,
+    "displayName": "Éoko",
     "name": "eoko",
     "types": [
       {
@@ -9961,6 +10316,7 @@
   },
   {
     "id": 359,
+    "displayName": "Absol",
     "name": "absol",
     "types": [
       {
@@ -9989,6 +10345,7 @@
   },
   {
     "id": 360,
+    "displayName": "Okéoké",
     "name": "okeoke",
     "types": [
       {
@@ -10013,6 +10370,7 @@
   },
   {
     "id": 361,
+    "displayName": "Stalgamin",
     "name": "stalgamin",
     "types": [
       {
@@ -10041,6 +10399,7 @@
   },
   {
     "id": 362,
+    "displayName": "Oniglali",
     "name": "oniglali",
     "types": [
       {
@@ -10069,6 +10428,7 @@
   },
   {
     "id": 363,
+    "displayName": "Obalie",
     "name": "obalie",
     "types": [
       {
@@ -10101,6 +10461,7 @@
   },
   {
     "id": 364,
+    "displayName": "Phogleur",
     "name": "phogleur",
     "types": [
       {
@@ -10133,6 +10494,7 @@
   },
   {
     "id": 365,
+    "displayName": "Kaimorse",
     "name": "kaimorse",
     "types": [
       {
@@ -10165,6 +10527,7 @@
   },
   {
     "id": 366,
+    "displayName": "Coquiperl",
     "name": "coquiperl",
     "types": [
       {
@@ -10189,6 +10552,7 @@
   },
   {
     "id": 367,
+    "displayName": "Serpang",
     "name": "serpang",
     "types": [
       {
@@ -10213,6 +10577,7 @@
   },
   {
     "id": 368,
+    "displayName": "Rosabyss",
     "name": "rosabyss",
     "types": [
       {
@@ -10237,6 +10602,7 @@
   },
   {
     "id": 369,
+    "displayName": "Relicanth",
     "name": "relicanth",
     "types": [
       {
@@ -10269,6 +10635,7 @@
   },
   {
     "id": 370,
+    "displayName": "Lovdisc",
     "name": "lovdisc",
     "types": [
       {
@@ -10293,6 +10660,7 @@
   },
   {
     "id": 371,
+    "displayName": "Draby",
     "name": "draby",
     "types": [
       {
@@ -10317,6 +10685,7 @@
   },
   {
     "id": 372,
+    "displayName": "Drackhaus",
     "name": "drackhaus",
     "types": [
       {
@@ -10341,6 +10710,7 @@
   },
   {
     "id": 373,
+    "displayName": "Drattak",
     "name": "drattak",
     "types": [
       {
@@ -10369,6 +10739,7 @@
   },
   {
     "id": 374,
+    "displayName": "Terhal",
     "name": "terhal",
     "types": [
       {
@@ -10397,6 +10768,7 @@
   },
   {
     "id": 375,
+    "displayName": "Métang",
     "name": "metang",
     "types": [
       {
@@ -10425,6 +10797,7 @@
   },
   {
     "id": 376,
+    "displayName": "Métalosse",
     "name": "metalosse",
     "types": [
       {
@@ -10453,6 +10826,7 @@
   },
   {
     "id": 377,
+    "displayName": "Regirock",
     "name": "regirock",
     "types": [
       {
@@ -10477,6 +10851,7 @@
   },
   {
     "id": 378,
+    "displayName": "Regice",
     "name": "regice",
     "types": [
       {
@@ -10501,6 +10876,7 @@
   },
   {
     "id": 379,
+    "displayName": "Registeel",
     "name": "registeel",
     "types": [
       {
@@ -10525,6 +10901,7 @@
   },
   {
     "id": 380,
+    "displayName": "Latias",
     "name": "latias",
     "types": [
       {
@@ -10549,6 +10926,7 @@
   },
   {
     "id": 381,
+    "displayName": "Latios",
     "name": "latios",
     "types": [
       {
@@ -10573,6 +10951,7 @@
   },
   {
     "id": 382,
+    "displayName": "Kyogre",
     "name": "kyogre",
     "types": [
       {
@@ -10593,6 +10972,7 @@
   },
   {
     "id": 383,
+    "displayName": "Groudon",
     "name": "groudon",
     "types": [
       {
@@ -10613,6 +10993,7 @@
   },
   {
     "id": 384,
+    "displayName": "Rayquaza",
     "name": "rayquaza",
     "types": [
       {
@@ -10637,6 +11018,7 @@
   },
   {
     "id": 385,
+    "displayName": "Jirachi",
     "name": "jirachi",
     "types": [
       {
@@ -10661,6 +11043,7 @@
   },
   {
     "id": 386,
+    "displayName": "Deoxys",
     "name": "deoxys",
     "types": [
       {
@@ -10681,6 +11064,7 @@
   },
   {
     "id": 387,
+    "displayName": "Tortipouss",
     "name": "tortipouss",
     "types": [
       {
@@ -10705,6 +11089,7 @@
   },
   {
     "id": 388,
+    "displayName": "Boskara",
     "name": "boskara",
     "types": [
       {
@@ -10729,6 +11114,7 @@
   },
   {
     "id": 389,
+    "displayName": "Torterra",
     "name": "torterra",
     "types": [
       {
@@ -10757,6 +11143,7 @@
   },
   {
     "id": 390,
+    "displayName": "Ouisticram",
     "name": "ouisticram",
     "types": [
       {
@@ -10781,6 +11168,7 @@
   },
   {
     "id": 391,
+    "displayName": "Chimpenfeu",
     "name": "chimpenfeu",
     "types": [
       {
@@ -10809,6 +11197,7 @@
   },
   {
     "id": 392,
+    "displayName": "Simiabraz",
     "name": "simiabraz",
     "types": [
       {
@@ -10837,6 +11226,7 @@
   },
   {
     "id": 393,
+    "displayName": "Tiplouf",
     "name": "tiplouf",
     "types": [
       {
@@ -10861,6 +11251,7 @@
   },
   {
     "id": 394,
+    "displayName": "Prinplouf",
     "name": "prinplouf",
     "types": [
       {
@@ -10885,6 +11276,7 @@
   },
   {
     "id": 395,
+    "displayName": "Pingoléon",
     "name": "pingoleon",
     "types": [
       {
@@ -10913,6 +11305,7 @@
   },
   {
     "id": 396,
+    "displayName": "Étourmi",
     "name": "etourmi",
     "types": [
       {
@@ -10941,6 +11334,7 @@
   },
   {
     "id": 397,
+    "displayName": "Étourvol",
     "name": "etourvol",
     "types": [
       {
@@ -10969,6 +11363,7 @@
   },
   {
     "id": 398,
+    "displayName": "Étouraptor",
     "name": "etouraptor",
     "types": [
       {
@@ -10997,6 +11392,7 @@
   },
   {
     "id": 399,
+    "displayName": "Keunotor",
     "name": "keunotor",
     "types": [
       {
@@ -11025,6 +11421,7 @@
   },
   {
     "id": 400,
+    "displayName": "Castorno",
     "name": "castorno",
     "types": [
       {
@@ -11057,6 +11454,7 @@
   },
   {
     "id": 401,
+    "displayName": "Crikzik",
     "name": "crikzik",
     "types": [
       {
@@ -11081,6 +11479,7 @@
   },
   {
     "id": 402,
+    "displayName": "Mélokrik",
     "name": "melokrik",
     "types": [
       {
@@ -11105,6 +11504,7 @@
   },
   {
     "id": 403,
+    "displayName": "Lixy",
     "name": "lixy",
     "types": [
       {
@@ -11133,6 +11533,7 @@
   },
   {
     "id": 404,
+    "displayName": "Luxio",
     "name": "luxio",
     "types": [
       {
@@ -11161,6 +11562,7 @@
   },
   {
     "id": 405,
+    "displayName": "Luxray",
     "name": "luxray",
     "types": [
       {
@@ -11189,6 +11591,7 @@
   },
   {
     "id": 406,
+    "displayName": "Rozbouton",
     "name": "rozbouton",
     "types": [
       {
@@ -11221,6 +11624,7 @@
   },
   {
     "id": 407,
+    "displayName": "Roserade",
     "name": "roserade",
     "types": [
       {
@@ -11253,6 +11657,7 @@
   },
   {
     "id": 408,
+    "displayName": "Kranidos",
     "name": "kranidos",
     "types": [
       {
@@ -11277,6 +11682,7 @@
   },
   {
     "id": 409,
+    "displayName": "Charkos",
     "name": "charkos",
     "types": [
       {
@@ -11301,6 +11707,7 @@
   },
   {
     "id": 410,
+    "displayName": "Dinoclier",
     "name": "dinoclier",
     "types": [
       {
@@ -11329,6 +11736,7 @@
   },
   {
     "id": 411,
+    "displayName": "Bastiodon",
     "name": "bastiodon",
     "types": [
       {
@@ -11357,6 +11765,7 @@
   },
   {
     "id": 412,
+    "displayName": "Cheniti",
     "name": "cheniti",
     "types": [
       {
@@ -11381,6 +11790,7 @@
   },
   {
     "id": 413,
+    "displayName": "Cheniselle",
     "name": "cheniselle",
     "types": [
       {
@@ -11409,6 +11819,7 @@
   },
   {
     "id": 414,
+    "displayName": "Papilord",
     "name": "papilord",
     "types": [
       {
@@ -11437,6 +11848,7 @@
   },
   {
     "id": 415,
+    "displayName": "Apitrini",
     "name": "apitrini",
     "types": [
       {
@@ -11465,6 +11877,7 @@
   },
   {
     "id": 416,
+    "displayName": "Apireine",
     "name": "apireine",
     "types": [
       {
@@ -11493,6 +11906,7 @@
   },
   {
     "id": 417,
+    "displayName": "Pachirisu",
     "name": "pachirisu",
     "types": [
       {
@@ -11521,6 +11935,7 @@
   },
   {
     "id": 418,
+    "displayName": "Mustébouée",
     "name": "mustebouee",
     "types": [
       {
@@ -11545,6 +11960,7 @@
   },
   {
     "id": 419,
+    "displayName": "Mustéflott",
     "name": "musteflott",
     "types": [
       {
@@ -11569,6 +11985,7 @@
   },
   {
     "id": 420,
+    "displayName": "Ceribou",
     "name": "ceribou",
     "types": [
       {
@@ -11589,6 +12006,7 @@
   },
   {
     "id": 421,
+    "displayName": "Ceriflor",
     "name": "ceriflor",
     "types": [
       {
@@ -11609,6 +12027,7 @@
   },
   {
     "id": 422,
+    "displayName": "Sancoki",
     "name": "sancoki",
     "types": [
       {
@@ -11637,6 +12056,7 @@
   },
   {
     "id": 423,
+    "displayName": "Tritosor",
     "name": "tritosor",
     "types": [
       {
@@ -11669,6 +12089,7 @@
   },
   {
     "id": 424,
+    "displayName": "Capidextre",
     "name": "capidextre",
     "types": [
       {
@@ -11697,6 +12118,7 @@
   },
   {
     "id": 425,
+    "displayName": "Baudrive",
     "name": "baudrive",
     "types": [
       {
@@ -11729,6 +12151,7 @@
   },
   {
     "id": 426,
+    "displayName": "Grodrive",
     "name": "grodrive",
     "types": [
       {
@@ -11761,6 +12184,7 @@
   },
   {
     "id": 427,
+    "displayName": "Laporeille",
     "name": "laporeille",
     "types": [
       {
@@ -11789,6 +12213,7 @@
   },
   {
     "id": 428,
+    "displayName": "Lockpin",
     "name": "lockpin",
     "types": [
       {
@@ -11817,6 +12242,7 @@
   },
   {
     "id": 429,
+    "displayName": "Magirêve",
     "name": "magireve",
     "types": [
       {
@@ -11837,6 +12263,7 @@
   },
   {
     "id": 430,
+    "displayName": "Corboss",
     "name": "corboss",
     "types": [
       {
@@ -11869,6 +12296,7 @@
   },
   {
     "id": 431,
+    "displayName": "Chaglam",
     "name": "chaglam",
     "types": [
       {
@@ -11897,6 +12325,7 @@
   },
   {
     "id": 432,
+    "displayName": "Chaffreux",
     "name": "chaffreux",
     "types": [
       {
@@ -11925,6 +12354,7 @@
   },
   {
     "id": 433,
+    "displayName": "Korillon",
     "name": "korillon",
     "types": [
       {
@@ -11945,6 +12375,7 @@
   },
   {
     "id": 434,
+    "displayName": "Moufouette",
     "name": "moufouette",
     "types": [
       {
@@ -11977,6 +12408,7 @@
   },
   {
     "id": 435,
+    "displayName": "Moufflair",
     "name": "moufflair",
     "types": [
       {
@@ -12009,6 +12441,7 @@
   },
   {
     "id": 436,
+    "displayName": "Archéomire",
     "name": "archeomire",
     "types": [
       {
@@ -12041,6 +12474,7 @@
   },
   {
     "id": 437,
+    "displayName": "Archéodong",
     "name": "archeodong",
     "types": [
       {
@@ -12073,6 +12507,7 @@
   },
   {
     "id": 438,
+    "displayName": "Manzaï",
     "name": "manzai",
     "types": [
       {
@@ -12101,6 +12536,7 @@
   },
   {
     "id": 440,
+    "displayName": "Ptiravi",
     "name": "ptiravi",
     "types": [
       {
@@ -12129,6 +12565,7 @@
   },
   {
     "id": 441,
+    "displayName": "Pijako",
     "name": "pijako",
     "types": [
       {
@@ -12161,6 +12598,7 @@
   },
   {
     "id": 442,
+    "displayName": "Spiritomb",
     "name": "spiritomb",
     "types": [
       {
@@ -12189,6 +12627,7 @@
   },
   {
     "id": 443,
+    "displayName": "Griknot",
     "name": "griknot",
     "types": [
       {
@@ -12217,6 +12656,7 @@
   },
   {
     "id": 444,
+    "displayName": "Carmache",
     "name": "carmache",
     "types": [
       {
@@ -12245,6 +12685,7 @@
   },
   {
     "id": 445,
+    "displayName": "Carchacrok",
     "name": "carchacrok",
     "types": [
       {
@@ -12273,6 +12714,7 @@
   },
   {
     "id": 446,
+    "displayName": "Goinfrex",
     "name": "goinfrex",
     "types": [
       {
@@ -12301,6 +12743,7 @@
   },
   {
     "id": 447,
+    "displayName": "Riolu",
     "name": "riolu",
     "types": [
       {
@@ -12329,6 +12772,7 @@
   },
   {
     "id": 448,
+    "displayName": "Lucario",
     "name": "lucario",
     "types": [
       {
@@ -12361,6 +12805,7 @@
   },
   {
     "id": 449,
+    "displayName": "Hippopotas",
     "name": "hippopotas",
     "types": [
       {
@@ -12385,6 +12830,7 @@
   },
   {
     "id": 450,
+    "displayName": "Hippodocus",
     "name": "hippodocus",
     "types": [
       {
@@ -12409,6 +12855,7 @@
   },
   {
     "id": 451,
+    "displayName": "Rapion",
     "name": "rapion",
     "types": [
       {
@@ -12441,6 +12888,7 @@
   },
   {
     "id": 452,
+    "displayName": "Drascore",
     "name": "drascore",
     "types": [
       {
@@ -12473,6 +12921,7 @@
   },
   {
     "id": 453,
+    "displayName": "Cradopaud",
     "name": "cradopaud",
     "types": [
       {
@@ -12505,6 +12954,7 @@
   },
   {
     "id": 454,
+    "displayName": "Coatox",
     "name": "coatox",
     "types": [
       {
@@ -12537,6 +12987,7 @@
   },
   {
     "id": 455,
+    "displayName": "Vortente",
     "name": "vortente",
     "types": [
       {
@@ -12557,6 +13008,7 @@
   },
   {
     "id": 456,
+    "displayName": "Écayon",
     "name": "ecayon",
     "types": [
       {
@@ -12585,6 +13037,7 @@
   },
   {
     "id": 457,
+    "displayName": "Luminéon",
     "name": "lumineon",
     "types": [
       {
@@ -12613,6 +13066,7 @@
   },
   {
     "id": 458,
+    "displayName": "Babimanta",
     "name": "babimanta",
     "types": [
       {
@@ -12645,6 +13099,7 @@
   },
   {
     "id": 459,
+    "displayName": "Blizzi",
     "name": "blizzi",
     "types": [
       {
@@ -12673,6 +13128,7 @@
   },
   {
     "id": 460,
+    "displayName": "Blizzaroi",
     "name": "blizzaroi",
     "types": [
       {
@@ -12701,6 +13157,7 @@
   },
   {
     "id": 461,
+    "displayName": "Dimoret",
     "name": "dimoret",
     "types": [
       {
@@ -12729,6 +13186,7 @@
   },
   {
     "id": 462,
+    "displayName": "Magnézone",
     "name": "magnezone",
     "types": [
       {
@@ -12761,6 +13219,7 @@
   },
   {
     "id": 463,
+    "displayName": "Coudlangue",
     "name": "coudlangue",
     "types": [
       {
@@ -12789,6 +13248,7 @@
   },
   {
     "id": 464,
+    "displayName": "Rhinastoc",
     "name": "rhinastoc",
     "types": [
       {
@@ -12821,6 +13281,7 @@
   },
   {
     "id": 465,
+    "displayName": "Bouldeneu",
     "name": "bouldeneu",
     "types": [
       {
@@ -12849,6 +13310,7 @@
   },
   {
     "id": 466,
+    "displayName": "Élekable",
     "name": "elekable",
     "types": [
       {
@@ -12873,6 +13335,7 @@
   },
   {
     "id": 467,
+    "displayName": "Maganon",
     "name": "maganon",
     "types": [
       {
@@ -12897,6 +13360,7 @@
   },
   {
     "id": 468,
+    "displayName": "Togekiss",
     "name": "togekiss",
     "types": [
       {
@@ -12929,6 +13393,7 @@
   },
   {
     "id": 469,
+    "displayName": "Yanmega",
     "name": "yanmega",
     "types": [
       {
@@ -12961,6 +13426,7 @@
   },
   {
     "id": 470,
+    "displayName": "Phyllali",
     "name": "phyllali",
     "types": [
       {
@@ -12985,6 +13451,7 @@
   },
   {
     "id": 471,
+    "displayName": "Givrali",
     "name": "givrali",
     "types": [
       {
@@ -13009,6 +13476,7 @@
   },
   {
     "id": 472,
+    "displayName": "Scorvol",
     "name": "scorvol",
     "types": [
       {
@@ -13041,6 +13509,7 @@
   },
   {
     "id": 473,
+    "displayName": "Mammochon",
     "name": "mammochon",
     "types": [
       {
@@ -13073,6 +13542,7 @@
   },
   {
     "id": 475,
+    "displayName": "Gallame",
     "name": "gallame",
     "types": [
       {
@@ -13105,6 +13575,7 @@
   },
   {
     "id": 476,
+    "displayName": "Tarinorme",
     "name": "tarinorme",
     "types": [
       {
@@ -13137,6 +13608,7 @@
   },
   {
     "id": 477,
+    "displayName": "Noctunoir",
     "name": "noctunoir",
     "types": [
       {
@@ -13161,6 +13633,7 @@
   },
   {
     "id": 478,
+    "displayName": "Momartik",
     "name": "momartik",
     "types": [
       {
@@ -13189,6 +13662,7 @@
   },
   {
     "id": 479,
+    "displayName": "Motisma",
     "name": "motisma",
     "types": [
       {
@@ -13213,6 +13687,7 @@
   },
   {
     "id": 480,
+    "displayName": "Créhelf",
     "name": "crehelf",
     "types": [
       {
@@ -13233,6 +13708,7 @@
   },
   {
     "id": 481,
+    "displayName": "Créfollet",
     "name": "crefollet",
     "types": [
       {
@@ -13253,6 +13729,7 @@
   },
   {
     "id": 482,
+    "displayName": "Créfadet",
     "name": "crefadet",
     "types": [
       {
@@ -13273,6 +13750,7 @@
   },
   {
     "id": 483,
+    "displayName": "Dialga",
     "name": "dialga",
     "types": [
       {
@@ -13301,6 +13779,7 @@
   },
   {
     "id": 484,
+    "displayName": "Palkia",
     "name": "palkia",
     "types": [
       {
@@ -13329,6 +13808,7 @@
   },
   {
     "id": 485,
+    "displayName": "Heatran",
     "name": "heatran",
     "types": [
       {
@@ -13357,6 +13837,7 @@
   },
   {
     "id": 486,
+    "displayName": "Regigigas",
     "name": "regigigas",
     "types": [
       {
@@ -13377,6 +13858,7 @@
   },
   {
     "id": 487,
+    "displayName": "Giratina",
     "name": "giratina",
     "types": [
       {
@@ -13405,6 +13887,7 @@
   },
   {
     "id": 488,
+    "displayName": "Cresselia",
     "name": "cresselia",
     "types": [
       {
@@ -13425,6 +13908,7 @@
   },
   {
     "id": 489,
+    "displayName": "Phione",
     "name": "phione",
     "types": [
       {
@@ -13445,6 +13929,7 @@
   },
   {
     "id": 490,
+    "displayName": "Manaphy",
     "name": "manaphy",
     "types": [
       {
@@ -13465,6 +13950,7 @@
   },
   {
     "id": 491,
+    "displayName": "Darkrai",
     "name": "darkrai",
     "types": [
       {
@@ -13485,6 +13971,7 @@
   },
   {
     "id": 492,
+    "displayName": "Shaymin",
     "name": "shaymin",
     "types": [
       {
@@ -13505,6 +13992,7 @@
   },
   {
     "id": 493,
+    "displayName": "Arceus",
     "name": "arceus",
     "types": [
       {
@@ -13525,6 +14013,7 @@
   },
   {
     "id": 494,
+    "displayName": "Victini",
     "name": "victini",
     "types": [
       {
@@ -13549,6 +14038,7 @@
   },
   {
     "id": 495,
+    "displayName": "Vipélierre",
     "name": "vipelierre",
     "types": [
       {
@@ -13573,6 +14063,7 @@
   },
   {
     "id": 496,
+    "displayName": "Lianaja",
     "name": "lianaja",
     "types": [
       {
@@ -13597,6 +14088,7 @@
   },
   {
     "id": 497,
+    "displayName": "Majaspic",
     "name": "majaspic",
     "types": [
       {
@@ -13621,6 +14113,7 @@
   },
   {
     "id": 498,
+    "displayName": "Gruikui",
     "name": "gruikui",
     "types": [
       {
@@ -13645,6 +14138,7 @@
   },
   {
     "id": 499,
+    "displayName": "Grotichon",
     "name": "grotichon",
     "types": [
       {
@@ -13673,6 +14167,7 @@
   },
   {
     "id": 500,
+    "displayName": "Roitiflam",
     "name": "roitiflam",
     "types": [
       {
@@ -13701,6 +14196,7 @@
   },
   {
     "id": 501,
+    "displayName": "Moustillon",
     "name": "moustillon",
     "types": [
       {
@@ -13725,6 +14221,7 @@
   },
   {
     "id": 502,
+    "displayName": "Mateloutre",
     "name": "mateloutre",
     "types": [
       {
@@ -13749,6 +14246,7 @@
   },
   {
     "id": 503,
+    "displayName": "Clamiral",
     "name": "clamiral",
     "types": [
       {
@@ -13773,6 +14271,7 @@
   },
   {
     "id": 504,
+    "displayName": "Ratentif",
     "name": "ratentif",
     "types": [
       {
@@ -13801,6 +14300,7 @@
   },
   {
     "id": 505,
+    "displayName": "Miradar",
     "name": "miradar",
     "types": [
       {
@@ -13829,6 +14329,7 @@
   },
   {
     "id": 506,
+    "displayName": "Ponchiot",
     "name": "ponchiot",
     "types": [
       {
@@ -13857,6 +14358,7 @@
   },
   {
     "id": 507,
+    "displayName": "Ponchien",
     "name": "ponchien",
     "types": [
       {
@@ -13885,6 +14387,7 @@
   },
   {
     "id": 508,
+    "displayName": "Mastouffe",
     "name": "mastouffe",
     "types": [
       {
@@ -13913,6 +14416,7 @@
   },
   {
     "id": 509,
+    "displayName": "Chacripan",
     "name": "chacripan",
     "types": [
       {
@@ -13941,6 +14445,7 @@
   },
   {
     "id": 510,
+    "displayName": "Léopardus",
     "name": "leopardus",
     "types": [
       {
@@ -13969,6 +14474,7 @@
   },
   {
     "id": 511,
+    "displayName": "Feuillajou",
     "name": "feuillajou",
     "types": [
       {
@@ -13993,6 +14499,7 @@
   },
   {
     "id": 512,
+    "displayName": "Feuiloutan",
     "name": "feuiloutan",
     "types": [
       {
@@ -14017,6 +14524,7 @@
   },
   {
     "id": 513,
+    "displayName": "Flamajou",
     "name": "flamajou",
     "types": [
       {
@@ -14041,6 +14549,7 @@
   },
   {
     "id": 514,
+    "displayName": "Flamoutan",
     "name": "flamoutan",
     "types": [
       {
@@ -14065,6 +14574,7 @@
   },
   {
     "id": 515,
+    "displayName": "Flotajou",
     "name": "flotajou",
     "types": [
       {
@@ -14089,6 +14599,7 @@
   },
   {
     "id": 516,
+    "displayName": "Flotoutan",
     "name": "flotoutan",
     "types": [
       {
@@ -14113,6 +14624,7 @@
   },
   {
     "id": 517,
+    "displayName": "Munna",
     "name": "munna",
     "types": [
       {
@@ -14141,6 +14653,7 @@
   },
   {
     "id": 518,
+    "displayName": "Mushana",
     "name": "mushana",
     "types": [
       {
@@ -14169,6 +14682,7 @@
   },
   {
     "id": 519,
+    "displayName": "Poichigeon",
     "name": "poichigeon",
     "types": [
       {
@@ -14201,6 +14715,7 @@
   },
   {
     "id": 520,
+    "displayName": "Colombeau",
     "name": "colombeau",
     "types": [
       {
@@ -14233,6 +14748,7 @@
   },
   {
     "id": 521,
+    "displayName": "Déflaisan",
     "name": "deflaisan",
     "types": [
       {
@@ -14265,6 +14781,7 @@
   },
   {
     "id": 522,
+    "displayName": "Zébibron",
     "name": "zebibron",
     "types": [
       {
@@ -14293,6 +14810,7 @@
   },
   {
     "id": 523,
+    "displayName": "Zéblitz",
     "name": "zeblitz",
     "types": [
       {
@@ -14321,6 +14839,7 @@
   },
   {
     "id": 524,
+    "displayName": "Nodulithe",
     "name": "nodulithe",
     "types": [
       {
@@ -14349,6 +14868,7 @@
   },
   {
     "id": 525,
+    "displayName": "Géolithe",
     "name": "geolithe",
     "types": [
       {
@@ -14377,6 +14897,7 @@
   },
   {
     "id": 526,
+    "displayName": "Gigalithe",
     "name": "gigalithe",
     "types": [
       {
@@ -14405,6 +14926,7 @@
   },
   {
     "id": 527,
+    "displayName": "Chovsourir",
     "name": "chovsourir",
     "types": [
       {
@@ -14437,6 +14959,7 @@
   },
   {
     "id": 528,
+    "displayName": "Rhinolove",
     "name": "rhinolove",
     "types": [
       {
@@ -14469,6 +14992,7 @@
   },
   {
     "id": 529,
+    "displayName": "Rototaupe",
     "name": "rototaupe",
     "types": [
       {
@@ -14497,6 +15021,7 @@
   },
   {
     "id": 530,
+    "displayName": "Minotaupe",
     "name": "minotaupe",
     "types": [
       {
@@ -14529,6 +15054,7 @@
   },
   {
     "id": 531,
+    "displayName": "Nanméouïe",
     "name": "nanmeouie",
     "types": [
       {
@@ -14557,6 +15083,7 @@
   },
   {
     "id": 532,
+    "displayName": "Charpenti",
     "name": "charpenti",
     "types": [
       {
@@ -14585,6 +15112,7 @@
   },
   {
     "id": 533,
+    "displayName": "Ouvrifier",
     "name": "ouvrifier",
     "types": [
       {
@@ -14613,6 +15141,7 @@
   },
   {
     "id": 534,
+    "displayName": "Bétochef",
     "name": "betochef",
     "types": [
       {
@@ -14641,6 +15170,7 @@
   },
   {
     "id": 535,
+    "displayName": "Tritonde",
     "name": "tritonde",
     "types": [
       {
@@ -14669,6 +15199,7 @@
   },
   {
     "id": 536,
+    "displayName": "Batracné",
     "name": "batracne",
     "types": [
       {
@@ -14701,6 +15232,7 @@
   },
   {
     "id": 537,
+    "displayName": "Crapustule",
     "name": "crapustule",
     "types": [
       {
@@ -14733,6 +15265,7 @@
   },
   {
     "id": 538,
+    "displayName": "Judokrak",
     "name": "judokrak",
     "types": [
       {
@@ -14761,6 +15294,7 @@
   },
   {
     "id": 539,
+    "displayName": "Karaclée",
     "name": "karaclee",
     "types": [
       {
@@ -14789,6 +15323,7 @@
   },
   {
     "id": 540,
+    "displayName": "Larveyette",
     "name": "larveyette",
     "types": [
       {
@@ -14821,6 +15356,7 @@
   },
   {
     "id": 541,
+    "displayName": "Couverdure",
     "name": "couverdure",
     "types": [
       {
@@ -14853,6 +15389,7 @@
   },
   {
     "id": 542,
+    "displayName": "Manternel",
     "name": "manternel",
     "types": [
       {
@@ -14885,6 +15422,7 @@
   },
   {
     "id": 543,
+    "displayName": "Venipatte",
     "name": "venipatte",
     "types": [
       {
@@ -14917,6 +15455,7 @@
   },
   {
     "id": 544,
+    "displayName": "Scobolide",
     "name": "scobolide",
     "types": [
       {
@@ -14949,6 +15488,7 @@
   },
   {
     "id": 545,
+    "displayName": "Brutapode",
     "name": "brutapode",
     "types": [
       {
@@ -14985,6 +15525,7 @@
   },
   {
     "id": 546,
+    "displayName": "Doudouvet",
     "name": "doudouvet",
     "types": [
       {
@@ -15017,6 +15558,7 @@
   },
   {
     "id": 547,
+    "displayName": "Farfaduvet",
     "name": "farfaduvet",
     "types": [
       {
@@ -15049,6 +15591,7 @@
   },
   {
     "id": 548,
+    "displayName": "Chlorobule",
     "name": "chlorobule",
     "types": [
       {
@@ -15077,6 +15620,7 @@
   },
   {
     "id": 549,
+    "displayName": "Fragilady",
     "name": "fragilady",
     "types": [
       {
@@ -15105,6 +15649,7 @@
   },
   {
     "id": 550,
+    "displayName": "Bargantua",
     "name": "bargantua",
     "types": [
       {
@@ -15133,6 +15678,7 @@
   },
   {
     "id": 551,
+    "displayName": "Mascaïman",
     "name": "mascaiman",
     "types": [
       {
@@ -15165,6 +15711,7 @@
   },
   {
     "id": 552,
+    "displayName": "Escroco",
     "name": "escroco",
     "types": [
       {
@@ -15197,6 +15744,7 @@
   },
   {
     "id": 553,
+    "displayName": "Crocorible",
     "name": "crocorible",
     "types": [
       {
@@ -15229,6 +15777,7 @@
   },
   {
     "id": 554,
+    "displayName": "Darumarond",
     "name": "darumarond",
     "types": [
       {
@@ -15253,6 +15802,7 @@
   },
   {
     "id": 555,
+    "displayName": "Darumacho",
     "name": "darumacho",
     "types": [
       {
@@ -15277,6 +15827,7 @@
   },
   {
     "id": 556,
+    "displayName": "Maracachi",
     "name": "maracachi",
     "types": [
       {
@@ -15305,6 +15856,7 @@
   },
   {
     "id": 557,
+    "displayName": "Crabicoque",
     "name": "crabicoque",
     "types": [
       {
@@ -15337,6 +15889,7 @@
   },
   {
     "id": 558,
+    "displayName": "Crabaraque",
     "name": "crabaraque",
     "types": [
       {
@@ -15369,6 +15922,7 @@
   },
   {
     "id": 559,
+    "displayName": "Baggiguane",
     "name": "baggiguane",
     "types": [
       {
@@ -15401,6 +15955,7 @@
   },
   {
     "id": 560,
+    "displayName": "Baggaïd",
     "name": "baggaid",
     "types": [
       {
@@ -15433,6 +15988,7 @@
   },
   {
     "id": 561,
+    "displayName": "Cryptéro",
     "name": "cryptero",
     "types": [
       {
@@ -15465,6 +16021,7 @@
   },
   {
     "id": 562,
+    "displayName": "Tutafeh",
     "name": "tutafeh",
     "types": [
       {
@@ -15485,6 +16042,7 @@
   },
   {
     "id": 563,
+    "displayName": "Tutankafer",
     "name": "tutankafer",
     "types": [
       {
@@ -15505,6 +16063,7 @@
   },
   {
     "id": 564,
+    "displayName": "Carapagos",
     "name": "carapagos",
     "types": [
       {
@@ -15537,6 +16096,7 @@
   },
   {
     "id": 565,
+    "displayName": "Mégapagos",
     "name": "megapagos",
     "types": [
       {
@@ -15569,6 +16129,7 @@
   },
   {
     "id": 566,
+    "displayName": "Arkéapti",
     "name": "arkeapti",
     "types": [
       {
@@ -15593,6 +16154,7 @@
   },
   {
     "id": 567,
+    "displayName": "Aéroptéryx",
     "name": "aeropteryx",
     "types": [
       {
@@ -15617,6 +16179,7 @@
   },
   {
     "id": 568,
+    "displayName": "Miamiasme",
     "name": "miamiasme",
     "types": [
       {
@@ -15645,6 +16208,7 @@
   },
   {
     "id": 569,
+    "displayName": "Miasmax",
     "name": "miasmax",
     "types": [
       {
@@ -15673,6 +16237,7 @@
   },
   {
     "id": 570,
+    "displayName": "Zorua",
     "name": "zorua",
     "types": [
       {
@@ -15693,6 +16258,7 @@
   },
   {
     "id": 571,
+    "displayName": "Zoroark",
     "name": "zoroark",
     "types": [
       {
@@ -15713,6 +16279,7 @@
   },
   {
     "id": 572,
+    "displayName": "Chinchidou",
     "name": "chinchidou",
     "types": [
       {
@@ -15741,6 +16308,7 @@
   },
   {
     "id": 573,
+    "displayName": "Pashmilla",
     "name": "pashmilla",
     "types": [
       {
@@ -15769,6 +16337,7 @@
   },
   {
     "id": 574,
+    "displayName": "Scrutella",
     "name": "scrutella",
     "types": [
       {
@@ -15797,6 +16366,7 @@
   },
   {
     "id": 575,
+    "displayName": "Mesmérella",
     "name": "mesmerella",
     "types": [
       {
@@ -15825,6 +16395,7 @@
   },
   {
     "id": 576,
+    "displayName": "Sidérella",
     "name": "siderella",
     "types": [
       {
@@ -15853,6 +16424,7 @@
   },
   {
     "id": 577,
+    "displayName": "Nucléos",
     "name": "nucleos",
     "types": [
       {
@@ -15881,6 +16453,7 @@
   },
   {
     "id": 578,
+    "displayName": "Méios",
     "name": "meios",
     "types": [
       {
@@ -15909,6 +16482,7 @@
   },
   {
     "id": 579,
+    "displayName": "Symbios",
     "name": "symbios",
     "types": [
       {
@@ -15937,6 +16511,7 @@
   },
   {
     "id": 580,
+    "displayName": "Couaneton",
     "name": "couaneton",
     "types": [
       {
@@ -15969,6 +16544,7 @@
   },
   {
     "id": 581,
+    "displayName": "Lakmécygne",
     "name": "lakmecygne",
     "types": [
       {
@@ -16001,6 +16577,7 @@
   },
   {
     "id": 582,
+    "displayName": "Sorbébé",
     "name": "sorbebe",
     "types": [
       {
@@ -16029,6 +16606,7 @@
   },
   {
     "id": 583,
+    "displayName": "Sorboul",
     "name": "sorboul",
     "types": [
       {
@@ -16057,6 +16635,7 @@
   },
   {
     "id": 584,
+    "displayName": "Sorbouboul",
     "name": "sorbouboul",
     "types": [
       {
@@ -16085,6 +16664,7 @@
   },
   {
     "id": 585,
+    "displayName": "Vivaldaim",
     "name": "vivaldaim",
     "types": [
       {
@@ -16117,6 +16697,7 @@
   },
   {
     "id": 586,
+    "displayName": "Haydaim",
     "name": "haydaim",
     "types": [
       {
@@ -16149,6 +16730,7 @@
   },
   {
     "id": 587,
+    "displayName": "Emolga",
     "name": "emolga",
     "types": [
       {
@@ -16177,6 +16759,7 @@
   },
   {
     "id": 588,
+    "displayName": "Carabing",
     "name": "carabing",
     "types": [
       {
@@ -16205,6 +16788,7 @@
   },
   {
     "id": 589,
+    "displayName": "Lançargot",
     "name": "lancargot",
     "types": [
       {
@@ -16237,6 +16821,7 @@
   },
   {
     "id": 590,
+    "displayName": "Trompignon",
     "name": "trompignon",
     "types": [
       {
@@ -16265,6 +16850,7 @@
   },
   {
     "id": 591,
+    "displayName": "Gaulet",
     "name": "gaulet",
     "types": [
       {
@@ -16293,6 +16879,7 @@
   },
   {
     "id": 592,
+    "displayName": "Viskuse",
     "name": "viskuse",
     "types": [
       {
@@ -16325,6 +16912,7 @@
   },
   {
     "id": 593,
+    "displayName": "Moyade",
     "name": "moyade",
     "types": [
       {
@@ -16357,6 +16945,7 @@
   },
   {
     "id": 594,
+    "displayName": "Mamanbo",
     "name": "mamanbo",
     "types": [
       {
@@ -16385,6 +16974,7 @@
   },
   {
     "id": 595,
+    "displayName": "Statitik",
     "name": "statitik",
     "types": [
       {
@@ -16417,6 +17007,7 @@
   },
   {
     "id": 596,
+    "displayName": "Mygavolt",
     "name": "mygavolt",
     "types": [
       {
@@ -16449,6 +17040,7 @@
   },
   {
     "id": 597,
+    "displayName": "Grindur",
     "name": "grindur",
     "types": [
       {
@@ -16473,6 +17065,7 @@
   },
   {
     "id": 598,
+    "displayName": "Noacier",
     "name": "noacier",
     "types": [
       {
@@ -16501,6 +17094,7 @@
   },
   {
     "id": 599,
+    "displayName": "Tic",
     "name": "tic",
     "types": [
       {
@@ -16529,6 +17123,7 @@
   },
   {
     "id": 600,
+    "displayName": "Clic",
     "name": "clic",
     "types": [
       {
@@ -16557,6 +17152,7 @@
   },
   {
     "id": 601,
+    "displayName": "Cliticlic",
     "name": "cliticlic",
     "types": [
       {
@@ -16585,6 +17181,7 @@
   },
   {
     "id": 602,
+    "displayName": "Anchwatt",
     "name": "anchwatt",
     "types": [
       {
@@ -16605,6 +17202,7 @@
   },
   {
     "id": 603,
+    "displayName": "Lampéroie",
     "name": "lamperoie",
     "types": [
       {
@@ -16625,6 +17223,7 @@
   },
   {
     "id": 604,
+    "displayName": "Ohmassacre",
     "name": "ohmassacre",
     "types": [
       {
@@ -16645,6 +17244,7 @@
   },
   {
     "id": 605,
+    "displayName": "Lewsor",
     "name": "lewsor",
     "types": [
       {
@@ -16673,6 +17273,7 @@
   },
   {
     "id": 606,
+    "displayName": "Neitram",
     "name": "neitram",
     "types": [
       {
@@ -16701,6 +17302,7 @@
   },
   {
     "id": 607,
+    "displayName": "Funécire",
     "name": "funecire",
     "types": [
       {
@@ -16733,6 +17335,7 @@
   },
   {
     "id": 608,
+    "displayName": "Mélancolux",
     "name": "melancolux",
     "types": [
       {
@@ -16765,6 +17368,7 @@
   },
   {
     "id": 609,
+    "displayName": "Lugulabre",
     "name": "lugulabre",
     "types": [
       {
@@ -16801,6 +17405,7 @@
   },
   {
     "id": 610,
+    "displayName": "Coupenotte",
     "name": "coupenotte",
     "types": [
       {
@@ -16829,6 +17434,7 @@
   },
   {
     "id": 611,
+    "displayName": "Incisache",
     "name": "incisache",
     "types": [
       {
@@ -16857,6 +17463,7 @@
   },
   {
     "id": 612,
+    "displayName": "Tranchodon",
     "name": "tranchodon",
     "types": [
       {
@@ -16885,6 +17492,7 @@
   },
   {
     "id": 613,
+    "displayName": "Polarhume",
     "name": "polarhume",
     "types": [
       {
@@ -16913,6 +17521,7 @@
   },
   {
     "id": 614,
+    "displayName": "Polagriffe",
     "name": "polagriffe",
     "types": [
       {
@@ -16941,6 +17550,7 @@
   },
   {
     "id": 615,
+    "displayName": "Hexagel",
     "name": "hexagel",
     "types": [
       {
@@ -16961,6 +17571,7 @@
   },
   {
     "id": 616,
+    "displayName": "Escargaume",
     "name": "escargaume",
     "types": [
       {
@@ -16989,6 +17600,7 @@
   },
   {
     "id": 617,
+    "displayName": "Limaspeed",
     "name": "limaspeed",
     "types": [
       {
@@ -17017,6 +17629,7 @@
   },
   {
     "id": 618,
+    "displayName": "Limonde",
     "name": "limonde",
     "types": [
       {
@@ -17049,6 +17662,7 @@
   },
   {
     "id": 619,
+    "displayName": "Kungfouine",
     "name": "kungfouine",
     "types": [
       {
@@ -17077,6 +17691,7 @@
   },
   {
     "id": 620,
+    "displayName": "Shaofouine",
     "name": "shaofouine",
     "types": [
       {
@@ -17105,6 +17720,7 @@
   },
   {
     "id": 621,
+    "displayName": "Drakkarmin",
     "name": "drakkarmin",
     "types": [
       {
@@ -17133,6 +17749,7 @@
   },
   {
     "id": 622,
+    "displayName": "Gringolem",
     "name": "gringolem",
     "types": [
       {
@@ -17165,6 +17782,7 @@
   },
   {
     "id": 623,
+    "displayName": "Golemastoc",
     "name": "golemastoc",
     "types": [
       {
@@ -17197,6 +17815,7 @@
   },
   {
     "id": 624,
+    "displayName": "Scalpion",
     "name": "scalpion",
     "types": [
       {
@@ -17229,6 +17848,7 @@
   },
   {
     "id": 625,
+    "displayName": "Scalproie",
     "name": "scalproie",
     "types": [
       {
@@ -17261,6 +17881,7 @@
   },
   {
     "id": 626,
+    "displayName": "Frison",
     "name": "frison",
     "types": [
       {
@@ -17289,6 +17910,7 @@
   },
   {
     "id": 627,
+    "displayName": "Furaiglon",
     "name": "furaiglon",
     "types": [
       {
@@ -17321,6 +17943,7 @@
   },
   {
     "id": 628,
+    "displayName": "Gueriaigle",
     "name": "gueriaigle",
     "types": [
       {
@@ -17353,6 +17976,7 @@
   },
   {
     "id": 629,
+    "displayName": "Vostourno",
     "name": "vostourno",
     "types": [
       {
@@ -17385,6 +18009,7 @@
   },
   {
     "id": 630,
+    "displayName": "Vaututrice",
     "name": "vaututrice",
     "types": [
       {
@@ -17417,6 +18042,7 @@
   },
   {
     "id": 631,
+    "displayName": "Aflamanoir",
     "name": "aflamanoir",
     "types": [
       {
@@ -17445,6 +18071,7 @@
   },
   {
     "id": 632,
+    "displayName": "Fermite",
     "name": "fermite",
     "types": [
       {
@@ -17477,6 +18104,7 @@
   },
   {
     "id": 633,
+    "displayName": "Solochi",
     "name": "solochi",
     "types": [
       {
@@ -17501,6 +18129,7 @@
   },
   {
     "id": 634,
+    "displayName": "Diamat",
     "name": "diamat",
     "types": [
       {
@@ -17525,6 +18154,7 @@
   },
   {
     "id": 635,
+    "displayName": "Trioxhydre",
     "name": "trioxhydre",
     "types": [
       {
@@ -17549,6 +18179,7 @@
   },
   {
     "id": 636,
+    "displayName": "Pyronille",
     "name": "pyronille",
     "types": [
       {
@@ -17577,6 +18208,7 @@
   },
   {
     "id": 637,
+    "displayName": "Pyrax",
     "name": "pyrax",
     "types": [
       {
@@ -17605,6 +18237,7 @@
   },
   {
     "id": 638,
+    "displayName": "Cobaltium",
     "name": "cobaltium",
     "types": [
       {
@@ -17629,6 +18262,7 @@
   },
   {
     "id": 639,
+    "displayName": "Terrakium",
     "name": "terrakium",
     "types": [
       {
@@ -17653,6 +18287,7 @@
   },
   {
     "id": 640,
+    "displayName": "Viridium",
     "name": "viridium",
     "types": [
       {
@@ -17677,6 +18312,7 @@
   },
   {
     "id": 641,
+    "displayName": "Boréas",
     "name": "boreas",
     "types": [
       {
@@ -17701,6 +18337,7 @@
   },
   {
     "id": 642,
+    "displayName": "Fulguris",
     "name": "fulguris",
     "types": [
       {
@@ -17729,6 +18366,7 @@
   },
   {
     "id": 643,
+    "displayName": "Reshiram",
     "name": "reshiram",
     "types": [
       {
@@ -17753,6 +18391,7 @@
   },
   {
     "id": 644,
+    "displayName": "Zekrom",
     "name": "zekrom",
     "types": [
       {
@@ -17777,6 +18416,7 @@
   },
   {
     "id": 645,
+    "displayName": "Démétéros",
     "name": "demeteros",
     "types": [
       {
@@ -17805,6 +18445,7 @@
   },
   {
     "id": 646,
+    "displayName": "Kyurem",
     "name": "kyurem",
     "types": [
       {
@@ -17829,6 +18470,7 @@
   },
   {
     "id": 647,
+    "displayName": "Keldeo",
     "name": "keldeo",
     "types": [
       {
@@ -17853,6 +18495,7 @@
   },
   {
     "id": 648,
+    "displayName": "Meloetta",
     "name": "meloetta",
     "types": [
       {
@@ -17877,6 +18520,7 @@
   },
   {
     "id": 649,
+    "displayName": "Genesect",
     "name": "genesect",
     "types": [
       {
@@ -17901,6 +18545,7 @@
   },
   {
     "id": 650,
+    "displayName": "Marisson",
     "name": "marisson",
     "types": [
       {
@@ -17925,6 +18570,7 @@
   },
   {
     "id": 651,
+    "displayName": "Boguérisse",
     "name": "boguerisse",
     "types": [
       {
@@ -17949,6 +18595,7 @@
   },
   {
     "id": 652,
+    "displayName": "Blindépique",
     "name": "blindepique",
     "types": [
       {
@@ -17977,6 +18624,7 @@
   },
   {
     "id": 653,
+    "displayName": "Feunnec",
     "name": "feunnec",
     "types": [
       {
@@ -18001,6 +18649,7 @@
   },
   {
     "id": 654,
+    "displayName": "Roussil",
     "name": "roussil",
     "types": [
       {
@@ -18025,6 +18674,7 @@
   },
   {
     "id": 655,
+    "displayName": "Goupelin",
     "name": "goupelin",
     "types": [
       {
@@ -18053,6 +18703,7 @@
   },
   {
     "id": 656,
+    "displayName": "Grenousse",
     "name": "grenousse",
     "types": [
       {
@@ -18077,6 +18728,7 @@
   },
   {
     "id": 657,
+    "displayName": "Croâporal",
     "name": "croaporal",
     "types": [
       {
@@ -18101,6 +18753,7 @@
   },
   {
     "id": 658,
+    "displayName": "Amphinobi",
     "name": "amphinobi",
     "types": [
       {
@@ -18133,6 +18786,7 @@
   },
   {
     "id": 659,
+    "displayName": "Sapereau",
     "name": "sapereau",
     "types": [
       {
@@ -18161,6 +18815,7 @@
   },
   {
     "id": 660,
+    "displayName": "Excavarenne",
     "name": "excavarenne",
     "types": [
       {
@@ -18193,6 +18848,7 @@
   },
   {
     "id": 661,
+    "displayName": "Passerouge",
     "name": "passerouge",
     "types": [
       {
@@ -18221,6 +18877,7 @@
   },
   {
     "id": 662,
+    "displayName": "Braisillon",
     "name": "braisillon",
     "types": [
       {
@@ -18249,6 +18906,7 @@
   },
   {
     "id": 663,
+    "displayName": "Flambusard",
     "name": "flambusard",
     "types": [
       {
@@ -18277,6 +18935,7 @@
   },
   {
     "id": 664,
+    "displayName": "Lépidonille",
     "name": "lepidonille",
     "types": [
       {
@@ -18305,6 +18964,7 @@
   },
   {
     "id": 665,
+    "displayName": "Pérégrain",
     "name": "peregrain",
     "types": [
       {
@@ -18329,6 +18989,7 @@
   },
   {
     "id": 666,
+    "displayName": "Prismillon",
     "name": "prismillon",
     "types": [
       {
@@ -18361,6 +19022,7 @@
   },
   {
     "id": 667,
+    "displayName": "Hélionceau",
     "name": "helionceau",
     "types": [
       {
@@ -18393,6 +19055,7 @@
   },
   {
     "id": 668,
+    "displayName": "Némélios",
     "name": "nemelios",
     "types": [
       {
@@ -18425,6 +19088,7 @@
   },
   {
     "id": 669,
+    "displayName": "Flabébé",
     "name": "flabebe",
     "types": [
       {
@@ -18449,6 +19113,7 @@
   },
   {
     "id": 670,
+    "displayName": "Floette",
     "name": "floette",
     "types": [
       {
@@ -18473,6 +19138,7 @@
   },
   {
     "id": 671,
+    "displayName": "Florges",
     "name": "florges",
     "types": [
       {
@@ -18497,6 +19163,7 @@
   },
   {
     "id": 672,
+    "displayName": "Cabriolaine",
     "name": "cabriolaine",
     "types": [
       {
@@ -18521,6 +19188,7 @@
   },
   {
     "id": 673,
+    "displayName": "Chevroum",
     "name": "chevroum",
     "types": [
       {
@@ -18545,6 +19213,7 @@
   },
   {
     "id": 674,
+    "displayName": "Pandespiègle",
     "name": "pandespiegle",
     "types": [
       {
@@ -18573,6 +19242,7 @@
   },
   {
     "id": 675,
+    "displayName": "Pandarbare",
     "name": "pandarbare",
     "types": [
       {
@@ -18605,6 +19275,7 @@
   },
   {
     "id": 676,
+    "displayName": "Couafarel",
     "name": "couafarel",
     "types": [
       {
@@ -18625,6 +19296,7 @@
   },
   {
     "id": 677,
+    "displayName": "Psystigri",
     "name": "psystigri",
     "types": [
       {
@@ -18653,6 +19325,7 @@
   },
   {
     "id": 678,
+    "displayName": "Mistigrix",
     "name": "mistigrix",
     "types": [
       {
@@ -18681,6 +19354,7 @@
   },
   {
     "id": 679,
+    "displayName": "Monorpale",
     "name": "monorpale",
     "types": [
       {
@@ -18705,6 +19379,7 @@
   },
   {
     "id": 680,
+    "displayName": "Dimoclès",
     "name": "dimocles",
     "types": [
       {
@@ -18729,6 +19404,7 @@
   },
   {
     "id": 681,
+    "displayName": "Exagide",
     "name": "exagide",
     "types": [
       {
@@ -18753,6 +19429,7 @@
   },
   {
     "id": 682,
+    "displayName": "Fluvetin",
     "name": "fluvetin",
     "types": [
       {
@@ -18777,6 +19454,7 @@
   },
   {
     "id": 683,
+    "displayName": "Cocotine",
     "name": "cocotine",
     "types": [
       {
@@ -18801,6 +19479,7 @@
   },
   {
     "id": 684,
+    "displayName": "Sucroquin",
     "name": "sucroquin",
     "types": [
       {
@@ -18825,6 +19504,7 @@
   },
   {
     "id": 685,
+    "displayName": "Cupcanaille",
     "name": "cupcanaille",
     "types": [
       {
@@ -18849,6 +19529,7 @@
   },
   {
     "id": 686,
+    "displayName": "Sepiatop",
     "name": "sepiatop",
     "types": [
       {
@@ -18881,6 +19562,7 @@
   },
   {
     "id": 687,
+    "displayName": "Sepiatroce",
     "name": "sepiatroce",
     "types": [
       {
@@ -18913,6 +19595,7 @@
   },
   {
     "id": 688,
+    "displayName": "Opermine",
     "name": "opermine",
     "types": [
       {
@@ -18945,6 +19628,7 @@
   },
   {
     "id": 689,
+    "displayName": "Golgopathe",
     "name": "golgopathe",
     "types": [
       {
@@ -18977,6 +19661,7 @@
   },
   {
     "id": 690,
+    "displayName": "Venalgue",
     "name": "venalgue",
     "types": [
       {
@@ -19009,6 +19694,7 @@
   },
   {
     "id": 691,
+    "displayName": "Kravarech",
     "name": "kravarech",
     "types": [
       {
@@ -19041,6 +19727,7 @@
   },
   {
     "id": 692,
+    "displayName": "Flingouste",
     "name": "flingouste",
     "types": [
       {
@@ -19061,6 +19748,7 @@
   },
   {
     "id": 693,
+    "displayName": "Gamblast",
     "name": "gamblast",
     "types": [
       {
@@ -19081,6 +19769,7 @@
   },
   {
     "id": 694,
+    "displayName": "Galvaran",
     "name": "galvaran",
     "types": [
       {
@@ -19113,6 +19802,7 @@
   },
   {
     "id": 695,
+    "displayName": "Iguolta",
     "name": "iguolta",
     "types": [
       {
@@ -19145,6 +19835,7 @@
   },
   {
     "id": 696,
+    "displayName": "Ptyranidur",
     "name": "ptyranidur",
     "types": [
       {
@@ -19173,6 +19864,7 @@
   },
   {
     "id": 697,
+    "displayName": "Rexillius",
     "name": "rexillius",
     "types": [
       {
@@ -19201,6 +19893,7 @@
   },
   {
     "id": 698,
+    "displayName": "Amagara",
     "name": "amagara",
     "types": [
       {
@@ -19229,6 +19922,7 @@
   },
   {
     "id": 699,
+    "displayName": "Dragmara",
     "name": "dragmara",
     "types": [
       {
@@ -19257,6 +19951,7 @@
   },
   {
     "id": 700,
+    "displayName": "Nymphali",
     "name": "nymphali",
     "types": [
       {
@@ -19281,6 +19976,7 @@
   },
   {
     "id": 701,
+    "displayName": "Brutalibré",
     "name": "brutalibre",
     "types": [
       {
@@ -19313,6 +20009,7 @@
   },
   {
     "id": 702,
+    "displayName": "Dedenne",
     "name": "dedenne",
     "types": [
       {
@@ -19345,6 +20042,7 @@
   },
   {
     "id": 703,
+    "displayName": "Strassie",
     "name": "strassie",
     "types": [
       {
@@ -19373,6 +20071,7 @@
   },
   {
     "id": 704,
+    "displayName": "Mucuscule",
     "name": "mucuscule",
     "types": [
       {
@@ -19401,6 +20100,7 @@
   },
   {
     "id": 705,
+    "displayName": "Colimucus",
     "name": "colimucus",
     "types": [
       {
@@ -19429,6 +20129,7 @@
   },
   {
     "id": 706,
+    "displayName": "Muplodocus",
     "name": "muplodocus",
     "types": [
       {
@@ -19457,6 +20158,7 @@
   },
   {
     "id": 707,
+    "displayName": "Trousselin",
     "name": "trousselin",
     "types": [
       {
@@ -19485,6 +20187,7 @@
   },
   {
     "id": 708,
+    "displayName": "Brocélôme",
     "name": "brocelome",
     "types": [
       {
@@ -19517,6 +20220,7 @@
   },
   {
     "id": 709,
+    "displayName": "Desséliande",
     "name": "desseliande",
     "types": [
       {
@@ -19549,6 +20253,7 @@
   },
   {
     "id": 710,
+    "displayName": "Pitrouille",
     "name": "pitrouille",
     "types": [
       {
@@ -19581,6 +20286,7 @@
   },
   {
     "id": 711,
+    "displayName": "Banshitrouye",
     "name": "banshitrouye",
     "types": [
       {
@@ -19613,6 +20319,7 @@
   },
   {
     "id": 712,
+    "displayName": "Grelaçon",
     "name": "grelacon",
     "types": [
       {
@@ -19641,6 +20348,7 @@
   },
   {
     "id": 713,
+    "displayName": "Séracrawl",
     "name": "seracrawl",
     "types": [
       {
@@ -19669,6 +20377,7 @@
   },
   {
     "id": 714,
+    "displayName": "Sonistrelle",
     "name": "sonistrelle",
     "types": [
       {
@@ -19701,6 +20410,7 @@
   },
   {
     "id": 715,
+    "displayName": "Bruyverne",
     "name": "bruyverne",
     "types": [
       {
@@ -19733,6 +20443,7 @@
   },
   {
     "id": 716,
+    "displayName": "Xerneas",
     "name": "xerneas",
     "types": [
       {
@@ -19753,6 +20464,7 @@
   },
   {
     "id": 717,
+    "displayName": "Yveltal",
     "name": "yveltal",
     "types": [
       {
@@ -19777,6 +20489,7 @@
   },
   {
     "id": 718,
+    "displayName": "Zygarde",
     "name": "zygarde",
     "types": [
       {
@@ -19805,6 +20518,7 @@
   },
   {
     "id": 719,
+    "displayName": "Diancie",
     "name": "diancie",
     "types": [
       {
@@ -19829,6 +20543,7 @@
   },
   {
     "id": 720,
+    "displayName": "Hoopa",
     "name": "hoopa",
     "types": [
       {
@@ -19853,6 +20568,7 @@
   },
   {
     "id": 721,
+    "displayName": "Volcanion",
     "name": "volcanion",
     "types": [
       {
@@ -19877,6 +20593,7 @@
   },
   {
     "id": 722,
+    "displayName": "Brindibou",
     "name": "brindibou",
     "types": [
       {
@@ -19905,6 +20622,7 @@
   },
   {
     "id": 723,
+    "displayName": "Efflèche",
     "name": "effleche",
     "types": [
       {
@@ -19933,6 +20651,7 @@
   },
   {
     "id": 724,
+    "displayName": "Archéduc",
     "name": "archeduc",
     "types": [
       {
@@ -19961,6 +20680,7 @@
   },
   {
     "id": 725,
+    "displayName": "Flamiaou",
     "name": "flamiaou",
     "types": [
       {
@@ -19985,6 +20705,7 @@
   },
   {
     "id": 726,
+    "displayName": "Matoufeu",
     "name": "matoufeu",
     "types": [
       {
@@ -20009,6 +20730,7 @@
   },
   {
     "id": 727,
+    "displayName": "Félinferno",
     "name": "felinferno",
     "types": [
       {
@@ -20037,6 +20759,7 @@
   },
   {
     "id": 728,
+    "displayName": "Otaquin",
     "name": "otaquin",
     "types": [
       {
@@ -20061,6 +20784,7 @@
   },
   {
     "id": 729,
+    "displayName": "Otarlette",
     "name": "otarlette",
     "types": [
       {
@@ -20085,6 +20809,7 @@
   },
   {
     "id": 730,
+    "displayName": "Oratoria",
     "name": "oratoria",
     "types": [
       {
@@ -20113,6 +20838,7 @@
   },
   {
     "id": 731,
+    "displayName": "Picassaut",
     "name": "picassaut",
     "types": [
       {
@@ -20145,6 +20871,7 @@
   },
   {
     "id": 732,
+    "displayName": "Piclairon",
     "name": "piclairon",
     "types": [
       {
@@ -20177,6 +20904,7 @@
   },
   {
     "id": 733,
+    "displayName": "Bazoucan",
     "name": "bazoucan",
     "types": [
       {
@@ -20209,6 +20937,7 @@
   },
   {
     "id": 734,
+    "displayName": "Manglouton",
     "name": "manglouton",
     "types": [
       {
@@ -20237,6 +20966,7 @@
   },
   {
     "id": 735,
+    "displayName": "Argouste",
     "name": "argouste",
     "types": [
       {
@@ -20265,6 +20995,7 @@
   },
   {
     "id": 736,
+    "displayName": "Larvibule",
     "name": "larvibule",
     "types": [
       {
@@ -20285,6 +21016,7 @@
   },
   {
     "id": 737,
+    "displayName": "Chrysapile",
     "name": "chrysapile",
     "types": [
       {
@@ -20309,6 +21041,7 @@
   },
   {
     "id": 738,
+    "displayName": "Lucanon",
     "name": "lucanon",
     "types": [
       {
@@ -20333,6 +21066,7 @@
   },
   {
     "id": 739,
+    "displayName": "Crabagarre",
     "name": "crabagarre",
     "types": [
       {
@@ -20361,6 +21095,7 @@
   },
   {
     "id": 740,
+    "displayName": "Crabominable",
     "name": "crabominable",
     "types": [
       {
@@ -20393,6 +21128,7 @@
   },
   {
     "id": 741,
+    "displayName": "Plumeline",
     "name": "plumeline",
     "types": [
       {
@@ -20417,6 +21153,7 @@
   },
   {
     "id": 742,
+    "displayName": "Bombydou",
     "name": "bombydou",
     "types": [
       {
@@ -20449,6 +21186,7 @@
   },
   {
     "id": 743,
+    "displayName": "Rubombelle",
     "name": "rubombelle",
     "types": [
       {
@@ -20481,6 +21219,7 @@
   },
   {
     "id": 744,
+    "displayName": "Rocabot",
     "name": "rocabot",
     "types": [
       {
@@ -20513,6 +21252,7 @@
   },
   {
     "id": 745,
+    "displayName": "Lougaroc",
     "name": "lougaroc",
     "types": [
       {
@@ -20541,6 +21281,7 @@
   },
   {
     "id": 746,
+    "displayName": "Froussardine",
     "name": "froussardine",
     "types": [
       {
@@ -20561,6 +21302,7 @@
   },
   {
     "id": 747,
+    "displayName": "Vorastérie",
     "name": "vorasterie",
     "types": [
       {
@@ -20593,6 +21335,7 @@
   },
   {
     "id": 748,
+    "displayName": "Prédastérie",
     "name": "predasterie",
     "types": [
       {
@@ -20625,6 +21368,7 @@
   },
   {
     "id": 749,
+    "displayName": "Tiboudet",
     "name": "tiboudet",
     "types": [
       {
@@ -20653,6 +21397,7 @@
   },
   {
     "id": 750,
+    "displayName": "Bourrinos",
     "name": "bourrinos",
     "types": [
       {
@@ -20681,6 +21426,7 @@
   },
   {
     "id": 751,
+    "displayName": "Araqua",
     "name": "araqua",
     "types": [
       {
@@ -20709,6 +21455,7 @@
   },
   {
     "id": 752,
+    "displayName": "Tarenbulle",
     "name": "tarenbulle",
     "types": [
       {
@@ -20737,6 +21484,7 @@
   },
   {
     "id": 753,
+    "displayName": "Mimantis",
     "name": "mimantis",
     "types": [
       {
@@ -20761,6 +21509,7 @@
   },
   {
     "id": 754,
+    "displayName": "Floramantis",
     "name": "floramantis",
     "types": [
       {
@@ -20785,6 +21534,7 @@
   },
   {
     "id": 755,
+    "displayName": "Spododo",
     "name": "spododo",
     "types": [
       {
@@ -20817,6 +21567,7 @@
   },
   {
     "id": 756,
+    "displayName": "Lampignon",
     "name": "lampignon",
     "types": [
       {
@@ -20849,6 +21600,7 @@
   },
   {
     "id": 757,
+    "displayName": "Tritox",
     "name": "tritox",
     "types": [
       {
@@ -20877,6 +21629,7 @@
   },
   {
     "id": 758,
+    "displayName": "Malamandre",
     "name": "malamandre",
     "types": [
       {
@@ -20905,6 +21658,7 @@
   },
   {
     "id": 759,
+    "displayName": "Nounourson",
     "name": "nounourson",
     "types": [
       {
@@ -20937,6 +21691,7 @@
   },
   {
     "id": 760,
+    "displayName": "Chelours",
     "name": "chelours",
     "types": [
       {
@@ -20969,6 +21724,7 @@
   },
   {
     "id": 761,
+    "displayName": "Croquine",
     "name": "croquine",
     "types": [
       {
@@ -20997,6 +21753,7 @@
   },
   {
     "id": 762,
+    "displayName": "Candine",
     "name": "candine",
     "types": [
       {
@@ -21025,6 +21782,7 @@
   },
   {
     "id": 763,
+    "displayName": "Sucreine",
     "name": "sucreine",
     "types": [
       {
@@ -21053,6 +21811,7 @@
   },
   {
     "id": 764,
+    "displayName": "Guérilande",
     "name": "guerilande",
     "types": [
       {
@@ -21081,6 +21840,7 @@
   },
   {
     "id": 765,
+    "displayName": "Gouroutan",
     "name": "gouroutan",
     "types": [
       {
@@ -21113,6 +21873,7 @@
   },
   {
     "id": 766,
+    "displayName": "Quartermac",
     "name": "quartermac",
     "types": [
       {
@@ -21137,6 +21898,7 @@
   },
   {
     "id": 767,
+    "displayName": "Sovkipou",
     "name": "sovkipou",
     "types": [
       {
@@ -21161,6 +21923,7 @@
   },
   {
     "id": 768,
+    "displayName": "Sarmuraï",
     "name": "sarmurai",
     "types": [
       {
@@ -21185,6 +21948,7 @@
   },
   {
     "id": 769,
+    "displayName": "Bacabouh",
     "name": "bacabouh",
     "types": [
       {
@@ -21213,6 +21977,7 @@
   },
   {
     "id": 770,
+    "displayName": "Trépassable",
     "name": "trepassable",
     "types": [
       {
@@ -21241,6 +22006,7 @@
   },
   {
     "id": 771,
+    "displayName": "Concombaffe",
     "name": "concombaffe",
     "types": [
       {
@@ -21265,6 +22031,7 @@
   },
   {
     "id": 773,
+    "displayName": "Silvallié",
     "name": "silvallie",
     "types": [
       {
@@ -21285,6 +22052,7 @@
   },
   {
     "id": 774,
+    "displayName": "Météno",
     "name": "meteno",
     "types": [
       {
@@ -21309,6 +22077,7 @@
   },
   {
     "id": 775,
+    "displayName": "Dodoala",
     "name": "dodoala",
     "types": [
       {
@@ -21329,6 +22098,7 @@
   },
   {
     "id": 776,
+    "displayName": "Boumata",
     "name": "boumata",
     "types": [
       {
@@ -21353,6 +22123,7 @@
   },
   {
     "id": 777,
+    "displayName": "Togedemaru",
     "name": "togedemaru",
     "types": [
       {
@@ -21385,6 +22156,7 @@
   },
   {
     "id": 778,
+    "displayName": "Mimiqui",
     "name": "mimiqui",
     "types": [
       {
@@ -21409,6 +22181,7 @@
   },
   {
     "id": 779,
+    "displayName": "Denticrisse",
     "name": "denticrisse",
     "types": [
       {
@@ -21441,6 +22214,7 @@
   },
   {
     "id": 780,
+    "displayName": "Draïeul",
     "name": "draieul",
     "types": [
       {
@@ -21473,6 +22247,7 @@
   },
   {
     "id": 781,
+    "displayName": "Sinistrail",
     "name": "sinistrail",
     "types": [
       {
@@ -21497,6 +22272,7 @@
   },
   {
     "id": 782,
+    "displayName": "Bébécaille",
     "name": "bebecaille",
     "types": [
       {
@@ -21525,6 +22301,7 @@
   },
   {
     "id": 783,
+    "displayName": "Écaïd",
     "name": "ecaid",
     "types": [
       {
@@ -21557,6 +22334,7 @@
   },
   {
     "id": 784,
+    "displayName": "Ékaïser",
     "name": "ekaiser",
     "types": [
       {
@@ -21589,6 +22367,7 @@
   },
   {
     "id": 785,
+    "displayName": "Tokorico",
     "name": "tokorico",
     "types": [
       {
@@ -21617,6 +22396,7 @@
   },
   {
     "id": 786,
+    "displayName": "Tokopiyon",
     "name": "tokopiyon",
     "types": [
       {
@@ -21645,6 +22425,7 @@
   },
   {
     "id": 787,
+    "displayName": "Tokotoro",
     "name": "tokotoro",
     "types": [
       {
@@ -21673,6 +22454,7 @@
   },
   {
     "id": 788,
+    "displayName": "Tokopisco",
     "name": "tokopisco",
     "types": [
       {
@@ -21701,6 +22483,7 @@
   },
   {
     "id": 789,
+    "displayName": "Cosmog",
     "name": "cosmog",
     "types": [
       {
@@ -21721,6 +22504,7 @@
   },
   {
     "id": 790,
+    "displayName": "Cosmovum",
     "name": "cosmovum",
     "types": [
       {
@@ -21741,6 +22525,7 @@
   },
   {
     "id": 791,
+    "displayName": "Solgaleo",
     "name": "solgaleo",
     "types": [
       {
@@ -21765,6 +22550,7 @@
   },
   {
     "id": 792,
+    "displayName": "Lunala",
     "name": "lunala",
     "types": [
       {
@@ -21789,6 +22575,7 @@
   },
   {
     "id": 793,
+    "displayName": "Zéroïd",
     "name": "zeroid",
     "types": [
       {
@@ -21813,6 +22600,7 @@
   },
   {
     "id": 794,
+    "displayName": "Mouscoto",
     "name": "mouscoto",
     "types": [
       {
@@ -21837,6 +22625,7 @@
   },
   {
     "id": 795,
+    "displayName": "Cancrelove",
     "name": "cancrelove",
     "types": [
       {
@@ -21861,6 +22650,7 @@
   },
   {
     "id": 796,
+    "displayName": "Câblifère",
     "name": "cablifere",
     "types": [
       {
@@ -21881,6 +22671,7 @@
   },
   {
     "id": 797,
+    "displayName": "Bamboiselle",
     "name": "bamboiselle",
     "types": [
       {
@@ -21905,6 +22696,7 @@
   },
   {
     "id": 798,
+    "displayName": "Katagami",
     "name": "katagami",
     "types": [
       {
@@ -21929,6 +22721,7 @@
   },
   {
     "id": 799,
+    "displayName": "Engloutyran",
     "name": "engloutyran",
     "types": [
       {
@@ -21953,6 +22746,7 @@
   },
   {
     "id": 800,
+    "displayName": "Necrozma",
     "name": "necrozma",
     "types": [
       {
@@ -21973,6 +22767,7 @@
   },
   {
     "id": 801,
+    "displayName": "Magearna",
     "name": "magearna",
     "types": [
       {
@@ -21997,6 +22792,7 @@
   },
   {
     "id": 802,
+    "displayName": "Marshadow",
     "name": "marshadow",
     "types": [
       {
@@ -22021,6 +22817,7 @@
   },
   {
     "id": 803,
+    "displayName": "Vémini",
     "name": "vemini",
     "types": [
       {
@@ -22041,6 +22838,7 @@
   },
   {
     "id": 804,
+    "displayName": "Mandrillon",
     "name": "mandrillon",
     "types": [
       {
@@ -22065,6 +22863,7 @@
   },
   {
     "id": 806,
+    "displayName": "Pierroteknik",
     "name": "pierroteknik",
     "types": [
       {
@@ -22089,6 +22888,7 @@
   },
   {
     "id": 807,
+    "displayName": "Zeraora",
     "name": "zeraora",
     "types": [
       {
@@ -22109,6 +22909,7 @@
   },
   {
     "id": 808,
+    "displayName": "Meltan",
     "name": "meltan",
     "types": [
       {
@@ -22129,6 +22930,7 @@
   },
   {
     "id": 809,
+    "displayName": "Melmetal",
     "name": "melmetal",
     "types": [
       {
@@ -22149,6 +22951,7 @@
   },
   {
     "id": 810,
+    "displayName": "Ouistempo",
     "name": "ouistempo",
     "types": [
       {
@@ -22173,6 +22976,7 @@
   },
   {
     "id": 811,
+    "displayName": "Badabouin",
     "name": "badabouin",
     "types": [
       {
@@ -22197,6 +23001,7 @@
   },
   {
     "id": 812,
+    "displayName": "Gorythmic",
     "name": "gorythmic",
     "types": [
       {
@@ -22221,6 +23026,7 @@
   },
   {
     "id": 813,
+    "displayName": "Flambino",
     "name": "flambino",
     "types": [
       {
@@ -22245,6 +23051,7 @@
   },
   {
     "id": 814,
+    "displayName": "Lapyro",
     "name": "lapyro",
     "types": [
       {
@@ -22269,6 +23076,7 @@
   },
   {
     "id": 815,
+    "displayName": "Pyrobut",
     "name": "pyrobut",
     "types": [
       {
@@ -22293,6 +23101,7 @@
   },
   {
     "id": 816,
+    "displayName": "Larméléon",
     "name": "larmeleon",
     "types": [
       {
@@ -22317,6 +23126,7 @@
   },
   {
     "id": 817,
+    "displayName": "Arrozard",
     "name": "arrozard",
     "types": [
       {
@@ -22341,6 +23151,7 @@
   },
   {
     "id": 818,
+    "displayName": "Lézargus",
     "name": "lezargus",
     "types": [
       {
@@ -22365,6 +23176,7 @@
   },
   {
     "id": 819,
+    "displayName": "Rongourmand",
     "name": "rongourmand",
     "types": [
       {
@@ -22389,6 +23201,7 @@
   },
   {
     "id": 820,
+    "displayName": "Rongrigou",
     "name": "rongrigou",
     "types": [
       {
@@ -22413,6 +23226,7 @@
   },
   {
     "id": 821,
+    "displayName": "Minisange",
     "name": "minisange",
     "types": [
       {
@@ -22441,6 +23255,7 @@
   },
   {
     "id": 822,
+    "displayName": "Bleuseille",
     "name": "bleuseille",
     "types": [
       {
@@ -22469,6 +23284,7 @@
   },
   {
     "id": 823,
+    "displayName": "Corvaillus",
     "name": "corvaillus",
     "types": [
       {
@@ -22501,6 +23317,7 @@
   },
   {
     "id": 824,
+    "displayName": "Larvadar",
     "name": "larvadar",
     "types": [
       {
@@ -22529,6 +23346,7 @@
   },
   {
     "id": 825,
+    "displayName": "Coléodôme",
     "name": "coleodome",
     "types": [
       {
@@ -22561,6 +23379,7 @@
   },
   {
     "id": 826,
+    "displayName": "Astronelle",
     "name": "astronelle",
     "types": [
       {
@@ -22593,6 +23412,7 @@
   },
   {
     "id": 827,
+    "displayName": "Goupilou",
     "name": "goupilou",
     "types": [
       {
@@ -22621,6 +23441,7 @@
   },
   {
     "id": 828,
+    "displayName": "Roublenard",
     "name": "roublenard",
     "types": [
       {
@@ -22649,6 +23470,7 @@
   },
   {
     "id": 829,
+    "displayName": "Tournicoton",
     "name": "tournicoton",
     "types": [
       {
@@ -22677,6 +23499,7 @@
   },
   {
     "id": 830,
+    "displayName": "Blancoton",
     "name": "blancoton",
     "types": [
       {
@@ -22705,6 +23528,7 @@
   },
   {
     "id": 831,
+    "displayName": "Moumouton",
     "name": "moumouton",
     "types": [
       {
@@ -22733,6 +23557,7 @@
   },
   {
     "id": 832,
+    "displayName": "Moumouflon",
     "name": "moumouflon",
     "types": [
       {
@@ -22761,6 +23586,7 @@
   },
   {
     "id": 833,
+    "displayName": "Khélocrok",
     "name": "khelocrok",
     "types": [
       {
@@ -22789,6 +23615,7 @@
   },
   {
     "id": 834,
+    "displayName": "Torgamord",
     "name": "torgamord",
     "types": [
       {
@@ -22821,6 +23648,7 @@
   },
   {
     "id": 835,
+    "displayName": "Voltoutou",
     "name": "voltoutou",
     "types": [
       {
@@ -22845,6 +23673,7 @@
   },
   {
     "id": 836,
+    "displayName": "Fulgudog",
     "name": "fulgudog",
     "types": [
       {
@@ -22869,6 +23698,7 @@
   },
   {
     "id": 837,
+    "displayName": "Charbi",
     "name": "charbi",
     "types": [
       {
@@ -22897,6 +23727,7 @@
   },
   {
     "id": 838,
+    "displayName": "Wagomine",
     "name": "wagomine",
     "types": [
       {
@@ -22929,6 +23760,7 @@
   },
   {
     "id": 839,
+    "displayName": "Monthracite",
     "name": "monthracite",
     "types": [
       {
@@ -22961,6 +23793,7 @@
   },
   {
     "id": 840,
+    "displayName": "Verpom",
     "name": "verpom",
     "types": [
       {
@@ -22993,6 +23826,7 @@
   },
   {
     "id": 841,
+    "displayName": "Pomdrapi",
     "name": "pomdrapi",
     "types": [
       {
@@ -23025,6 +23859,7 @@
   },
   {
     "id": 842,
+    "displayName": "Dratatin",
     "name": "dratatin",
     "types": [
       {
@@ -23057,6 +23892,7 @@
   },
   {
     "id": 843,
+    "displayName": "Dunaja",
     "name": "dunaja",
     "types": [
       {
@@ -23085,6 +23921,7 @@
   },
   {
     "id": 844,
+    "displayName": "Dunaconda",
     "name": "dunaconda",
     "types": [
       {
@@ -23113,6 +23950,7 @@
   },
   {
     "id": 845,
+    "displayName": "Nigosier",
     "name": "nigosier",
     "types": [
       {
@@ -23137,6 +23975,7 @@
   },
   {
     "id": 846,
+    "displayName": "Embrochet",
     "name": "embrochet",
     "types": [
       {
@@ -23161,6 +24000,7 @@
   },
   {
     "id": 847,
+    "displayName": "Hastacuda",
     "name": "hastacuda",
     "types": [
       {
@@ -23185,6 +24025,7 @@
   },
   {
     "id": 848,
+    "displayName": "Toxizap",
     "name": "toxizap",
     "types": [
       {
@@ -23217,6 +24058,7 @@
   },
   {
     "id": 849,
+    "displayName": "Salarsen",
     "name": "salarsen",
     "types": [
       {
@@ -23249,6 +24091,7 @@
   },
   {
     "id": 850,
+    "displayName": "Grillepattes",
     "name": "grillepattes",
     "types": [
       {
@@ -23281,6 +24124,7 @@
   },
   {
     "id": 851,
+    "displayName": "Scolocendre",
     "name": "scolocendre",
     "types": [
       {
@@ -23313,6 +24157,7 @@
   },
   {
     "id": 852,
+    "displayName": "Poulpaf",
     "name": "poulpaf",
     "types": [
       {
@@ -23337,6 +24182,7 @@
   },
   {
     "id": 853,
+    "displayName": "Krakos",
     "name": "krakos",
     "types": [
       {
@@ -23361,6 +24207,7 @@
   },
   {
     "id": 854,
+    "displayName": "Théffroi",
     "name": "theffroi",
     "types": [
       {
@@ -23385,6 +24232,7 @@
   },
   {
     "id": 855,
+    "displayName": "Polthégeist",
     "name": "polthegeist",
     "types": [
       {
@@ -23409,6 +24257,7 @@
   },
   {
     "id": 856,
+    "displayName": "Bibichut",
     "name": "bibichut",
     "types": [
       {
@@ -23437,6 +24286,7 @@
   },
   {
     "id": 857,
+    "displayName": "Chapotus",
     "name": "chapotus",
     "types": [
       {
@@ -23465,6 +24315,7 @@
   },
   {
     "id": 858,
+    "displayName": "Sorcilence",
     "name": "sorcilence",
     "types": [
       {
@@ -23497,6 +24348,7 @@
   },
   {
     "id": 859,
+    "displayName": "Grimalin",
     "name": "grimalin",
     "types": [
       {
@@ -23529,6 +24381,7 @@
   },
   {
     "id": 860,
+    "displayName": "Fourbelin",
     "name": "fourbelin",
     "types": [
       {
@@ -23561,6 +24414,7 @@
   },
   {
     "id": 861,
+    "displayName": "Angoliath",
     "name": "angoliath",
     "types": [
       {
@@ -23593,6 +24447,7 @@
   },
   {
     "id": 862,
+    "displayName": "Ixon",
     "name": "ixon",
     "types": [
       {
@@ -23625,6 +24480,7 @@
   },
   {
     "id": 863,
+    "displayName": "Berserkatt",
     "name": "berserkatt",
     "types": [
       {
@@ -23653,6 +24509,7 @@
   },
   {
     "id": 864,
+    "displayName": "Corayôme",
     "name": "corayome",
     "types": [
       {
@@ -23677,6 +24534,7 @@
   },
   {
     "id": 865,
+    "displayName": "Palarticho",
     "name": "palarticho",
     "types": [
       {
@@ -23701,6 +24559,7 @@
   },
   {
     "id": 867,
+    "displayName": "Tutétékri",
     "name": "tutetekri",
     "types": [
       {
@@ -23725,6 +24584,7 @@
   },
   {
     "id": 868,
+    "displayName": "Crèmy",
     "name": "cremy",
     "types": [
       {
@@ -23749,6 +24609,7 @@
   },
   {
     "id": 869,
+    "displayName": "Charmilly",
     "name": "charmilly",
     "types": [
       {
@@ -23773,6 +24634,7 @@
   },
   {
     "id": 870,
+    "displayName": "Hexadron",
     "name": "hexadron",
     "types": [
       {
@@ -23797,6 +24659,7 @@
   },
   {
     "id": 871,
+    "displayName": "Wattapik",
     "name": "wattapik",
     "types": [
       {
@@ -23821,6 +24684,7 @@
   },
   {
     "id": 872,
+    "displayName": "Frissonille",
     "name": "frissonille",
     "types": [
       {
@@ -23849,6 +24713,7 @@
   },
   {
     "id": 873,
+    "displayName": "Beldeneige",
     "name": "beldeneige",
     "types": [
       {
@@ -23877,6 +24742,7 @@
   },
   {
     "id": 874,
+    "displayName": "Dolman",
     "name": "dolman",
     "types": [
       {
@@ -23897,6 +24763,7 @@
   },
   {
     "id": 875,
+    "displayName": "Bekaglaçon",
     "name": "bekaglacon",
     "types": [
       {
@@ -23917,6 +24784,7 @@
   },
   {
     "id": 876,
+    "displayName": "Wimessir",
     "name": "wimessir",
     "types": [
       {
@@ -23949,6 +24817,7 @@
   },
   {
     "id": 877,
+    "displayName": "Morpeko",
     "name": "morpeko",
     "types": [
       {
@@ -23973,6 +24842,7 @@
   },
   {
     "id": 878,
+    "displayName": "Charibari",
     "name": "charibari",
     "types": [
       {
@@ -23997,6 +24867,7 @@
   },
   {
     "id": 879,
+    "displayName": "Pachyradjah",
     "name": "pachyradjah",
     "types": [
       {
@@ -24021,6 +24892,7 @@
   },
   {
     "id": 880,
+    "displayName": "Galvagon",
     "name": "galvagon",
     "types": [
       {
@@ -24049,6 +24921,7 @@
   },
   {
     "id": 881,
+    "displayName": "Galvagla",
     "name": "galvagla",
     "types": [
       {
@@ -24081,6 +24954,7 @@
   },
   {
     "id": 882,
+    "displayName": "Hydragon",
     "name": "hydragon",
     "types": [
       {
@@ -24113,6 +24987,7 @@
   },
   {
     "id": 883,
+    "displayName": "Hydragla",
     "name": "hydragla",
     "types": [
       {
@@ -24145,6 +25020,7 @@
   },
   {
     "id": 884,
+    "displayName": "Duralugon",
     "name": "duralugon",
     "types": [
       {
@@ -24177,6 +25053,7 @@
   },
   {
     "id": 885,
+    "displayName": "Fantyrm",
     "name": "fantyrm",
     "types": [
       {
@@ -24209,6 +25086,7 @@
   },
   {
     "id": 886,
+    "displayName": "Dispareptil",
     "name": "dispareptil",
     "types": [
       {
@@ -24241,6 +25119,7 @@
   },
   {
     "id": 887,
+    "displayName": "Lanssorien",
     "name": "lanssorien",
     "types": [
       {
@@ -24273,6 +25152,7 @@
   },
   {
     "id": 888,
+    "displayName": "Zacian",
     "name": "zacian",
     "types": [
       {
@@ -24293,6 +25173,7 @@
   },
   {
     "id": 889,
+    "displayName": "Zamazenta",
     "name": "zamazenta",
     "types": [
       {
@@ -24313,6 +25194,7 @@
   },
   {
     "id": 890,
+    "displayName": "Éthernatos",
     "name": "ethernatos",
     "types": [
       {
@@ -24337,6 +25219,7 @@
   },
   {
     "id": 891,
+    "displayName": "Wushours",
     "name": "wushours",
     "types": [
       {
@@ -24357,6 +25240,7 @@
   },
   {
     "id": 892,
+    "displayName": "Shifours",
     "name": "shifours",
     "types": [
       {
@@ -24381,6 +25265,7 @@
   },
   {
     "id": 893,
+    "displayName": "Zarude",
     "name": "zarude",
     "types": [
       {
@@ -24401,6 +25286,7 @@
   },
   {
     "id": 894,
+    "displayName": "Regieleki",
     "name": "regieleki",
     "types": [
       {
@@ -24421,6 +25307,7 @@
   },
   {
     "id": 895,
+    "displayName": "Regidrago",
     "name": "regidrago",
     "types": [
       {
@@ -24441,6 +25328,7 @@
   },
   {
     "id": 896,
+    "displayName": "Blizzeval",
     "name": "blizzeval",
     "types": [
       {
@@ -24461,6 +25349,7 @@
   },
   {
     "id": 897,
+    "displayName": "Spectreval",
     "name": "spectreval",
     "types": [
       {
@@ -24481,6 +25370,7 @@
   },
   {
     "id": 898,
+    "displayName": "Sylveroy",
     "name": "sylveroy",
     "types": [
       {
@@ -24505,6 +25395,7 @@
   },
   {
     "id": 899,
+    "displayName": "Cerbyllin",
     "name": "cerbyllin",
     "types": [
       {
@@ -24524,6 +25415,7 @@
   },
   {
     "id": 900,
+    "displayName": "Hachécateur",
     "name": "hachecateur",
     "types": [
       {
@@ -24543,6 +25435,7 @@
   },
   {
     "id": 901,
+    "displayName": "Ursaking",
     "name": "ursaking",
     "types": [
       {
@@ -24562,6 +25455,7 @@
   },
   {
     "id": 902,
+    "displayName": "Paragruel",
     "name": "paragruel",
     "types": [
       {
@@ -24581,6 +25475,7 @@
   },
   {
     "id": 903,
+    "displayName": "Farfurex",
     "name": "farfurex",
     "types": [
       {
@@ -24600,6 +25495,7 @@
   },
   {
     "id": 904,
+    "displayName": "Qwilpik",
     "name": "qwilpik",
     "types": [
       {
@@ -24619,6 +25515,7 @@
   },
   {
     "id": 905,
+    "displayName": "Amovénus",
     "name": "amovenus",
     "types": [
       {
@@ -24638,6 +25535,7 @@
   },
   {
     "id": 906,
+    "displayName": "Poussacha",
     "name": "poussacha",
     "types": [
       {
@@ -24662,6 +25560,7 @@
   },
   {
     "id": 907,
+    "displayName": "Matourgeon",
     "name": "matourgeon",
     "types": [
       {
@@ -24686,6 +25585,7 @@
   },
   {
     "id": 908,
+    "displayName": "Miascarade",
     "name": "miascarade",
     "types": [
       {
@@ -24714,6 +25614,7 @@
   },
   {
     "id": 909,
+    "displayName": "Chochodile",
     "name": "chochodile",
     "types": [
       {
@@ -24738,6 +25639,7 @@
   },
   {
     "id": 910,
+    "displayName": "Crocogril",
     "name": "crocogril",
     "types": [
       {
@@ -24762,6 +25664,7 @@
   },
   {
     "id": 911,
+    "displayName": "Flâmigator",
     "name": "flamigator",
     "types": [
       {
@@ -24790,6 +25693,7 @@
   },
   {
     "id": 912,
+    "displayName": "Coiffeton",
     "name": "coiffeton",
     "types": [
       {
@@ -24814,6 +25718,7 @@
   },
   {
     "id": 913,
+    "displayName": "Canarbello",
     "name": "canarbello",
     "types": [
       {
@@ -24838,6 +25743,7 @@
   },
   {
     "id": 914,
+    "displayName": "Palmaval",
     "name": "palmaval",
     "types": [
       {
@@ -24866,6 +25772,7 @@
   },
   {
     "id": 915,
+    "displayName": "Gourmelet",
     "name": "gourmelet",
     "types": [
       {
@@ -24894,6 +25801,7 @@
   },
   {
     "id": 916,
+    "displayName": "Fragroin",
     "name": "fragroin",
     "types": [
       {
@@ -24922,6 +25830,7 @@
   },
   {
     "id": 917,
+    "displayName": "Tissenboule",
     "name": "tissenboule",
     "types": [
       {
@@ -24946,6 +25855,7 @@
   },
   {
     "id": 918,
+    "displayName": "Filentrappe",
     "name": "filentrappe",
     "types": [
       {
@@ -24970,6 +25880,7 @@
   },
   {
     "id": 919,
+    "displayName": "Lilliterelle",
     "name": "lilliterelle",
     "types": [
       {
@@ -24994,6 +25905,7 @@
   },
   {
     "id": 920,
+    "displayName": "Gambex",
     "name": "gambex",
     "types": [
       {
@@ -25022,6 +25934,7 @@
   },
   {
     "id": 921,
+    "displayName": "Pohm",
     "name": "pohm",
     "types": [
       {
@@ -25050,6 +25963,7 @@
   },
   {
     "id": 922,
+    "displayName": "Pohmotte",
     "name": "pohmotte",
     "types": [
       {
@@ -25082,6 +25996,7 @@
   },
   {
     "id": 923,
+    "displayName": "Pohmarmotte",
     "name": "pohmarmotte",
     "types": [
       {
@@ -25114,6 +26029,7 @@
   },
   {
     "id": 924,
+    "displayName": "Compagnol",
     "name": "compagnol",
     "types": [
       {
@@ -25142,6 +26058,7 @@
   },
   {
     "id": 925,
+    "displayName": "Famignol",
     "name": "famignol",
     "types": [
       {
@@ -25170,6 +26087,7 @@
   },
   {
     "id": 926,
+    "displayName": "Pâtachiot",
     "name": "patachiot",
     "types": [
       {
@@ -25194,6 +26112,7 @@
   },
   {
     "id": 927,
+    "displayName": "Briochien",
     "name": "briochien",
     "types": [
       {
@@ -25218,6 +26137,7 @@
   },
   {
     "id": 928,
+    "displayName": "Olivini",
     "name": "olivini",
     "types": [
       {
@@ -25246,6 +26166,7 @@
   },
   {
     "id": 929,
+    "displayName": "Olivado",
     "name": "olivado",
     "types": [
       {
@@ -25274,6 +26195,7 @@
   },
   {
     "id": 930,
+    "displayName": "Arboliva",
     "name": "arboliva",
     "types": [
       {
@@ -25302,6 +26224,7 @@
   },
   {
     "id": 931,
+    "displayName": "Tapatoès",
     "name": "tapatoes",
     "types": [
       {
@@ -25334,6 +26257,7 @@
   },
   {
     "id": 932,
+    "displayName": "Selutin",
     "name": "selutin",
     "types": [
       {
@@ -25362,6 +26286,7 @@
   },
   {
     "id": 933,
+    "displayName": "Amassel",
     "name": "amassel",
     "types": [
       {
@@ -25390,6 +26315,7 @@
   },
   {
     "id": 934,
+    "displayName": "Gigansel",
     "name": "gigansel",
     "types": [
       {
@@ -25418,6 +26344,7 @@
   },
   {
     "id": 935,
+    "displayName": "Charbambin",
     "name": "charbambin",
     "types": [
       {
@@ -25442,6 +26369,7 @@
   },
   {
     "id": 936,
+    "displayName": "Carmadura",
     "name": "carmadura",
     "types": [
       {
@@ -25470,6 +26398,7 @@
   },
   {
     "id": 937,
+    "displayName": "Malvalame",
     "name": "malvalame",
     "types": [
       {
@@ -25498,6 +26427,7 @@
   },
   {
     "id": 938,
+    "displayName": "Têtampoule",
     "name": "tetampoule",
     "types": [
       {
@@ -25526,6 +26456,7 @@
   },
   {
     "id": 939,
+    "displayName": "Ampibidou",
     "name": "ampibidou",
     "types": [
       {
@@ -25554,6 +26485,7 @@
   },
   {
     "id": 940,
+    "displayName": "Zapétrel",
     "name": "zapetrel",
     "types": [
       {
@@ -25586,6 +26518,7 @@
   },
   {
     "id": 941,
+    "displayName": "Fulgulairo",
     "name": "fulgulairo",
     "types": [
       {
@@ -25618,6 +26551,7 @@
   },
   {
     "id": 942,
+    "displayName": "Grondogue",
     "name": "grondogue",
     "types": [
       {
@@ -25646,6 +26580,7 @@
   },
   {
     "id": 943,
+    "displayName": "Dogrino",
     "name": "dogrino",
     "types": [
       {
@@ -25674,6 +26609,7 @@
   },
   {
     "id": 944,
+    "displayName": "Gribouraigne",
     "name": "gribouraigne",
     "types": [
       {
@@ -25706,6 +26642,7 @@
   },
   {
     "id": 946,
+    "displayName": "Virovent",
     "name": "virovent",
     "types": [
       {
@@ -25734,6 +26671,7 @@
   },
   {
     "id": 947,
+    "displayName": "Virevorreur",
     "name": "virevorreur",
     "types": [
       {
@@ -25762,6 +26700,7 @@
   },
   {
     "id": 948,
+    "displayName": "Terracool",
     "name": "terracool",
     "types": [
       {
@@ -25786,6 +26725,7 @@
   },
   {
     "id": 949,
+    "displayName": "Terracruel",
     "name": "terracruel",
     "types": [
       {
@@ -25810,6 +26750,7 @@
   },
   {
     "id": 950,
+    "displayName": "Craparoi",
     "name": "craparoi",
     "types": [
       {
@@ -25838,6 +26779,7 @@
   },
   {
     "id": 951,
+    "displayName": "Pimito",
     "name": "pimito",
     "types": [
       {
@@ -25866,6 +26808,7 @@
   },
   {
     "id": 952,
+    "displayName": "Scovilain",
     "name": "scovilain",
     "types": [
       {
@@ -25898,6 +26841,7 @@
   },
   {
     "id": 953,
+    "displayName": "Léboulérou",
     "name": "leboulerou",
     "types": [
       {
@@ -25922,6 +26866,7 @@
   },
   {
     "id": 954,
+    "displayName": "Bérasca",
     "name": "berasca",
     "types": [
       {
@@ -25950,6 +26895,7 @@
   },
   {
     "id": 955,
+    "displayName": "Flotillon",
     "name": "flotillon",
     "types": [
       {
@@ -25978,6 +26924,7 @@
   },
   {
     "id": 956,
+    "displayName": "Cléopsytra",
     "name": "cleopsytra",
     "types": [
       {
@@ -26006,6 +26953,7 @@
   },
   {
     "id": 957,
+    "displayName": "Forgerette",
     "name": "forgerette",
     "types": [
       {
@@ -26038,6 +26986,7 @@
   },
   {
     "id": 958,
+    "displayName": "Forgella",
     "name": "forgella",
     "types": [
       {
@@ -26070,6 +27019,7 @@
   },
   {
     "id": 959,
+    "displayName": "Forgelina",
     "name": "forgelina",
     "types": [
       {
@@ -26102,6 +27052,7 @@
   },
   {
     "id": 960,
+    "displayName": "Taupikeau",
     "name": "taupikeau",
     "types": [
       {
@@ -26130,6 +27081,7 @@
   },
   {
     "id": 961,
+    "displayName": "Triopikeau",
     "name": "triopikeau",
     "types": [
       {
@@ -26158,6 +27110,7 @@
   },
   {
     "id": 962,
+    "displayName": "Lestombaile",
     "name": "lestombaile",
     "types": [
       {
@@ -26190,6 +27143,7 @@
   },
   {
     "id": 963,
+    "displayName": "Dofin",
     "name": "dofin",
     "types": [
       {
@@ -26210,6 +27164,7 @@
   },
   {
     "id": 964,
+    "displayName": "Superdofin",
     "name": "superdofin",
     "types": [
       {
@@ -26230,6 +27185,7 @@
   },
   {
     "id": 965,
+    "displayName": "Vrombi",
     "name": "vrombi",
     "types": [
       {
@@ -26258,6 +27214,7 @@
   },
   {
     "id": 966,
+    "displayName": "Vrombotor",
     "name": "vrombotor",
     "types": [
       {
@@ -26286,6 +27243,7 @@
   },
   {
     "id": 967,
+    "displayName": "Motorizard",
     "name": "motorizard",
     "types": [
       {
@@ -26314,6 +27272,7 @@
   },
   {
     "id": 968,
+    "displayName": "Ferdeter",
     "name": "ferdeter",
     "types": [
       {
@@ -26338,6 +27297,7 @@
   },
   {
     "id": 969,
+    "displayName": "Germéclat",
     "name": "germeclat",
     "types": [
       {
@@ -26366,6 +27326,7 @@
   },
   {
     "id": 970,
+    "displayName": "Floréclat",
     "name": "floreclat",
     "types": [
       {
@@ -26394,6 +27355,7 @@
   },
   {
     "id": 971,
+    "displayName": "Toutombe",
     "name": "toutombe",
     "types": [
       {
@@ -26418,6 +27380,7 @@
   },
   {
     "id": 972,
+    "displayName": "Tomberro",
     "name": "tomberro",
     "types": [
       {
@@ -26442,6 +27405,7 @@
   },
   {
     "id": 973,
+    "displayName": "Flamenroule",
     "name": "flamenroule",
     "types": [
       {
@@ -26474,6 +27438,7 @@
   },
   {
     "id": 974,
+    "displayName": "Piétacé",
     "name": "pietace",
     "types": [
       {
@@ -26502,6 +27467,7 @@
   },
   {
     "id": 975,
+    "displayName": "Balbalèze",
     "name": "balbaleze",
     "types": [
       {
@@ -26530,6 +27496,7 @@
   },
   {
     "id": 976,
+    "displayName": "Délestin",
     "name": "delestin",
     "types": [
       {
@@ -26558,6 +27525,7 @@
   },
   {
     "id": 977,
+    "displayName": "Oyacata",
     "name": "oyacata",
     "types": [
       {
@@ -26586,6 +27554,7 @@
   },
   {
     "id": 978,
+    "displayName": "Nigirigon",
     "name": "nigirigon",
     "types": [
       {
@@ -26614,6 +27583,7 @@
   },
   {
     "id": 979,
+    "displayName": "Courrousinge",
     "name": "courrousinge",
     "types": [
       {
@@ -26646,6 +27616,7 @@
   },
   {
     "id": 980,
+    "displayName": "Terraiste",
     "name": "terraiste",
     "types": [
       {
@@ -26678,6 +27649,7 @@
   },
   {
     "id": 981,
+    "displayName": "Farigiraf",
     "name": "farigiraf",
     "types": [
       {
@@ -26710,6 +27682,7 @@
   },
   {
     "id": 982,
+    "displayName": "Deusolourdo",
     "name": "deusolourdo",
     "types": [
       {
@@ -26738,6 +27711,7 @@
   },
   {
     "id": 983,
+    "displayName": "Scalpereur",
     "name": "scalpereur",
     "types": [
       {
@@ -26770,6 +27744,7 @@
   },
   {
     "id": 996,
+    "displayName": "Frigodo",
     "name": "frigodo",
     "types": [
       {
@@ -26798,6 +27773,7 @@
   },
   {
     "id": 997,
+    "displayName": "Cryodo",
     "name": "cryodo",
     "types": [
       {
@@ -26826,6 +27802,7 @@
   },
   {
     "id": 998,
+    "displayName": "Glaivodo",
     "name": "glaivodo",
     "types": [
       {
@@ -26854,6 +27831,7 @@
   },
   {
     "id": 999,
+    "displayName": "Mordudor",
     "name": "mordudor",
     "types": [
       {
@@ -26874,6 +27852,7 @@
   },
   {
     "id": 1000,
+    "displayName": "Gromago",
     "name": "gromago",
     "types": [
       {
@@ -26898,6 +27877,7 @@
   },
   {
     "id": 1001,
+    "displayName": "Chongjian",
     "name": "chongjian",
     "types": [
       {
@@ -26922,6 +27902,7 @@
   },
   {
     "id": 1002,
+    "displayName": "Baojian",
     "name": "baojian",
     "types": [
       {
@@ -26946,6 +27927,7 @@
   },
   {
     "id": 1003,
+    "displayName": "Dinglu",
     "name": "dinglu",
     "types": [
       {
@@ -26970,6 +27952,7 @@
   },
   {
     "id": 1004,
+    "displayName": "Yuyu",
     "name": "yuyu",
     "types": [
       {
@@ -26994,6 +27977,7 @@
   },
   {
     "id": 1007,
+    "displayName": "Koraidon",
     "name": "koraidon",
     "types": [
       {
@@ -27018,6 +28002,7 @@
   },
   {
     "id": 1008,
+    "displayName": "Miraidon",
     "name": "miraidon",
     "types": [
       {
@@ -27042,6 +28027,7 @@
   },
   {
     "id": 1011,
+    "displayName": "Pomdramour",
     "name": "pomdramour",
     "types": [
       {
@@ -27074,6 +28060,7 @@
   },
   {
     "id": 1012,
+    "displayName": "Poltchageist",
     "name": "poltchageist",
     "types": [
       {
@@ -27102,6 +28089,7 @@
   },
   {
     "id": 1013,
+    "displayName": "Théffroyable",
     "name": "theffroyable",
     "types": [
       {
@@ -27130,6 +28118,7 @@
   },
   {
     "id": 1014,
+    "displayName": "Félicanis",
     "name": "felicanis",
     "types": [
       {
@@ -27158,6 +28147,7 @@
   },
   {
     "id": 1015,
+    "displayName": "Fortusimia",
     "name": "fortusimia",
     "types": [
       {
@@ -27186,6 +28176,7 @@
   },
   {
     "id": 1016,
+    "displayName": "Favianos",
     "name": "favianos",
     "types": [
       {
@@ -27214,6 +28205,7 @@
   },
   {
     "id": 1017,
+    "displayName": "Ogerpon",
     "name": "ogerpon",
     "types": [
       {

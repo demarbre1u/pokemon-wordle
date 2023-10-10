@@ -14,6 +14,7 @@ export async function buildGameData() {
   logger.log("Parsing data...");
   for (let row of data) {
     const id = row.pokedexId;
+    const displayName = row.name.fr || "";
     let name = row.name.fr || "";
     const types = row.types || [];
     const talents = row.talents || [];
@@ -33,6 +34,7 @@ export async function buildGameData() {
 
     pokemonNameList.push({
       id,
+      displayName,
       name,
       types,
       talents,

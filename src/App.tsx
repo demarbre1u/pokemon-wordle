@@ -152,12 +152,52 @@ function App() {
     case GAME_STATES.GAME_WON:
       content = (
         <>
-          <div className="app-screen">
-            <div className="app-screen__result">
-              <h1 className="app-screen__result__title">Gagné !</h1>
-              <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
+          <>
+            <div className="app-screen">
+              <div className="app-screen__result">
+                <div className="gamestate-bar">Gagné !</div>
+
+                <div className="app-screen__result__data">
+                  <div className="app-screen__result__data__top">
+                    <span className="app-screen__result__data__subtitle">
+                      N° {pokemonToGuess.id}
+                    </span>
+                    <span className="app-screen__result__data__title">
+                      {pokemonToGuess.displayName}
+                    </span>
+                    <span className="app-screen__result__data__subtitle">
+                      {pokemonToGuess.category}
+                    </span>
+                    <span className="app-screen__result__data__types">
+                      {pokemonToGuess.types.map(({ name, image }) => (
+                        <img
+                          key={name}
+                          className="type-image"
+                          src={image}
+                          alt={`type ${name}`}
+                        />
+                      ))}
+                    </span>
+                  </div>
+
+                  <div className="app-screen__result__data__bottom">
+                    <span className="app-screen__result__data__subtitle">
+                      Taille : {pokemonToGuess.height}
+                    </span>
+                    <span className="app-screen__result__data__subtitle">
+                      Poids : {pokemonToGuess.weight}
+                    </span>{" "}
+                  </div>
+                </div>
+                <div className="app-screen__result__image">
+                  <img
+                    src={pokemonToGuess.sprite}
+                    alt={`Image de ${pokemonToGuess.displayName}`}
+                  />
+                </div>
+              </div>
             </div>
-          </div>
+          </>
         </>
       );
       break;
@@ -166,8 +206,46 @@ function App() {
         <>
           <div className="app-screen">
             <div className="app-screen__result">
-              <h1 className="app-screen__result__title">Perdu...</h1>
-              <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
+              <div className="gamestate-bar">Perdu...</div>
+
+              <div className="app-screen__result__data">
+                <div className="app-screen__result__data__top">
+                  <span className="app-screen__result__data__subtitle">
+                    N° {pokemonToGuess.id}
+                  </span>
+                  <span className="app-screen__result__data__title">
+                    {pokemonToGuess.displayName}
+                  </span>
+                  <span className="app-screen__result__data__subtitle">
+                    {pokemonToGuess.category}
+                  </span>
+                  <span className="app-screen__result__data__types">
+                    {pokemonToGuess.types.map(({ name, image }) => (
+                      <img
+                        key={name}
+                        className="type-image"
+                        src={image}
+                        alt={`type ${name}`}
+                      />
+                    ))}
+                  </span>
+                </div>
+
+                <div className="app-screen__result__data__bottom">
+                  <span className="app-screen__result__data__subtitle">
+                    Taille : {pokemonToGuess.height}
+                  </span>
+                  <span className="app-screen__result__data__subtitle">
+                    Poids : {pokemonToGuess.weight}
+                  </span>{" "}
+                </div>
+              </div>
+              <div className="app-screen__result__image">
+                <img
+                  src={pokemonToGuess.sprite}
+                  alt={`Image de ${pokemonToGuess.displayName}`}
+                />
+              </div>
             </div>
           </div>
         </>

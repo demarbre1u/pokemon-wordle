@@ -8,10 +8,15 @@ export const useGameData = () => {
   const [gameState, setGameState] = useState(GAME_STATES.LOADING);
   const [gameData, setGameData] = useState<PokemonType[]>([]);
   const [pokemonToGuess, setPokemonToGuess] = useState<PokemonType>({
+    id: 0,
+    displayName: "",
     name: "",
     types: [],
     talents: [],
     category: "",
+    sprite: "",
+    height: "",
+    weight: "",
   });
   const [currentTry, setCurrentTry] = useState(0);
   const [currentColumn, setCurrentColumn] = useState(1);
@@ -28,6 +33,15 @@ export const useGameData = () => {
     // Picking a random index
     const randomIndex = Math.round(Math.random() * gameData.length);
     setPokemonToGuess(gameData[randomIndex]);
+
+    // Forcing the browser to load the images
+    const img = new Image();
+    img.src = gameData[randomIndex].sprite;
+    gameData[randomIndex].types.forEach((type) => {
+      const img = new Image();
+      img.src = type.image;
+    });
+
     setCurrentTry(0);
     setCurrentColumn(1);
     setGameState(GAME_STATES.PLAYING);
