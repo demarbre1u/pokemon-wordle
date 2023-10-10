@@ -12,14 +12,14 @@
     display: flex;
     flex-direction: column;
     gap: var(--key-gap);
-    padding: 20px;
+    padding: 20px 0px;
     width: 100% ;
 
     transform: translateY(100%);
 
     background-color: #172A48;
 
-    animation: slideIn forwards 500ms;
+    animation: slideIn forwards 500ms 100ms;
 }
   
 .keyboard-row {

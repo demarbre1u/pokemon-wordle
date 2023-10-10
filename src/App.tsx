@@ -124,13 +124,9 @@ function App() {
     handleEnterKey,
   });
 
-  let content: ReactNode;
+  let content: ReactNode = <></>;
 
   switch (gameState) {
-    default:
-    case GAME_STATES.LOADING:
-      content = <>Chargement...</>;
-      break;
     case GAME_STATES.PLAYING:
       content = (
         <>
@@ -158,7 +154,7 @@ function App() {
         <>
           <div className="app-screen">
             <div className="app-screen__result">
-              <h1>Gagné !</h1>
+              <h1 className="app-screen__result__title">Gagné !</h1>
               <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
             </div>
           </div>
@@ -170,7 +166,7 @@ function App() {
         <>
           <div className="app-screen">
             <div className="app-screen__result">
-              <h1>Perdu...</h1>
+              <h1 className="app-screen__result__title">Perdu...</h1>
               <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
             </div>
           </div>
