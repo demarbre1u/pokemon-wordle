@@ -9,6 +9,7 @@ import { Keyboard } from "./components/Keyboard";
 import { PokemonType } from "./types/PokemonType";
 import { Hints } from "./components/Hints";
 import StatusBar from "./components/StatusBar";
+import TypeLabel from "./components/TypeLabel";
 
 const MAX_NUMBER_OF_TRIES = 3;
 
@@ -152,52 +153,50 @@ function App() {
     case GAME_STATES.GAME_WON:
       content = (
         <>
-          <>
-            <div className="app-screen">
-              <div className="app-screen__result">
-                <div className="gamestate-bar">Gagné !</div>
+          <div className="app-screen">
+            <div className="app-screen__result">
+              <div className="gamestate-bar">Gagné !</div>
 
-                <div className="app-screen__result__data">
-                  <div className="app-screen__result__data__top">
-                    <span className="app-screen__result__data__subtitle">
-                      N° {pokemonToGuess.id}
-                    </span>
-                    <span className="app-screen__result__data__title">
-                      {pokemonToGuess.displayName}
-                    </span>
-                    <span className="app-screen__result__data__subtitle">
-                      {pokemonToGuess.category}
-                    </span>
-                    <span className="app-screen__result__data__types">
-                      {pokemonToGuess.types.map(({ name, image }) => (
-                        <img
-                          key={name}
-                          className="type-image"
-                          src={image}
-                          alt={`type ${name}`}
-                        />
-                      ))}
-                    </span>
-                  </div>
-
-                  <div className="app-screen__result__data__bottom">
-                    <span className="app-screen__result__data__subtitle">
-                      Taille : {pokemonToGuess.height}
-                    </span>
-                    <span className="app-screen__result__data__subtitle">
-                      Poids : {pokemonToGuess.weight}
-                    </span>{" "}
-                  </div>
+              <div className="app-screen__result__data">
+                <div className="app-screen__result__data__top">
+                  <span className="app-screen__result__data__subtitle">
+                    N° {pokemonToGuess.id}
+                  </span>
+                  <span className="app-screen__result__data__title">
+                    {pokemonToGuess.displayName}
+                  </span>
+                  <span className="app-screen__result__data__subtitle">
+                    {pokemonToGuess.category}
+                  </span>
+                  <span className="app-screen__result__data__types">
+                    {pokemonToGuess.types.map(({ name, image }) => (
+                      <img
+                        key={name}
+                        className="type-image"
+                        src={image}
+                        alt={`type ${name}`}
+                      />
+                    ))}
+                  </span>
                 </div>
-                <div className="app-screen__result__image">
-                  <img
-                    src={pokemonToGuess.sprite}
-                    alt={`Image de ${pokemonToGuess.displayName}`}
-                  />
+
+                <div className="app-screen__result__data__bottom">
+                  <span className="app-screen__result__data__subtitle">
+                    Taille : {pokemonToGuess.height}
+                  </span>
+                  <span className="app-screen__result__data__subtitle">
+                    Poids : {pokemonToGuess.weight}
+                  </span>{" "}
                 </div>
               </div>
+              <div className="app-screen__result__image">
+                <img
+                  src={pokemonToGuess.sprite}
+                  alt={`Image de ${pokemonToGuess.displayName}`}
+                />
+              </div>
             </div>
-          </>
+          </div>
         </>
       );
       break;
@@ -221,12 +220,7 @@ function App() {
                   </span>
                   <span className="app-screen__result__data__types">
                     {pokemonToGuess.types.map(({ name, image }) => (
-                      <img
-                        key={name}
-                        className="type-image"
-                        src={image}
-                        alt={`type ${name}`}
-                      />
+                      <TypeLabel name={name} image={image} />
                     ))}
                   </span>
                 </div>
