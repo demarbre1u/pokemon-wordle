@@ -2,13 +2,13 @@ import "./App.css";
 import Board from "./components/Board";
 import GAME_STATES from "./constants/gameStates";
 import { useGameData } from "./hooks/useGameData";
-import { useCallback } from "react";
+import { ReactNode, useCallback } from "react";
 import { useBoard } from "./hooks/useBoard";
 import { useKeyPress } from "./hooks/useKeyPress";
-import ReplayButton from "./components/ReplayButton";
 import { Keyboard } from "./components/Keyboard";
 import { PokemonType } from "./types/PokemonType";
 import { Hints } from "./components/Hints";
+import StatusBar from "./components/StatusBar";
 
 const MAX_NUMBER_OF_TRIES = 3;
 
@@ -124,64 +124,70 @@ function App() {
     handleEnterKey,
   });
 
+  let content: ReactNode;
+
   switch (gameState) {
     default:
     case GAME_STATES.LOADING:
-      return <>Chargement...</>;
+      content = <>Chargement...</>;
+      break;
     case GAME_STATES.PLAYING:
-      return (
-        <div className="phone-wrapper">
-          <div className="phone-content">
-            <div className="status-bar">
-              <span className="status-bar__app-name">Pokémon Wordle</span>
-              <button
-                className="status-bar__giveup-button"
-                onClick={() => setGameState(GAME_STATES.GAME_OVER)}
-              >
-                Abandonner
-              </button>
-            </div>
+      content = (
+        <>
+          <Hints pokemonToGuess={pokemonToGuess} currentTry={currentTry} />
 
-            <Hints pokemonToGuess={pokemonToGuess} currentTry={currentTry} />
+          <div className="app-screen">
+            <Board
+              board={board}
+              currentTry={currentTry}
+              currentColumn={currentColumn}
+            />
 
-            <div className="app-screen">
-              <Board
-                board={board}
-                currentTry={currentTry}
-                currentColumn={currentColumn}
-              />
-
-              <Keyboard
-                lettersGuessed={lettersGuessed}
-                onLetterClick={handleLetterKeys}
-                onBackspaceClick={handleBackspaceKey}
-                onEnterClick={handleEnterKey}
-              />
-            </div>
+            <Keyboard
+              lettersGuessed={lettersGuessed}
+              onLetterClick={handleLetterKeys}
+              onBackspaceClick={handleBackspaceKey}
+              onEnterClick={handleEnterKey}
+            />
           </div>
-        </div>
+        </>
       );
+      break;
     case GAME_STATES.GAME_WON:
-      return (
-        <div className="phone-wrapper">
-          <div className="phone-content">
-            <h1>Gagné !</h1>
-            <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
-            <ReplayButton onClick={() => setGameState(GAME_STATES.LOADING)} />
+      content = (
+        <>
+          <div className="app-screen">
+            <div className="app-screen__result">
+              <h1>Gagné !</h1>
+              <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
+            </div>
           </div>
-        </div>
+        </>
       );
+      break;
     case GAME_STATES.GAME_OVER:
-      return (
-        <div className="phone-wrapper">
-          <div className="phone-content">
-            <h1>Perdu...</h1>
-            <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
-            <ReplayButton onClick={() => setGameState(GAME_STATES.LOADING)} />
+      content = (
+        <>
+          <div className="app-screen">
+            <div className="app-screen__result">
+              <h1>Perdu...</h1>
+              <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
+            </div>
           </div>
-        </div>
+        </>
       );
+      break;
   }
+
+  return (
+    <div className="phone-wrapper">
+      <div className="phone-content">
+        <StatusBar state={gameState} setState={setGameState} />
+
+        {content}
+      </div>
+    </div>
+  );
 }
 
 export default App;
