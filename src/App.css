@@ -75,6 +75,15 @@ img {
   flex-direction: column;
 }
 
+@keyframes dataReveal {
+  0% {
+    color: rgb(125, 136, 173);
+  }
+  100% {
+    color: white;
+  }
+}
+
 .app-screen__result__data {
   display: flex;
   flex-direction: column;
@@ -82,6 +91,9 @@ img {
   justify-content: space-between;
   padding: 50px;
   height: calc(100% - 50px);
+
+  color: rgb(125, 136, 173);
+  animation: dataReveal 500ms 1.1s forwards;
 }
 
 .app-screen__result__data__top, .app-screen__result__data__bottom {
@@ -98,15 +110,28 @@ img {
   font-size: 25px
 }
 
+@keyframes typesReveal {
+  0% {
+    filter: grayscale(0.8) brightness(0.5);
+  }
+  100% {
+    filter: grayscale(0) brightness(1);
+  }
+}
+
 .app-screen__result__data__types {
   display: flex;
   padding: 20px 0px;
   gap: 10px;
+  color: white;
+  filter: grayscale(0.8) brightness(0.5);
+
+  animation: typesReveal 500ms 1.1s forwards;
 }
 
 .app-screen__result__image {
   position: absolute;
-  right: 50px;
+  right: 15%;
   bottom: 50px;
 }
 
@@ -116,10 +141,10 @@ img {
   filter: brightness(0);
   opacity: 0;
 
-  animation: reveal 2s 100ms forwards;
+  animation: imageReveal 2s 100ms forwards;
 }
 
-@keyframes reveal {
+@keyframes imageReveal {
   0% {
     opacity: 0;
   }
@@ -143,8 +168,9 @@ img {
   background-color:#172A48;
 
   width: 100%;
-  height: 30px;
+  height: 50px;
   padding: 10px;
+  box-sizing: border-box;
 
   transform: translateY(-100%);
   animation: slideIn forwards 500ms 100ms;

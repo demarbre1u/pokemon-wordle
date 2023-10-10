@@ -1,5 +1,6 @@
 import "../styles/Hints.css";
 import { PokemonType } from "../types/PokemonType";
+import TypeLabel from "./TypeLabel";
 
 type HintsProps = {
   pokemonToGuess: PokemonType;
@@ -19,12 +20,7 @@ export const Hints = (props: HintsProps) => {
           <>
             Types :{" "}
             {pokemonToGuess.types.map(({ name, image }) => (
-              <img
-                key={name}
-                className="type-image"
-                src={image}
-                alt={`type ${name}`}
-              />
+              <TypeLabel key={name} name={name} image={image} />
             ))}
           </>
         ) : (
