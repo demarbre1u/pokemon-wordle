@@ -37,6 +37,7 @@ export const useBoard = (props: useBoardProps) => {
       }
     }
 
+    setLettersGuessed({});
     setBoard(newBoard);
   }, [wordToGuess, maxNumberOfTries]);
 
