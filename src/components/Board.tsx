@@ -13,24 +13,26 @@ export default function Board(props: BoardProps) {
   const { board, currentColumn, currentTry } = props;
 
   return (
-    <div>
-      {board.map((row: CellType[], rowIndex: number) => (
-        <div className="row" key={rowIndex}>
-          {row.map(({ placeholder, value, state }, colIndex: number) => {
-            const isActive =
-              rowIndex === currentTry && colIndex === currentColumn;
+    <div className="board-wrapper">
+      <div>
+        {board.map((row: CellType[], rowIndex: number) => (
+          <div className="row" key={rowIndex}>
+            {row.map(({ placeholder, value, state }, colIndex: number) => {
+              const isActive =
+                rowIndex === currentTry && colIndex === currentColumn;
 
-            return (
-              <Cell
-                key={`${rowIndex}-${colIndex}`}
-                value={value || placeholder}
-                state={state}
-                isActive={isActive}
-              />
-            );
-          })}
-        </div>
-      ))}
+              return (
+                <Cell
+                  key={`${rowIndex}-${colIndex}`}
+                  value={value || placeholder}
+                  state={state}
+                  isActive={isActive}
+                />
+              );
+            })}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

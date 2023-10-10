@@ -4,12 +4,16 @@
   border: 1px solid white;
   border-radius: 8px;
   padding: 5px;
-  width: var(--key-size);
-  height: var(--key-size);
+  width: var(--key-width);
+  height: var(--key-height);
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  user-select: none;
+
+  transition: color 200ms;
 }
 
 .key--correct {
@@ -21,5 +25,8 @@
 }
 
 .key--incorrect {
-  background-color: grey;
+  --incorrect-color: #8a8da5;
+
+  color: var(--incorrect-color);
+  border-color: var(--incorrect-color);
 }

@@ -1,5 +1,23 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.board-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  user-select: none;
+
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
 
 .row {
-    display: flex;
-  }
-  
+  display: flex;
+}

@@ -13,10 +13,15 @@ export async function buildGameData() {
 
   logger.log("Parsing data...");
   for (let row of data) {
+    const id = row.pokedexId;
+    const displayName = row.name.fr || "";
     let name = row.name.fr || "";
     const types = row.types || [];
     const talents = row.talents || [];
     const category = row.category || "";
+    const sprite = row.sprites.regular;
+    const height = row.height;
+    const weight = row.weight;
 
     // Removing accents
     name = ASCIIFolder.foldReplacing(name);
@@ -28,10 +33,15 @@ export async function buildGameData() {
     }
 
     pokemonNameList.push({
+      id,
+      displayName,
       name,
       types,
       talents,
       category,
+      sprite,
+      height,
+      weight,
     });
 
     if (!lengthList[name.length]) {

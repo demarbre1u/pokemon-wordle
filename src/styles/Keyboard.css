@@ -1,11 +1,25 @@
+@keyframes slideIn {
+    100% {
+        transform: translateY(0%);
+    }
+}
+
 .keyboard-wrapper {
     --key-gap: 12px;
-    --key-size: 32px;
+    --key-height: 32px;
+    --key-width: 64px;
   
     display: flex;
     flex-direction: column;
     gap: var(--key-gap);
-    padding-top: 40px;
+    padding: 20px 0px;
+    width: 100% ;
+
+    transform: translateY(100%);
+
+    background-color: #172A48;
+
+    animation: slideIn forwards 500ms 100ms;
 }
   
 .keyboard-row {

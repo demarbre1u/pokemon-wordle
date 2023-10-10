@@ -2,13 +2,13 @@ import "./App.css";
 import Board from "./components/Board";
 import GAME_STATES from "./constants/gameStates";
 import { useGameData } from "./hooks/useGameData";
-import { useCallback } from "react";
+import { ReactNode, useCallback } from "react";
 import { useBoard } from "./hooks/useBoard";
 import { useKeyPress } from "./hooks/useKeyPress";
-import ReplayButton from "./components/ReplayButton";
 import { Keyboard } from "./components/Keyboard";
 import { PokemonType } from "./types/PokemonType";
 import { Hints } from "./components/Hints";
+import StatusBar from "./components/StatusBar";
 
 const MAX_NUMBER_OF_TRIES = 3;
 
@@ -124,55 +124,144 @@ function App() {
     handleEnterKey,
   });
 
-  switch (gameState) {
-    default:
-    case GAME_STATES.LOADING:
-      return <>Chargement...</>;
-    case GAME_STATES.PLAYING:
-      return (
-        <div className="flex">
-          <h1>Quel est ce Pokémon ?</h1>
+  let content: ReactNode = <></>;
 
+  switch (gameState) {
+    case GAME_STATES.PLAYING:
+      content = (
+        <>
           <Hints pokemonToGuess={pokemonToGuess} currentTry={currentTry} />
 
-          <Board
-            board={board}
-            currentTry={currentTry}
-            currentColumn={currentColumn}
-          />
+          <div className="app-screen">
+            <Board
+              board={board}
+              currentTry={currentTry}
+              currentColumn={currentColumn}
+            />
 
-          <Keyboard
-            lettersGuessed={lettersGuessed}
-            onLetterClick={handleLetterKeys}
-            onBackspaceClick={handleBackspaceKey}
-            onEnterClick={handleEnterKey}
-          />
-
-          <button
-            className="giveup-button"
-            onClick={() => setGameState(GAME_STATES.GAME_OVER)}
-          >
-            Abandonner
-          </button>
-        </div>
+            <Keyboard
+              lettersGuessed={lettersGuessed}
+              onLetterClick={handleLetterKeys}
+              onBackspaceClick={handleBackspaceKey}
+              onEnterClick={handleEnterKey}
+            />
+          </div>
+        </>
       );
+      break;
     case GAME_STATES.GAME_WON:
-      return (
-        <div className="flex">
-          <h1>Gagné !</h1>
-          <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
-          <ReplayButton onClick={() => setGameState(GAME_STATES.LOADING)} />
-        </div>
+      content = (
+        <>
+          <>
+            <div className="app-screen">
+              <div className="app-screen__result">
+                <div className="gamestate-bar">Gagné !</div>
+
+                <div className="app-screen__result__data">
+                  <div className="app-screen__result__data__top">
+                    <span className="app-screen__result__data__subtitle">
+                      N° {pokemonToGuess.id}
+                    </span>
+                    <span className="app-screen__result__data__title">
+                      {pokemonToGuess.displayName}
+                    </span>
+                    <span className="app-screen__result__data__subtitle">
+                      {pokemonToGuess.category}
+                    </span>
+                    <span className="app-screen__result__data__types">
+                      {pokemonToGuess.types.map(({ name, image }) => (
+                        <img
+                          key={name}
+                          className="type-image"
+                          src={image}
+                          alt={`type ${name}`}
+                        />
+                      ))}
+                    </span>
+                  </div>
+
+                  <div className="app-screen__result__data__bottom">
+                    <span className="app-screen__result__data__subtitle">
+                      Taille : {pokemonToGuess.height}
+                    </span>
+                    <span className="app-screen__result__data__subtitle">
+                      Poids : {pokemonToGuess.weight}
+                    </span>{" "}
+                  </div>
+                </div>
+                <div className="app-screen__result__image">
+                  <img
+                    src={pokemonToGuess.sprite}
+                    alt={`Image de ${pokemonToGuess.displayName}`}
+                  />
+                </div>
+              </div>
+            </div>
+          </>
+        </>
       );
+      break;
     case GAME_STATES.GAME_OVER:
-      return (
-        <div className="flex">
-          <h1>Perdu...</h1>
-          <h2>Ce Pokémon était : {wordToGuess.toUpperCase()}</h2>
-          <ReplayButton onClick={() => setGameState(GAME_STATES.LOADING)} />
-        </div>
+      content = (
+        <>
+          <div className="app-screen">
+            <div className="app-screen__result">
+              <div className="gamestate-bar">Perdu...</div>
+
+              <div className="app-screen__result__data">
+                <div className="app-screen__result__data__top">
+                  <span className="app-screen__result__data__subtitle">
+                    N° {pokemonToGuess.id}
+                  </span>
+                  <span className="app-screen__result__data__title">
+                    {pokemonToGuess.displayName}
+                  </span>
+                  <span className="app-screen__result__data__subtitle">
+                    {pokemonToGuess.category}
+                  </span>
+                  <span className="app-screen__result__data__types">
+                    {pokemonToGuess.types.map(({ name, image }) => (
+                      <img
+                        key={name}
+                        className="type-image"
+                        src={image}
+                        alt={`type ${name}`}
+                      />
+                    ))}
+                  </span>
+                </div>
+
+                <div className="app-screen__result__data__bottom">
+                  <span className="app-screen__result__data__subtitle">
+                    Taille : {pokemonToGuess.height}
+                  </span>
+                  <span className="app-screen__result__data__subtitle">
+                    Poids : {pokemonToGuess.weight}
+                  </span>{" "}
+                </div>
+              </div>
+              <div className="app-screen__result__image">
+                <img
+                  src={pokemonToGuess.sprite}
+                  alt={`Image de ${pokemonToGuess.displayName}`}
+                />
+              </div>
+            </div>
+          </div>
+        </>
       );
+      break;
   }
+
+  return (
+    <div className="phone-wrapper">
+      <div className="phone-content">
+        <StatusBar state={gameState} setState={setGameState} />
+
+        {content}
+      </div>
+    </div>
+  );
 }
 
 export default App;

@@ -41,12 +41,14 @@ export const Keyboard = (props: KeyboardProps) => {
                   return (
                     <SpecialKey key={symbol} onClick={onBackspaceClick}>
                       <Icon icon="solar:backspace-outline" />
+                      <span>Supprimer</span>
                     </SpecialKey>
                   );
                 case "enter":
                   return (
                     <SpecialKey key={symbol} onClick={onEnterClick}>
                       <Icon icon="fluent:arrow-enter-16-filled" />
+                      <span>Entrer</span>
                     </SpecialKey>
                   );
               }
