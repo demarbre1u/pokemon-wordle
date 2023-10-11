@@ -170,12 +170,7 @@ function App() {
                   </span>
                   <span className="app-screen__result__data__types">
                     {pokemonToGuess.types.map(({ name, image }) => (
-                      <img
-                        key={name}
-                        className="type-image"
-                        src={image}
-                        alt={`type ${name}`}
-                      />
+                      <TypeLabel name={name} image={image} />
                     ))}
                   </span>
                 </div>
