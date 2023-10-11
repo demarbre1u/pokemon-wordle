@@ -1,6 +1,6 @@
-import { ReactNode } from "react";
 import "./StatusBar.css";
-import GAME_STATES from "../../constants/gameStates";
+import { ReactNode } from "react";
+import GAME_STATES from "@/constants/gameStates";
 
 type StatusBarProps = {
   state: number;

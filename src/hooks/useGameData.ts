@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import GAME_STATES from "../constants/gameStates";
-import { PokemonType } from "../types/PokemonType";
+import GAME_STATES from "@/constants/gameStates";
+import { PokemonType } from "@/types/PokemonType";
 
 const POKEMON_DICT_FILEPATH = "/pokemon-wordle/pokemon-names.json";
 

@@ -1,6 +1,6 @@
 import "./Cell.css";
 import { useCallback } from "react";
-import CELL_STATES from "../../constants/cellStates";
+import CELL_STATES from "@/constants/cellStates";
 
 type CellProps = {
   state: number;

@@ -1,15 +1,15 @@
-import "./App.css";
-import Board from "./components/Board/Board";
-import GAME_STATES from "./constants/gameStates";
-import { useGameData } from "./hooks/useGameData";
+import "@/App.css";
+import Board from "@/components/Board/Board";
+import GAME_STATES from "@/constants/gameStates";
+import { useGameData } from "@/hooks/useGameData";
 import { ReactNode, useCallback } from "react";
-import { useBoard } from "./hooks/useBoard";
-import { useKeyPress } from "./hooks/useKeyPress";
-import { Keyboard } from "./components/Keyboard/Keyboard";
-import { PokemonType } from "./types/PokemonType";
-import { Hints } from "./components/Hints/Hints";
-import StatusBar from "./components/StatusBar/StatusBar";
-import TypeLabel from "./components/TypeLabel/TypeLabel";
+import { useBoard } from "@/hooks/useBoard";
+import { useKeyPress } from "@/hooks/useKeyPress";
+import { Keyboard } from "@/components/Keyboard/Keyboard";
+import { PokemonType } from "@/types/PokemonType";
+import { Hints } from "@/components/Hints/Hints";
+import StatusBar from "@/components/StatusBar/StatusBar";
+import TypeLabel from "@/components/TypeLabel/TypeLabel";
 
 const MAX_NUMBER_OF_TRIES = 3;
 
@@ -170,7 +170,7 @@ function App() {
                   </span>
                   <span className="app-screen__result__data__types">
                     {pokemonToGuess.types.map(({ name, image }) => (
-                      <TypeLabel name={name} image={image} />
+                      <TypeLabel key={name} name={name} image={image} />
                     ))}
                   </span>
                 </div>
@@ -215,7 +215,7 @@ function App() {
                   </span>
                   <span className="app-screen__result__data__types">
                     {pokemonToGuess.types.map(({ name, image }) => (
-                      <TypeLabel name={name} image={image} />
+                      <TypeLabel key={name} name={name} image={image} />
                     ))}
                   </span>
                 </div>

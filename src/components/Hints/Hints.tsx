@@ -1,6 +1,6 @@
 import "./Hints.css";
 import { PokemonType } from "../../types/PokemonType";
-import TypeLabel from "../TypeLabel/TypeLabel";
+import TypeLabel from "@/components/TypeLabel/TypeLabel";
 
 type HintsProps = {
   pokemonToGuess: PokemonType;

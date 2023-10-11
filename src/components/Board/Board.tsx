@@ -1,7 +1,7 @@
 import "./Board.css";
-import Cell from "../Cell/Cell";
-import { CellType } from "../../types/CellType";
-import { BoardType } from "../../types/BoardType";
+import Cell from "@/components/Cell/Cell";
+import { CellType } from "@/types/CellType";
+import { BoardType } from "@/types/BoardType";
 
 type BoardProps = {
   board: BoardType;
