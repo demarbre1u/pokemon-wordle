@@ -21,7 +21,14 @@
     "vueIndentScriptAndStyle": false,
     "parser": "typescript", 
     "cssDeclarationSorterKeepOverrides": false, 
+    "importOrder": [
+        "^@/(.*)$",
+        "^[./]"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true,
     "plugins": [
+        "@trivago/prettier-plugin-sort-imports",
         "prettier-plugin-css-order"
     ], 
     "overrides": [

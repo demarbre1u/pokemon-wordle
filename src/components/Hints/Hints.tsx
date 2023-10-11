@@ -1,7 +1,8 @@
-import "./Hints.css";
-import { PokemonType } from "../../types/PokemonType";
-import TypeLabel from "@/components/TypeLabel/TypeLabel";
 import GameBar from "@/components/GameBar/GameBar";
+import TypeLabel from "@/components/TypeLabel/TypeLabel";
+import { PokemonType } from "@/types/PokemonType";
+
+import "./Hints.css";
 
 const FIRST_HINT_THRESHOLD = 1;
 const SECOND_HINT_THRESHOLD = 2;

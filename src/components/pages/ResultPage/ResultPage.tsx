@@ -1,7 +1,8 @@
-import "./ResultPage.css";
 import GameBar from "@/components/GameBar/GameBar";
 import TypeLabel from "@/components/TypeLabel/TypeLabel";
 import { PokemonType } from "@/types/PokemonType";
+
+import "./ResultPage.css";
 
 type ResultPageProps = {
   label: string;

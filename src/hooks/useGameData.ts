@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+
 import GAME_STATES from "@/constants/gameStates";
 import { PokemonType } from "@/types/PokemonType";
 

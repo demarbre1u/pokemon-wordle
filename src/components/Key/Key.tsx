@@ -1,5 +1,6 @@
-import "./Key.css";
 import CELL_STATES from "@/constants/cellStates";
+
+import "./Key.css";
 
 type KeyProps = {
   state: number;

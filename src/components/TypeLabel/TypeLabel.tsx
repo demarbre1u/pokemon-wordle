@@ -1,5 +1,6 @@
-import "./TypeLabel.css";
 import POKEMON_TYPE_COLORS from "@/constants/pokemonTypeColors";
+
+import "./TypeLabel.css";
 
 type TypeLabelProps = {
   name: string;

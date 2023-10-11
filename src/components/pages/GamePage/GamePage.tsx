@@ -1,11 +1,12 @@
-import { PokemonType } from "@/types/PokemonType";
-import { Hints } from "@/components/Hints/Hints";
-import Board from "@/components/Board/Board";
-import { Keyboard } from "@/components/Keyboard/Keyboard";
 import { useCallback } from "react";
-import { useKeyPress } from "@/hooks/useKeyPress";
+
+import Board from "@/components/Board/Board";
+import { Hints } from "@/components/Hints/Hints";
+import { Keyboard } from "@/components/Keyboard/Keyboard";
 import GAME_STATES from "@/constants/gameStates";
 import { useBoard } from "@/hooks/useBoard";
+import { useKeyPress } from "@/hooks/useKeyPress";
+import { PokemonType } from "@/types/PokemonType";
 
 const MAX_NUMBER_OF_TRIES = 3;
 
