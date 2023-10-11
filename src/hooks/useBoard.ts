@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 
-import CELL_STATES from "@/constants/cellStates";
+import CellStates from "@/constants/CellStates";
 import { BoardType } from "@/types/BoardType";
 import { LettersGuessedType } from "@/types/LettersGuessedType";
 
@@ -14,7 +14,7 @@ export const useBoard = (props: useBoardProps) => {
   const { wordToGuess, maxNumberOfTries, currentTry } = props;
 
   const [board, setBoard] = useState<BoardType>([
-    [{ placeholder: "", value: "", state: CELL_STATES.EMPTY }],
+    [{ placeholder: "", value: "", state: CellStates.EMPTY }],
   ]);
 
   const [lettersGuessed, setLettersGuessed] = useState<LettersGuessedType>({});
@@ -33,7 +33,7 @@ export const useBoard = (props: useBoardProps) => {
         newBoard[i][j] = {
           placeholder: "",
           value: j === 0 && i === 0 ? firstLetter : "",
-          state: CELL_STATES.EMPTY,
+          state: CellStates.EMPTY,
         };
       }
     }
@@ -59,42 +59,42 @@ export const useBoard = (props: useBoardProps) => {
     // Checking for correct letters
     currentGuess.forEach((value, index) => {
       if (value === arrayToGuess[index]) {
-        board[currentTry][index].state = CELL_STATES.CORRECT;
-        newLettersGuessed[value] = CELL_STATES.CORRECT;
+        board[currentTry][index].state = CellStates.CORRECT;
+        newLettersGuessed[value] = CellStates.CORRECT;
         lettersToFind[value]--;
       }
 
       if (
-        ![CELL_STATES.CORRECT, CELL_STATES.MISPLACED].includes(
+        ![CellStates.CORRECT, CellStates.MISPLACED].includes(
           newLettersGuessed[value]
         )
       ) {
-        newLettersGuessed[value] = CELL_STATES.INCORRECT;
+        newLettersGuessed[value] = CellStates.INCORRECT;
       }
     });
 
     // Checking for misplaced letters
     currentGuess.forEach((value, index) => {
-      if (board[currentTry][index].state === CELL_STATES.CORRECT) {
+      if (board[currentTry][index].state === CellStates.CORRECT) {
         return;
       }
 
       if (lettersToFind[value]) {
-        board[currentTry][index].state = CELL_STATES.MISPLACED;
+        board[currentTry][index].state = CellStates.MISPLACED;
 
-        if (CELL_STATES.CORRECT !== newLettersGuessed[value]) {
-          newLettersGuessed[value] = CELL_STATES.MISPLACED;
+        if (CellStates.CORRECT !== newLettersGuessed[value]) {
+          newLettersGuessed[value] = CellStates.MISPLACED;
         }
 
         lettersToFind[value]--;
       }
 
       if (
-        ![CELL_STATES.CORRECT, CELL_STATES.MISPLACED].includes(
+        ![CellStates.CORRECT, CellStates.MISPLACED].includes(
           newLettersGuessed[value]
         )
       ) {
-        newLettersGuessed[value] = CELL_STATES.INCORRECT;
+        newLettersGuessed[value] = CellStates.INCORRECT;
       }
     });
 
@@ -107,7 +107,7 @@ export const useBoard = (props: useBoardProps) => {
       for (let j = 0; j < row.length; j++) {
         const cell = row[j];
 
-        if (cell.state === CELL_STATES.CORRECT) {
+        if (cell.state === CellStates.CORRECT) {
           if (j) {
             board[currentTry + 1][j].placeholder = cell.value;
           } else {

@@ -2,7 +2,7 @@ import "@/App.css";
 import StatusBar from "@/components/StatusBar/StatusBar";
 import GamePage from "@/components/pages/GamePage/GamePage";
 import ResultPage from "@/components/pages/ResultPage/ResultPage";
-import GAME_STATES from "@/constants/gameStates";
+import GameStates from "@/constants/GameStates";
 import { useGameData } from "@/hooks/useGameData";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
 
   const getContent = () => {
     switch (gameState) {
-      case GAME_STATES.PLAYING:
+      case GameStates.PLAYING:
         return (
           <GamePage
             pokemonToGuess={pokemonToGuess}
@@ -33,9 +33,9 @@ function App() {
             setGameState={setGameState}
           />
         );
-      case GAME_STATES.GAME_WON:
+      case GameStates.GAME_WON:
         return <ResultPage label={"Gagné !"} pokemonToGuess={pokemonToGuess} />;
-      case GAME_STATES.GAME_OVER:
+      case GameStates.GAME_OVER:
         return (
           <ResultPage label={"Perdu..."} pokemonToGuess={pokemonToGuess} />
         );

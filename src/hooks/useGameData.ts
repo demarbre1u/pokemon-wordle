@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 
-import GAME_STATES from "@/constants/gameStates";
+import GameStates from "@/constants/GameStates";
 import { PokemonType } from "@/types/PokemonType";
 
 const POKEMON_DICT_FILEPATH = "/pokemon-wordle/pokemon-names.json";
 
 export const useGameData = () => {
-  const [gameState, setGameState] = useState(GAME_STATES.LOADING);
+  const [gameState, setGameState] = useState(GameStates.LOADING);
   const [gameData, setGameData] = useState<PokemonType[]>([]);
   const [pokemonToGuess, setPokemonToGuess] = useState<PokemonType>({
     id: 0,
@@ -27,7 +27,7 @@ export const useGameData = () => {
   }, []);
 
   useEffect(() => {
-    if (gameData.length === 0 || gameState !== GAME_STATES.LOADING) {
+    if (gameData.length === 0 || gameState !== GameStates.LOADING) {
       return;
     }
 
@@ -45,14 +45,14 @@ export const useGameData = () => {
 
     setCurrentTry(0);
     setCurrentColumn(1);
-    setGameState(GAME_STATES.PLAYING);
+    setGameState(GameStates.PLAYING);
   }, [gameData, gameState]);
 
   const loadGameData = async () => {
     const result = await fetch(POKEMON_DICT_FILEPATH);
 
     if (!result.ok) {
-      return setGameState(GAME_STATES.LOADING_ERROR);
+      return setGameState(GameStates.LOADING_ERROR);
     }
 
     const data = await result.json();

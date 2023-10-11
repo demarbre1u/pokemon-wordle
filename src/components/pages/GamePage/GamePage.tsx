@@ -3,7 +3,7 @@ import { useCallback } from "react";
 import Board from "@/components/Board/Board";
 import { Hints } from "@/components/Hints/Hints";
 import { Keyboard } from "@/components/Keyboard/Keyboard";
-import GAME_STATES from "@/constants/gameStates";
+import GameStates from "@/constants/GameStates";
 import { useBoard } from "@/hooks/useBoard";
 import { useKeyPress } from "@/hooks/useKeyPress";
 import { PokemonType } from "@/types/PokemonType";
@@ -39,12 +39,12 @@ const GamePage = ({
     });
 
   const onVictory = useCallback(() => {
-    setGameState(GAME_STATES.GAME_WON);
+    setGameState(GameStates.GAME_WON);
     setLettersGuessed({});
   }, [setGameState, setLettersGuessed]);
 
   const onDefeat = useCallback(() => {
-    setGameState(GAME_STATES.GAME_OVER);
+    setGameState(GameStates.GAME_OVER);
     setLettersGuessed({});
   }, [setGameState, setLettersGuessed]);
 

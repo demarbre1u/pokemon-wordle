@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-import GAME_STATES from "@/constants/gameStates";
+import GameStates from "@/constants/GameStates";
 
 import "./StatusBar.css";
 
@@ -15,22 +15,22 @@ const StatusBar = ({ state, setState }: StatusBarProps) => {
   let buttonEl: ReactNode = <></>;
 
   switch (state) {
-    case GAME_STATES.PLAYING:
+    case GameStates.PLAYING:
       buttonEl = (
         <button
           className="status-bar__button"
-          onClick={() => setState(GAME_STATES.GAME_OVER)}
+          onClick={() => setState(GameStates.GAME_OVER)}
         >
           Abandonner
         </button>
       );
       break;
-    case GAME_STATES.GAME_WON:
-    case GAME_STATES.GAME_OVER:
+    case GameStates.GAME_WON:
+    case GameStates.GAME_OVER:
       buttonEl = (
         <button
           className="status-bar__button"
-          onClick={() => setState(GAME_STATES.LOADING)}
+          onClick={() => setState(GameStates.LOADING)}
         >
           Rejouer
         </button>

@@ -1,4 +1,4 @@
-import CELL_STATES from "@/constants/cellStates";
+import CellStates from "@/constants/CellStates";
 
 import "./Key.css";
 
@@ -11,13 +11,13 @@ type KeyProps = {
 const getClasses = (state: number) => {
   const classList = ["keys"];
   switch (state) {
-    case CELL_STATES.CORRECT:
+    case CellStates.CORRECT:
       classList.push("key--correct");
       break;
-    case CELL_STATES.MISPLACED:
+    case CellStates.MISPLACED:
       classList.push("key--misplaced");
       break;
-    case CELL_STATES.INCORRECT:
+    case CellStates.INCORRECT:
       classList.push("key--incorrect");
       break;
   }
