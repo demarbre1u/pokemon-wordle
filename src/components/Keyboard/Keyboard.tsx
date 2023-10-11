@@ -1,8 +1,8 @@
-import "../styles/Keyboard.css";
-import { Key } from "./Key";
+import "./Keyboard.css";
+import { Key } from "../Key/Key";
 import { Icon } from "@iconify/react";
-import { SpecialKey } from "./SpecialKey";
-import { LettersGuessedType } from "../types/LettersGuessedType";
+import { SpecialKey } from "../SpecialKey/SpecialKey";
+import { LettersGuessedType } from "../../types/LettersGuessedType";
 
 const KEYBOARD_LAYOUT = [
   ["a", "z", "e", "r", "t", "y", "u", "i", "o", "p"],

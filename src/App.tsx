@@ -1,15 +1,15 @@
 import "./App.css";
-import Board from "./components/Board";
+import Board from "./components/Board/Board";
 import GAME_STATES from "./constants/gameStates";
 import { useGameData } from "./hooks/useGameData";
 import { ReactNode, useCallback } from "react";
 import { useBoard } from "./hooks/useBoard";
 import { useKeyPress } from "./hooks/useKeyPress";
-import { Keyboard } from "./components/Keyboard";
+import { Keyboard } from "./components/Keyboard/Keyboard";
 import { PokemonType } from "./types/PokemonType";
-import { Hints } from "./components/Hints";
-import StatusBar from "./components/StatusBar";
-import TypeLabel from "./components/TypeLabel";
+import { Hints } from "./components/Hints/Hints";
+import StatusBar from "./components/StatusBar/StatusBar";
+import TypeLabel from "./components/TypeLabel/TypeLabel";
 
 const MAX_NUMBER_OF_TRIES = 3;
 

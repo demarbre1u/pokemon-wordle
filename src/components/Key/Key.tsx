@@ -1,5 +1,5 @@
-import "../styles/Key.css";
-import CELL_STATES from "../constants/cellStates";
+import "./Key.css";
+import CELL_STATES from "../../constants/cellStates";
 
 type KeyProps = {
   state: number;
