@@ -22,7 +22,7 @@
   width: 100%;
 }
 
-.keyboard-row {
+.keyboard__row {
   display: flex;
   justify-content: center;
   gap: var(--key-gap);

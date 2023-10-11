@@ -27,7 +27,7 @@ export const Keyboard = (props: KeyboardProps) => {
     <div className="keyboard-wrapper">
       {KEYBOARD_LAYOUT.map((row, index) => {
         return (
-          <span key={index} className="keyboard-row">
+          <span key={index} className="keyboard__row">
             {row.map((symbol) => {
               switch (symbol) {
                 default:

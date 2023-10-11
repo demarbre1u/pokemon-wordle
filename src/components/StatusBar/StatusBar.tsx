@@ -17,7 +17,10 @@ const StatusBar = ({ state, setState }: StatusBarProps) => {
   switch (state) {
     case GAME_STATES.PLAYING:
       buttonEl = (
-        <button onClick={() => setState(GAME_STATES.GAME_OVER)}>
+        <button
+          className="status-bar__button"
+          onClick={() => setState(GAME_STATES.GAME_OVER)}
+        >
           Abandonner
         </button>
       );
@@ -25,7 +28,12 @@ const StatusBar = ({ state, setState }: StatusBarProps) => {
     case GAME_STATES.GAME_WON:
     case GAME_STATES.GAME_OVER:
       buttonEl = (
-        <button onClick={() => setState(GAME_STATES.LOADING)}>Rejouer</button>
+        <button
+          className="status-bar__button"
+          onClick={() => setState(GAME_STATES.LOADING)}
+        >
+          Rejouer
+        </button>
       );
       break;
   }

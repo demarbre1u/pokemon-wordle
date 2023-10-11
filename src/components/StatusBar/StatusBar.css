@@ -35,7 +35,7 @@
   font-size: 22px;
 }
 
-.status-bar button {
+.status-bar__button {
   transition: background-color 200ms;
   cursor: pointer;
 
@@ -49,6 +49,6 @@
   font-size: 16px;
 }
 
-.status-bar button:hover {
+.status-bar__button:hover {
   background-color: #ec9962;
 }
