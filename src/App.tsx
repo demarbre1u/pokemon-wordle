@@ -1,9 +1,9 @@
 import "@/App.css";
 import StatusBar from "@/components/StatusBar/StatusBar";
-import GamePage from "@/components/pages/GamePage/GamePage";
-import ResultPage from "@/components/pages/ResultPage/ResultPage";
 import GameStates from "@/constants/GameStates";
 import { useGameData } from "@/hooks/useGameData";
+import GamePage from "@/pages/GamePage/GamePage";
+import ResultPage from "@/pages/ResultPage/ResultPage";
 
 function App() {
   const {
