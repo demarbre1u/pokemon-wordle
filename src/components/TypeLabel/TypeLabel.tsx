@@ -9,10 +9,15 @@ type TypeLabelProps = {
 const TypeLabel = ({ name, image }: TypeLabelProps) => {
   return (
     <span
-      className="type-label"
+      className="type__label"
       style={{ backgroundColor: POKEMON_TYPE_COLORS[name] }}
     >
-      <img key={name} className="type-image" src={image} alt={`type ${name}`} />
+      <img
+        key={name}
+        className="type__image"
+        src={image}
+        alt={`type ${name}`}
+      />
 
       {name}
     </span>

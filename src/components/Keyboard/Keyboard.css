@@ -1,30 +1,29 @@
 @keyframes slideIn {
-    100% {
-        transform: translateY(0%);
-    }
+  100% {
+    transform: translateY(0%);
+  }
 }
 
 .keyboard-wrapper {
-    --key-gap: 12px;
-    --key-height: 32px;
-    --key-width: 64px;
-  
-    display: flex;
-    flex-direction: column;
-    gap: var(--key-gap);
-    padding: 20px 0px;
-    width: 100% ;
+  --key-gap: 12px;
+  --key-height: 32px;
+  --key-width: 64px;
 
-    transform: translateY(100%);
+  display: flex;
+  flex-direction: column;
+  gap: var(--key-gap);
 
-    background-color: #172A48;
+  transform: translateY(100%);
 
-    animation: slideIn forwards 500ms 100ms;
+  animation: slideIn forwards 500ms 100ms;
+
+  background-color: #172a48;
+  padding: 20px 0px;
+  width: 100%;
 }
-  
+
 .keyboard-row {
-    display: flex;
-    justify-content: center;
-    gap: var(--key-gap);
+  display: flex;
+  justify-content: center;
+  gap: var(--key-gap);
 }
-  

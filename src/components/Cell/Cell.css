@@ -1,48 +1,49 @@
 .cell {
-    --cell-size: 60px;
-    width: var(--cell-size);
-    height: var(--cell-size);
-  
-    font-size: 26px;
-    border: 1.5px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    margin: 5px;
-    border-radius: 8px;
-  
-    background-color: transparent;
-    transition: background-color 400ms, scale 400ms;
+  --cell-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition:
+    background-color 400ms,
+    scale 400ms;
+
+  margin: 5px;
+  border: 1.5px solid white;
+  border-radius: 8px;
+
+  background-color: transparent;
+  width: var(--cell-size);
+  height: var(--cell-size);
+
+  font-size: 26px;
 }
 
 .cell--active {
-    scale: 1.15;
-    background-color: rgba(255, 255, 255, 0.2)
+  scale: 1.15;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 @keyframes popIn {
-    0% {
-        scale: 1;
-    }
-    40% {
-        scale: 1.1;
-    }
-    60% {
-        scale: 1.1;
-    }
-    100% {
-        scale: 1;
-    }
+  0% {
+    scale: 1;
+  }
+  40% {
+    scale: 1.1;
+  }
+  60% {
+    scale: 1.1;
+  }
+  100% {
+    scale: 1;
+  }
 }
 
 .cell--correct {
-    background-color: #83a300;
-
-    animation: popIn forwards 500ms;
+  animation: popIn forwards 500ms;
+  background-color: #83a300;
 }
-  
+
 .cell--misplaced {
-    background-color: #e21b5a;
-    animation: popIn forwards 500ms;
+  animation: popIn forwards 500ms;
+  background-color: #e21b5a;
 }

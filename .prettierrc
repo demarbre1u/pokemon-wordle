@@ -19,5 +19,17 @@
     "useTabs": false,
     "embeddedLanguageFormatting": "auto",
     "vueIndentScriptAndStyle": false,
-    "parser": "typescript"
+    "parser": "typescript", 
+    "cssDeclarationSorterKeepOverrides": false, 
+    "plugins": [
+        "prettier-plugin-css-order"
+    ], 
+    "overrides": [
+        {
+            "files": "*.css",
+            "options": {
+                "parser": "css"
+            }
+        }
+    ]
 }

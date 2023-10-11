@@ -1,22 +1,22 @@
-.type-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
- 
-    --type-image-size: 32px;
-    width: var(--type-image-size);
-    height: var(--type-image-size);
+.type__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  --type-image-size: 32px;
+  width: var(--type-image-size);
+  height: var(--type-image-size);
 }
 
-.type-label {
-    display: flex;
-    align-items: center;
-    
-    box-sizing: border-box;
-    
-    font-weight: 500;
-    border-radius: 8px;
-    width: 110px;
-    border: 1px solid white;
-    overflow: hidden;
+.type__label {
+  display: flex;
+  align-items: center;
+
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 110px;
+  overflow: hidden;
+
+  font-weight: 500;
 }
