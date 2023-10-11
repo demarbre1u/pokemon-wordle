@@ -65,7 +65,7 @@ const GamePage = ({
     return isValid;
   }, [board, currentTry, gameData]);
 
-  const handleEnterKey = useCallback(() => {
+  const handleEnterKey = () => {
     if (currentColumn !== wordToGuess.length) {
       return;
     }
@@ -85,19 +85,7 @@ const GamePage = ({
     updateBoard();
     setCurrentColumn(1);
     setCurrentTry(Math.min(currentTry + 1, MAX_NUMBER_OF_TRIES));
-  }, [
-    isGuessValid,
-    currentColumn,
-    currentTry,
-    isGameLost,
-    isGameWon,
-    onDefeat,
-    onVictory,
-    setCurrentColumn,
-    setCurrentTry,
-    updateBoard,
-    wordToGuess,
-  ]);
+  };
 
   const handleLetterKeys = useCallback(
     (letter: string) => {
