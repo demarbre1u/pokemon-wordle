@@ -1,0 +1,17 @@
+.separator {
+  margin: 0px 20px;
+  font-weight: light;
+  font-size: 30px;
+}
+
+.hint__types {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 8px;
+}
+
+.hint__talents abbr {
+  text-decoration-style: solid;
+}

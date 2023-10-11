@@ -1,21 +1,23 @@
-import "../styles/Hints.css";
-import { PokemonType } from "../types/PokemonType";
-import TypeLabel from "./TypeLabel";
+import GameBar from "@/components/GameBar/GameBar";
+import TypeLabel from "@/components/TypeLabel/TypeLabel";
+import { PokemonType } from "@/types/PokemonType";
+
+import "./Hints.css";
+
+const FIRST_HINT_THRESHOLD = 1;
+const SECOND_HINT_THRESHOLD = 2;
 
 type HintsProps = {
   pokemonToGuess: PokemonType;
   currentTry: number;
 };
 
-const FIRST_HINT_THRESHOLD = 1;
-const SECOND_HINT_THRESHOLD = 2;
-
 export const Hints = (props: HintsProps) => {
   const { pokemonToGuess, currentTry } = props;
 
   return (
-    <div className="hints">
-      <span className="type-hint">
+    <GameBar>
+      <span className="hint__types">
         {currentTry >= FIRST_HINT_THRESHOLD ? (
           <>
             Types :{" "}
@@ -30,7 +32,7 @@ export const Hints = (props: HintsProps) => {
 
       <span className="separator">|</span>
 
-      <span className="talents-hint">
+      <span className="hint__talents">
         {currentTry >= SECOND_HINT_THRESHOLD ? (
           <>
             Talents :{" "}
@@ -52,6 +54,6 @@ export const Hints = (props: HintsProps) => {
           <>Indice dans {SECOND_HINT_THRESHOLD - currentTry} essais</>
         )}
       </span>
-    </div>
+    </GameBar>
   );
 };

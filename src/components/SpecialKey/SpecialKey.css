@@ -1,0 +1,17 @@
+.special-keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 5px;
+  width: calc(var(--key-width) * 2.2);
+  height: var(--key-height);
+  user-select: none;
+  text-transform: uppercase;
+}
+
+.special-keys span {
+  padding-left: 10px;
+}

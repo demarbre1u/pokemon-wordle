@@ -1,4 +1,4 @@
-import "../styles/SpecialKey.css";
+import "./SpecialKey.css";
 
 type SpecialKeyProps = {
   children: React.ReactNode;

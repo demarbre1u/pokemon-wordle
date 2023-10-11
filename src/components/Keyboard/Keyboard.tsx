@@ -1,8 +1,10 @@
-import "../styles/Keyboard.css";
-import { Key } from "./Key";
 import { Icon } from "@iconify/react";
-import { SpecialKey } from "./SpecialKey";
-import { LettersGuessedType } from "../types/LettersGuessedType";
+
+import { Key } from "@/components/Key/Key";
+import { SpecialKey } from "@/components/SpecialKey/SpecialKey";
+import { LettersGuessedType } from "@/types/LettersGuessedType";
+
+import "./Keyboard.css";
 
 const KEYBOARD_LAYOUT = [
   ["a", "z", "e", "r", "t", "y", "u", "i", "o", "p"],
@@ -25,7 +27,7 @@ export const Keyboard = (props: KeyboardProps) => {
     <div className="keyboard-wrapper">
       {KEYBOARD_LAYOUT.map((row, index) => {
         return (
-          <span key={index} className="keyboard-row">
+          <span key={index} className="keyboard__row">
             {row.map((symbol) => {
               switch (symbol) {
                 default:

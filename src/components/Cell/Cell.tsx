@@ -1,6 +1,8 @@
-import "../styles/Cell.css";
 import { useCallback } from "react";
-import CELL_STATES from "./../constants/cellStates";
+
+import CellStates from "@/constants/CellStates";
+
+import "./Cell.css";
 
 type CellProps = {
   state: number;
@@ -17,11 +19,11 @@ export default function Cell(props: CellProps) {
       newClassList.push("cell--active");
     }
 
-    if (state === CELL_STATES.CORRECT) {
+    if (state === CellStates.CORRECT) {
       newClassList.push("cell--correct");
     }
 
-    if (state === CELL_STATES.MISPLACED) {
+    if (state === CellStates.MISPLACED) {
       newClassList.push("cell--misplaced");
     }
 

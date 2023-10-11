@@ -14,6 +14,11 @@
   --gradient-white: white;
   --gradient-grey: rgb(248, 248, 248);
 
+  z-index: 1;
+
+  box-sizing: border-box;
+  border-bottom: 4px solid #edcc29;
+
   background: repeating-linear-gradient(
     0deg,
     var(--gradient-white),
@@ -21,36 +26,29 @@
     var(--gradient-grey) 4px,
     var(--gradient-grey) 6px
   );
-  border-bottom: 4px solid #edcc29;
-
-  box-sizing: border-box;
-
-  z-index: 1;
 }
-  
+
 .status-bar__app-name {
-  font-size: 22px;
-  padding-left: 15px;
   display: flex;
   align-items: center;
+  padding-left: 15px;
+  font-size: 22px;
 }
-  
-.status-bar button {
-  background-color: #DA8045;
-  border: none;
-  border-radius: 100vmax;
-  outline: none;
 
-  margin-right: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
+.status-bar__button {
+  transition: background-color 200ms;
   cursor: pointer;
 
-  transition: background-color 200ms;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  border-radius: 100vmax;
+  background-color: #da8045;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
-.status-bar button:hover {
+.status-bar__button:hover {
   background-color: #ec9962;
-
 }
