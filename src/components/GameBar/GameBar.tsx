@@ -6,8 +6,6 @@ type GameBarProps = {
   children: ReactNode;
 };
 
-const GameBar = ({ children }: GameBarProps) => {
+export const GameBar = ({ children }: GameBarProps) => {
   return <div className="game-bar">{children}</div>;
 };
-
-export default GameBar;

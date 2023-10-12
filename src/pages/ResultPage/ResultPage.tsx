@@ -1,5 +1,5 @@
-import GameBar from "@/components/GameBar/GameBar";
-import TypeLabel from "@/components/TypeLabel/TypeLabel";
+import { GameBar } from "@/components/GameBar/GameBar";
+import { TypeLabel } from "@/components/TypeLabel/TypeLabel";
 import { PokemonType } from "@/types/PokemonType";
 
 import "./ResultPage.css";
@@ -9,7 +9,7 @@ type ResultPageProps = {
   pokemonToGuess: PokemonType;
 };
 
-const ResultPage = ({ label, pokemonToGuess }: ResultPageProps) => {
+export const ResultPage = ({ label, pokemonToGuess }: ResultPageProps) => {
   return (
     <div className="app-screen">
       <div className="app-screen__result">

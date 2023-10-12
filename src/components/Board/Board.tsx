@@ -1,7 +1,8 @@
-import "./Board.css";
-import Cell from "@/components/Cell/Cell";
-import { CellType } from "@/types/CellType";
+import { Cell } from "@/components/Cell/Cell";
 import { BoardType } from "@/types/BoardType";
+import { CellType } from "@/types/CellType";
+
+import "./Board.css";
 
 type BoardProps = {
   board: BoardType;
@@ -9,7 +10,7 @@ type BoardProps = {
   currentColumn: number;
 };
 
-export default function Board(props: BoardProps) {
+export const Board = (props: BoardProps) => {
   const { board, currentColumn, currentTry } = props;
 
   return (
@@ -35,4 +36,4 @@ export default function Board(props: BoardProps) {
       </div>
     </div>
   );
-}
+};

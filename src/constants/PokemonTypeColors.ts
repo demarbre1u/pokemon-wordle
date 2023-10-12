@@ -1,4 +1,4 @@
-enum PokemonTypeColors {
+export enum PokemonTypeColors {
   "Acier" = "#60a1b8",
   "Combat" = "#ff8000",
   "Dragon" = "#5061e1",
@@ -18,5 +18,3 @@ enum PokemonTypeColors {
   "Ténèbres" = "#50413f",
   "Vol" = "#81b9ef",
 }
-
-export default PokemonTypeColors;

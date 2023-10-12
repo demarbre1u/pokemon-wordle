@@ -1,9 +1,9 @@
 import { useCallback } from "react";
 
-import Board from "@/components/Board/Board";
+import { Board } from "@/components/Board/Board";
 import { Hints } from "@/components/Hints/Hints";
 import { Keyboard } from "@/components/Keyboard/Keyboard";
-import GameStates from "@/constants/GameStates";
+import { GameStates } from "@/constants/GameStates";
 import { useBoard } from "@/hooks/useBoard";
 import { useKeyPress } from "@/hooks/useKeyPress";
 import { PokemonType } from "@/types/PokemonType";
@@ -21,7 +21,7 @@ type GamePageProps = {
   setGameState: (state: number) => void;
 };
 
-const GamePage = ({
+export const GamePage = ({
   pokemonToGuess,
   currentTry,
   currentColumn,
@@ -139,5 +139,3 @@ const GamePage = ({
     </>
   );
 };
-
-export default GamePage;

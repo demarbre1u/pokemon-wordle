@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-import GameStates from "@/constants/GameStates";
+import { GameStates } from "@/constants/GameStates";
 
 import "./StatusBar.css";
 
@@ -11,7 +11,7 @@ type StatusBarProps = {
 
 const APP_NAME = "Pokémon Wordle";
 
-const StatusBar = ({ state, setState }: StatusBarProps) => {
+export const StatusBar = ({ state, setState }: StatusBarProps) => {
   let buttonEl: ReactNode = <></>;
 
   switch (state) {
@@ -48,5 +48,3 @@ const StatusBar = ({ state, setState }: StatusBarProps) => {
     </div>
   );
 };
-
-export default StatusBar;

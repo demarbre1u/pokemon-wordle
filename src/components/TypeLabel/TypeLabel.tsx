@@ -1,4 +1,4 @@
-import PokemonTypeColors from "@/constants/PokemonTypeColors";
+import { PokemonTypeColors } from "@/constants/PokemonTypeColors";
 
 import "./TypeLabel.css";
 
@@ -7,7 +7,7 @@ type TypeLabelProps = {
   image: string;
 };
 
-const TypeLabel = ({ name, image }: TypeLabelProps) => {
+export const TypeLabel = ({ name, image }: TypeLabelProps) => {
   const backgroundColor =
     PokemonTypeColors[name as keyof typeof PokemonTypeColors];
 
@@ -24,5 +24,3 @@ const TypeLabel = ({ name, image }: TypeLabelProps) => {
     </span>
   );
 };
-
-export default TypeLabel;
