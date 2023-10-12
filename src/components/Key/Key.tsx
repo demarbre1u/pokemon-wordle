@@ -1,4 +1,4 @@
-import CellStates from "@/constants/CellStates";
+import { CellStates } from "@/constants/CellStates";
 
 import "./Key.css";
 

@@ -1,5 +1,5 @@
-import GameBar from "@/components/GameBar/GameBar";
-import TypeLabel from "@/components/TypeLabel/TypeLabel";
+import { GameBar } from "@/components/GameBar/GameBar";
+import { TypeLabel } from "@/components/TypeLabel/TypeLabel";
 import { PokemonType } from "@/types/PokemonType";
 
 import "./Hints.css";

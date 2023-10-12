@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 
-import CellStates from "@/constants/CellStates";
+import { CellStates } from "@/constants/CellStates";
 
 import "./Cell.css";
 
@@ -10,7 +10,7 @@ type CellProps = {
   isActive: boolean;
 };
 
-export default function Cell(props: CellProps) {
+export const Cell = (props: CellProps) => {
   const { state, value, isActive } = props;
 
   const getClasses = useCallback(() => {
@@ -33,4 +33,4 @@ export default function Cell(props: CellProps) {
   const classList = getClasses();
 
   return <div className={classList}>{value.toUpperCase()}</div>;
-}
+};

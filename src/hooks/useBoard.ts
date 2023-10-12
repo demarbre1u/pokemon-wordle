@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 
-import CellStates from "@/constants/CellStates";
+import { CellStates } from "@/constants/CellStates";
 import { BoardType } from "@/types/BoardType";
 import { LettersGuessedType } from "@/types/LettersGuessedType";
 
