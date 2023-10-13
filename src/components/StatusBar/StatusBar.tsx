@@ -1,17 +1,18 @@
 import { ReactNode } from "react";
 
+import { Events } from "@/constants/Events";
 import { GameStates } from "@/constants/GameStates";
+import { eventSystem } from "@/utils/eventSystem";
 
 import "./StatusBar.css";
 
 type StatusBarProps = {
   state: number;
-  setState: (state: number) => void;
 };
 
 const APP_NAME = "Pokémon Wordle";
 
-export const StatusBar = ({ state, setState }: StatusBarProps) => {
+export const StatusBar = ({ state }: StatusBarProps) => {
   let buttonEl: ReactNode = <></>;
 
   switch (state) {
@@ -19,7 +20,9 @@ export const StatusBar = ({ state, setState }: StatusBarProps) => {
       buttonEl = (
         <button
           className="status-bar__button"
-          onClick={() => setState(GameStates.GAME_OVER)}
+          onClick={() =>
+            eventSystem.emit(Events.GAME_STATE, GameStates.GAME_OVER)
+          }
         >
           Abandonner
         </button>
@@ -30,7 +33,9 @@ export const StatusBar = ({ state, setState }: StatusBarProps) => {
       buttonEl = (
         <button
           className="status-bar__button"
-          onClick={() => setState(GameStates.LOADING)}
+          onClick={() =>
+            eventSystem.emit(Events.GAME_STATE, GameStates.LOADING)
+          }
         >
           Rejouer
         </button>

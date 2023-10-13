@@ -3,10 +3,12 @@ import { useCallback } from "react";
 import { Board } from "@/components/Board/Board";
 import { Hints } from "@/components/Hints/Hints";
 import { Keyboard } from "@/components/Keyboard/Keyboard";
+import { Events } from "@/constants/Events";
 import { GameStates } from "@/constants/GameStates";
 import { useBoard } from "@/hooks/useBoard";
 import { useKeyPress } from "@/hooks/useKeyPress";
 import { PokemonType } from "@/types/PokemonType";
+import { eventSystem } from "@/utils/eventSystem";
 
 const MAX_NUMBER_OF_TRIES = 3;
 
@@ -18,7 +20,6 @@ type GamePageProps = {
   setCurrentColumn: (colNumber: number) => void;
   wordToGuess: string;
   gameData: PokemonType[];
-  setGameState: (state: number) => void;
 };
 
 export const GamePage = ({
@@ -29,7 +30,6 @@ export const GamePage = ({
   gameData,
   setCurrentTry,
   setCurrentColumn,
-  setGameState,
 }: GamePageProps) => {
   const { board, setBoard, updateBoard, lettersGuessed, setLettersGuessed } =
     useBoard({
@@ -39,14 +39,14 @@ export const GamePage = ({
     });
 
   const onVictory = useCallback(() => {
-    setGameState(GameStates.GAME_WON);
+    eventSystem.emit(Events.GAME_STATE, GameStates.GAME_WON);
     setLettersGuessed({});
-  }, [setGameState, setLettersGuessed]);
+  }, [setLettersGuessed]);
 
   const onDefeat = useCallback(() => {
-    setGameState(GameStates.GAME_OVER);
+    eventSystem.emit(Events.GAME_STATE, GameStates.GAME_OVER);
     setLettersGuessed({});
-  }, [setGameState, setLettersGuessed]);
+  }, [setLettersGuessed]);
 
   const isGameWon = useCallback(() => {
     const currentGuess = board[currentTry].map((cell) => cell.value).join("");

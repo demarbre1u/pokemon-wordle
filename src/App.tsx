@@ -1,9 +1,14 @@
+import { useEffect } from "react";
+
 import "@/App.css";
 import { StatusBar } from "@/components/StatusBar/StatusBar";
 import { GameStates } from "@/constants/GameStates";
 import { useGameData } from "@/hooks/useGameData";
 import { GamePage } from "@/pages/GamePage/GamePage";
 import { ResultPage } from "@/pages/ResultPage/ResultPage";
+
+import { Events } from "./constants/Events";
+import { eventSystem } from "./utils/eventSystem";
 
 function App() {
   const {
@@ -18,6 +23,14 @@ function App() {
   } = useGameData();
   const wordToGuess = pokemonToGuess.name;
 
+  useEffect(() => {
+    eventSystem.on(Events.GAME_STATE, setGameState);
+
+    return () => {
+      eventSystem.off(Events.GAME_STATE, setGameState);
+    };
+  }, [setGameState]);
+
   const getContent = () => {
     switch (gameState) {
       case GameStates.PLAYING:
@@ -30,7 +43,6 @@ function App() {
             setCurrentColumn={setCurrentColumn}
             wordToGuess={wordToGuess}
             gameData={gameData}
-            setGameState={setGameState}
           />
         );
       case GameStates.GAME_WON:
@@ -45,7 +57,7 @@ function App() {
   return (
     <div className="phone-wrapper">
       <div className="phone-content">
-        <StatusBar state={gameState} setState={setGameState} />
+        <StatusBar state={gameState} />
 
         {getContent()}
       </div>
