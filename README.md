@@ -2,7 +2,7 @@
 
 ## Introduction
 
-<div style="text-align: center">
+<div align="center">
   <img src="media/screen1.png" width="45%" alt="Pokémon worlde game screen">
   <img src="media/screen2.png" width="45%" alt="Pokémon worlde defeat screen">
 </div>
