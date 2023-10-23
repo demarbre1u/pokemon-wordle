@@ -1,48 +1,35 @@
-#!/usr/bin/env node
+import { Command } from "commander";
 
-import fs from "fs";
-import { join } from "path";
-import process from "process";
-import yargs from "yargs/yargs";
-import { hideBin } from "yargs/helpers";
-import { fetchData } from "./utils/fetchData.js";
 import { buildGameData } from "./utils/buildGameData.js";
-import { prompt } from "./utils/prompt.js";
+import { fetchGameData } from "./utils/fetchGameData.js";
 
-const pokemonDataPath = join("..", "public", "pokemon-data.json");
+const program = new Command();
 
-yargs(hideBin(process.argv))
-  .command("fetch", "fetch Pokémon data", async () => {
-    if (fs.existsSync(pokemonDataPath)) {
-      prompt(
-        `"${pokemonDataPath}" already exists, so fetching data would override it.\nWould you like to proceed anyway (Y/n) ?`,
-        async (answer) => {
-          if (!["", "y", "Y"].includes(answer)) {
-            process.exit(0);
-          }
+program
+  .name("pokemon-cli")
+  .description("CLI to fetch and build the game data for Pokémon Wordle")
+  .version("1.0.0");
 
-          await fetchData();
-        }
-      );
-    } else {
-      await fetchData();
-    }
-  })
-  .command("build", "build game data", async () => {
-    if (!fs.existsSync(pokemonDataPath)) {
-      prompt(
-        `No game data has been found. \nWould you like to fetch it first? (Y/n) ?`,
-        async (answer) => {
-          if (!["", "y", "Y"].includes(answer)) {
-            process.exit(0);
-          }
+program
+  .command("fetch")
+  .description("Fetches the game data")
+  .option(
+    "-o, --overwrite",
+    "overwrite the game data if they are already written on disk"
+  )
+  .action(async (options) => {
+    await fetchGameData({ overwrite: options.overwrite });
+  });
 
-          await fetchData();
-          await buildGameData();
-        }
-      );
-    } else {
-      await buildGameData();
-    }
-  })
-  .parse();
+program
+  .command("build")
+  .description("Builds the game data")
+  .option(
+    "-f, --fetch",
+    "fetch the game data before building if they don't exist"
+  )
+  .action(async (options) => {
+    await buildGameData({ fetch: options.fetch });
+  });
+
+program.parse();
