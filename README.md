@@ -2,6 +2,11 @@
 
 ## Introduction
 
+<div style="text-align: center">
+  <img src="media/screen1.png" width="45%" alt="Pokémon worlde game screen">
+  <img src="media/screen2.png" width="45%" alt="Pokémon worlde defeat screen">
+</div>
+
 A game where you have to guess the name of a Pokémon.
 
 Inspired by the game [Wordle](https://www.nytimes.com/games/wordle/index.html).
