@@ -1,17 +1,28 @@
-import readline from "readline";
-import process from "process";
-import { logger } from "./logger.js";
+import inquirer from "inquirer";
 
-export const prompt = async (question, callback) => {
-  const prompt = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-  });
+export async function promptOverride() {
+  const { overwrite } = await inquirer.prompt([
+    {
+      type: "confirm",
+      name: "overwrite",
+      message:
+        "A file containing the game data already exist. Would you like to overwrite it?",
+      default: false,
+    },
+  ]);
 
-  logger.log(question);
+  return overwrite;
+}
 
-  prompt.question("", async (answer) => {
-    await callback(answer);
-    prompt.close();
-  });
-};
+export async function promptFetch() {
+  const { fetch } = await inquirer.prompt([
+    {
+      type: "confirm",
+      name: "fetch",
+      message: "No game data were found. Would you like to fetch them?",
+      default: true,
+    },
+  ]);
+
+  return fetch;
+}

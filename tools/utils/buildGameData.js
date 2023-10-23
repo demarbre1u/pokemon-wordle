@@ -1,14 +1,35 @@
-import { logger } from "./logger.js";
 import ASCIIFolder from "fold-to-ascii";
+import fs from "fs";
 import { join } from "path";
-import { writeFileSync, readFileSync } from "fs";
+import process from "process";
 
-export async function buildGameData() {
+import { POKEMON_DATA_PATH } from "../constants.js";
+import { fetchGameData } from "./fetchGameData.js";
+import { logger } from "./logger.js";
+import { promptFetch } from "./prompt.js";
+
+export async function buildGameData({ fetch }) {
+  let alreadyExists = fs.existsSync(POKEMON_DATA_PATH);
+
+  if (alreadyExists) {
+    if (fetch) {
+      logger.log("Game data already exists. Skipping fetching.", "WARN");
+    }
+  } else {
+    const shouldFetch = fetch || (await promptFetch());
+    if (shouldFetch) {
+      await fetchGameData({ overwrite: true });
+    } else {
+      logger.log("Fetching required, the command will be terminated.");
+      process.exit(0);
+    }
+  }
+
   const lengthList = {};
   const pokemonNameList = [];
 
   logger.log("Reading data from disk...");
-  const fileData = readFileSync(join("..", "public", "pokemon-data.json"));
+  const fileData = fs.readFileSync(join("..", "public", "pokemon-data.json"));
   const data = JSON.parse(fileData);
 
   logger.log("Parsing data...");
@@ -68,7 +89,7 @@ export async function buildGameData() {
 
     logger.log(`(${i + 1} / ${dataToWrite.length}) Writing "${filename}"...`);
     const outputPath = join("..", "public", filename);
-    writeFileSync(outputPath, JSON.stringify(data, null, 2));
+    fs.writeFileSync(outputPath, JSON.stringify(data, null, 2));
     logger.log(
       `(${i + 1} / ${dataToWrite.length}) Data written to "${outputPath}"`
     );

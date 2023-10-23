@@ -1,3 +1,7 @@
+import chalk from "chalk";
+
+import { SEVERITY_ERROR, SEVERITY_INFO, SEVERITY_WARN } from "../constants.js";
+
 function getTime() {
   var now = new Date();
   var hour = now.getHours();
@@ -17,9 +21,28 @@ function getTime() {
   return dateTime;
 }
 
+const info = chalk.cyan;
+const warn = chalk.yellow;
+const error = chalk.red;
+
 export const logger = {
-  log: (messsage, severity = "INFO") => {
+  log: (messsage, severity = SEVERITY_INFO) => {
     const currentTime = getTime();
-    console.log(`[${currentTime}] [${severity}] ${messsage}`);
+
+    let severityText = "";
+    switch (severity) {
+      default:
+      case SEVERITY_INFO:
+        severityText = info(severity);
+        break;
+      case SEVERITY_WARN:
+        severityText = warn(severity);
+        break;
+      case SEVERITY_ERROR:
+        severityText = error(severity);
+        break;
+    }
+
+    console.log(`[${currentTime}] [${severityText}] ${messsage}`);
   },
 };

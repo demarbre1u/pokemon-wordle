@@ -21,17 +21,19 @@ npm run dev
 
 Use the script `./tools/pokemon-helper.js` as follow :
 
-```bash
-pokemon-helper.js [command]
+```
+Usage: pokemon-cli [options] [command]
 
-Commands:
-  pokemon-helper.js fetch  fetch Pokémon data
-  pokemon-helper.js build  build game data
+CLI to fetch and build the game data for Pokémon Wordle
 
 Options:
-  --help     Show help                                                 [boolean]
-  --version  Show version number                                       [boolean]
+  -V, --version    output the version number
+  -h, --help       display help for command
 
+Commands:
+  fetch [options]  Fetches the game data
+  build [options]  Builds the game data
+  help [command]   display help for command
 ```
 
 ## Credits
