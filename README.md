@@ -24,7 +24,7 @@ npm run dev
 
 ## How to update the game data
 
-Use the script `./tools/pokemon-helper.js` as follow :
+Use the script `./tools/pokemon-cli.js` as follow :
 
 ```
 Usage: pokemon-cli [options] [command]
